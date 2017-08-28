@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aol.functest.mobileweb.test.MobileWebCollectionTest"
+           tests="10"
+           failures="10"
+           errors="0"
+           skipped="0"
+           time="2.993">
+  <properties />
+      <testcase name="TC_testUpdateItem" time="0.288">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testUpdateItem(MobileWebCollectionTest.java:469)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testGetCollection_invalidCollectionId" time="0.286">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testGetCollection_invalidCollectionId(MobileWebCollectionTest.java:161)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testGetCollection_validCollectionId" time="0.286">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testGetCollection_validCollectionId(MobileWebCollectionTest.java:83)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testSaveExistingCollection" time="0.286">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testSaveExistingCollection(MobileWebCollectionTest.java:319)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testUpdateCollection_withInvalidCollectionId" time="0.287">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testUpdateCollection_withInvalidCollectionId(MobileWebCollectionTest.java:430)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testSaveNewCollection" time="0.293">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testSaveNewCollection(MobileWebCollectionTest.java:253)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testGetCollectionsForUser" time="0.405">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testGetCollectionsForUser(MobileWebCollectionTest.java:183)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testSaveNewCollection_withBadJSONObjectParam" time="0.287">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testSaveNewCollection_withBadJSONObjectParam(MobileWebCollectionTest.java:298)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testAddItem" time="0.288">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testAddItem(MobileWebCollectionTest.java:529)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="TC_testUpdateCollection" time="0.287">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;200&gt; but was:&lt;302&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:360)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:76)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:241)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:248)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+  com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testUpdateCollection(MobileWebCollectionTest.java:374)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

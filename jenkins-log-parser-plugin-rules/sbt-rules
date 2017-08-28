@@ -1,0 +1,16 @@
+#sbt-rules 
+#exceptions to NOT trigger an error
+ok /UnknownError: The path to the driver executable.*/
+
+
+#list of errors here...
+error /PhantomJS .* FAILED/
+error /[Ee]rror:/
+error /[Ff]ailed:/
+# list of warnings here...
+warning /[Ww]arn/
+
+#list of info here...
+#info /INFO/
+start /((.*Spec.*)(?!.*Total.*))/
+start /----task.*/

@@ -1,0 +1,960 @@
+<html>
+<head>
+<title>TestNG:  MobileWebSmokeTestAdv</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MobileWebSmokeTestAdv</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>56/8/58</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 19 15:19:44 MDT 2011</td>
+</tr>
+<tr><td>Total time:</td><td>1754 seconds (1754414 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>authenticate groupMyPlaces groupSAR groupSavedAndRecent groupGeodiff groupTraffic groupAmbiguity groupSearch unauthenticate groupDirection groupMaps </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='3' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td width="30%"><b>Exception</b></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_UnAuthenticate()'>TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_UnAuthenticate</td>
+<td>11</td>
+<td><div><pre>java.lang.RuntimeException: Verifying"Total Travel Estimate:34 mins / 25.55 mi"Verifying"Total Travel Estimate:38 mins / 21.62 mi"
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick(MobileWebTest.java:802)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_UnAuthenticate(MobileWebTestUnAuthenticate.java:235)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace946959139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace946959139'><pre>java.lang.RuntimeException: Verifying"Total Travel Estimate:34 mins / 25.55 mi"Verifying"Total Travel Estimate:38 mins / 21.62 mi"
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick(MobileWebTest.java:802)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_UnAuthenticate(MobileWebTestUnAuthenticate.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapResultPageMapObject_UnAuthenticate()'>TC_VerifyDirectionMapResultPageMapObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@59a02097, [Ljava.lang.String;@1fbbc779</td>
+<td>14</td>
+<td><div><pre>java.lang.RuntimeException: Comparision between /testdata/dir/act_dir_0.gif and /testdata/dir/dir_0.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_1.gif and /testdata/dir/dir_1.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_2.gif and /testdata/dir/dir_2.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_3.gif and /testdata/dir/dir_3.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_4.gif and /testdata/dir/dir_4.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_5.gif and /testdata/dir/dir_5.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_6.gif and /testdata/dir/dir_6.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_7.gif and /testdata/dir/dir_7.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_8.gif and /testdata/dir/dir_8.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_9.gif and /testdata/dir/dir_9.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_10.gif and /testdata/dir/dir_10.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_11.gif and /testdata/dir/dir_11.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_12.gif and /testdata/dir/dir_12.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_13.gif and /testdata/dir/dir_13.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_14.gif and /testdata/dir/dir_14.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_15.gif and /testdata/dir/dir_15.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_16.gif and /testdata/dir/dir_16.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_17.gif and /testdata/dir/dir_17.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_18.gif and /testdata/dir/dir_18.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_19.gif and /testdata/dir/dir_19.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_20.gif and /testdata/dir/dir_20.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_21.gif and /testdata/dir/dir_21.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_22.gif and /testdata/dir/dir_22.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_23.gif and /testdata/dir/dir_23.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_24.gif and /testdata/dir/dir_24.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_25.gif and /testdata/dir/dir_25.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_26.gif and /testdata/dir/dir_26.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_27.gif and /testdata/dir/dir_27.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_28.gif and /testdata/dir/dir_28.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_29.gif and /testdata/dir/dir_29.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_30.gif and /testdata/dir/dir_30.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_31.gif and /testdata/dir/dir_31.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_32.gif and /testdata/dir/dir_32.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_33.gif and /testdata/dir/dir_33.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_34.gif and /testdata/dir/dir_34.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_35.gif and /testdata/dir/dir_35.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_36.gif and /testdata/dir/dir_36.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_37.gif and /testdata/dir/dir_37.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_38.gif and /testdata/dir/dir_38.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_39.gif and /testdata/dir/dir_39.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_40.gif and /testdata/dir/dir_40.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_41.gif and /testdata/dir/dir_41.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_42.gif and /testdata/dir/dir_42.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_43.gif and /testdata/dir/dir_43.gif failed or file doesn't exists....
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyDirectionMapResultPageMapObject(MobileWebTest.java:238)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:85)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1310355640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1310355640'><pre>java.lang.RuntimeException: Comparision between /testdata/dir/act_dir_0.gif and /testdata/dir/dir_0.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_1.gif and /testdata/dir/dir_1.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_2.gif and /testdata/dir/dir_2.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_3.gif and /testdata/dir/dir_3.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_4.gif and /testdata/dir/dir_4.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_5.gif and /testdata/dir/dir_5.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_6.gif and /testdata/dir/dir_6.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_7.gif and /testdata/dir/dir_7.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_8.gif and /testdata/dir/dir_8.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_9.gif and /testdata/dir/dir_9.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_10.gif and /testdata/dir/dir_10.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_11.gif and /testdata/dir/dir_11.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_12.gif and /testdata/dir/dir_12.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_13.gif and /testdata/dir/dir_13.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_14.gif and /testdata/dir/dir_14.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_15.gif and /testdata/dir/dir_15.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_16.gif and /testdata/dir/dir_16.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_17.gif and /testdata/dir/dir_17.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_18.gif and /testdata/dir/dir_18.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_19.gif and /testdata/dir/dir_19.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_20.gif and /testdata/dir/dir_20.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_21.gif and /testdata/dir/dir_21.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_22.gif and /testdata/dir/dir_22.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_23.gif and /testdata/dir/dir_23.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_24.gif and /testdata/dir/dir_24.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_25.gif and /testdata/dir/dir_25.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_26.gif and /testdata/dir/dir_26.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_27.gif and /testdata/dir/dir_27.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_28.gif and /testdata/dir/dir_28.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_29.gif and /testdata/dir/dir_29.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_30.gif and /testdata/dir/dir_30.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_31.gif and /testdata/dir/dir_31.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_32.gif and /testdata/dir/dir_32.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_33.gif and /testdata/dir/dir_33.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_34.gif and /testdata/dir/dir_34.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_35.gif and /testdata/dir/dir_35.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_36.gif and /testdata/dir/dir_36.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_37.gif and /testdata/dir/dir_37.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_38.gif and /testdata/dir/dir_38.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_39.gif and /testdata/dir/dir_39.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_40.gif and /testdata/dir/dir_40.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_41.gif and /testdata/dir/dir_41.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_42.gif and /testdata/dir/dir_42.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_43.gif and /testdata/dir/dir_43.gif failed or file doesn't exists....
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyDirectionMapResultPageMapObject(MobileWebTest.java:238)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageMapObject_UnAuthenticate()'>TC_VerifyMapMapResultPageMapObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@6124e935, [Ljava.lang.String;@3e4ac866</td>
+<td>14</td>
+<td><div><pre>java.lang.RuntimeException: Comparision between /testdata/map/act_map_0.gif and /testdata/map/map_0.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_1.gif and /testdata/map/map_1.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_2.gif and /testdata/map/map_2.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_3.gif and /testdata/map/map_3.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_4.gif and /testdata/map/map_4.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_5.gif and /testdata/map/map_5.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_6.gif and /testdata/map/map_6.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_7.gif and /testdata/map/map_7.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_8.gif and /testdata/map/map_8.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_9.gif and /testdata/map/map_9.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_10.gif and /testdata/map/map_10.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_11.gif and /testdata/map/map_11.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_12.gif and /testdata/map/map_12.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_13.gif and /testdata/map/map_13.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_14.gif and /testdata/map/map_14.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_15.gif and /testdata/map/map_15.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_16.gif and /testdata/map/map_16.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_17.gif and /testdata/map/map_17.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_18.gif and /testdata/map/map_18.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_19.gif and /testdata/map/map_19.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_20.gif and /testdata/map/map_20.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_21.gif and /testdata/map/map_21.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_22.gif and /testdata/map/map_22.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_23.gif and /testdata/map/map_23.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_24.gif and /testdata/map/map_24.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_25.gif and /testdata/map/map_25.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_26.gif and /testdata/map/map_26.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_27.gif and /testdata/map/map_27.gif failed or file doesn't exists....
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyMapMapResultPageMapObject(MobileWebTest.java:466)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:157)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1341078050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1341078050'><pre>java.lang.RuntimeException: Comparision between /testdata/map/act_map_0.gif and /testdata/map/map_0.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_1.gif and /testdata/map/map_1.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_2.gif and /testdata/map/map_2.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_3.gif and /testdata/map/map_3.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_4.gif and /testdata/map/map_4.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_5.gif and /testdata/map/map_5.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_6.gif and /testdata/map/map_6.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_7.gif and /testdata/map/map_7.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_8.gif and /testdata/map/map_8.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_9.gif and /testdata/map/map_9.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_10.gif and /testdata/map/map_10.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_11.gif and /testdata/map/map_11.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_12.gif and /testdata/map/map_12.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_13.gif and /testdata/map/map_13.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_14.gif and /testdata/map/map_14.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_15.gif and /testdata/map/map_15.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_16.gif and /testdata/map/map_16.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_17.gif and /testdata/map/map_17.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_18.gif and /testdata/map/map_18.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_19.gif and /testdata/map/map_19.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_20.gif and /testdata/map/map_20.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_21.gif and /testdata/map/map_21.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_22.gif and /testdata/map/map_22.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_23.gif and /testdata/map/map_23.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_24.gif and /testdata/map/map_24.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_25.gif and /testdata/map/map_25.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_26.gif and /testdata/map/map_26.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_27.gif and /testdata/map/map_27.gif failed or file doesn't exists....
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyMapMapResultPageMapObject(MobileWebTest.java:466)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMyPlaceTextResultPageUIObject_UnAuthenticate()'>TC_VerifyMyPlaceTextResultPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@1faac07d, [Ljava.lang.String;@3435ec9</td>
+<td>30</td>
+<td><div><pre>java.lang.RuntimeException: Verifying"//div[@id='wrap_content_main']/div[@class='savedAndMyPlaceHeader contentTitle round_border']/button" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/savedMaps?backLink=']" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/locations?backLink=']" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/recentLocations?backLink=']" failedVerifying"link=Sign Out" failedVerifying"Hello test" failedVerifying"Sign Out" failedVerifying"My Saved Maps & Routes" failedVerifying"See all My Saved Maps & Routes" failedVerifying"My Locations" failedVerifying"See all My Locations" failedVerifying"My Recent Locations" failedVerifying"See all Recent Locations" failed
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyMyPlaceTextResultPageUIObject(MobileWebTest.java:926)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMyPlaceTextResultPageUIObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:265)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1960051421", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1960051421'><pre>java.lang.RuntimeException: Verifying"//div[@id='wrap_content_main']/div[@class='savedAndMyPlaceHeader contentTitle round_border']/button" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/savedMaps?backLink=']" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/locations?backLink=']" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/recentLocations?backLink=']" failedVerifying"link=Sign Out" failedVerifying"Hello test" failedVerifying"Sign Out" failedVerifying"My Saved Maps & Routes" failedVerifying"See all My Saved Maps & Routes" failedVerifying"My Locations" failedVerifying"See all My Locations" failedVerifying"My Recent Locations" failedVerifying"See all Recent Locations" failed
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyMyPlaceTextResultPageUIObject(MobileWebTest.java:926)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMyPlaceTextResultPageUIObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:265)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyRefineSearchFormPage_UnAuthenticate()'>TC_VerifyRefineSearchFormPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@3c03dfcb, [Ljava.lang.String;@2259a735</td>
+<td>41</td>
+<td><div><pre>java.lang.RuntimeException: Verifying"25 Miles" failed
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyRefineSearchFormPage(MobileWebTest.java:848)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyRefineSearchFormPage_UnAuthenticate(MobileWebTestUnAuthenticate.java:247)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1753137192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1753137192'><pre>java.lang.RuntimeException: Verifying"25 Miles" failed
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyRefineSearchFormPage(MobileWebTest.java:848)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyRefineSearchFormPage_UnAuthenticate(MobileWebTestUnAuthenticate.java:247)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormSearchByCatagory_UnAuthenticate()'>TC_VerifySearchFormSearchByCatagory_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@2bf09a31, [Ljava.lang.String;@411b1d80</td>
+<td>44</td>
+<td><div><pre>java.lang.RuntimeException: Verifying"Argonant Groceries 0.05 miles away 
+ 233 E Colfax Ave 
+ (303) 861-3799"
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifySearchFormSearchByCatagory(MobileWebTest.java:743)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormSearchByCatagory_UnAuthenticate(MobileWebTestUnAuthenticate.java:217)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace102170028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace102170028'><pre>java.lang.RuntimeException: Verifying"Argonant Groceries 0.05 miles away 
+ 233 E Colfax Ave 
+ (303) 861-3799"
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifySearchFormSearchByCatagory(MobileWebTest.java:743)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormSearchByCatagory_UnAuthenticate(MobileWebTestUnAuthenticate.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchMapResultPageMapObject_UnAuthenticate()'>TC_VerifySearchMapResultPageMapObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@5b2ddfe4, [Ljava.lang.String;@20c62080</td>
+<td>15</td>
+<td><div><pre>java.lang.RuntimeException: Comparision between /testdata/search/act_search_0.gif and /testdata/search/search_0.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_1.gif and /testdata/search/search_1.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_2.gif and /testdata/search/search_2.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_3.gif and /testdata/search/search_3.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_4.gif and /testdata/search/search_4.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_5.gif and /testdata/search/search_5.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_6.gif and /testdata/search/search_6.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_7.gif and /testdata/search/search_7.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_8.gif and /testdata/search/search_8.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_9.gif and /testdata/search/search_9.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_10.gif and /testdata/search/search_10.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_11.gif and /testdata/search/search_11.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_12.gif and /testdata/search/search_12.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_13.gif and /testdata/search/search_13.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_14.gif and /testdata/search/search_14.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_15.gif and /testdata/search/search_15.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_16.gif and /testdata/search/search_16.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_17.gif and /testdata/search/search_17.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_18.gif and /testdata/search/search_18.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_19.gif and /testdata/search/search_19.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_20.gif and /testdata/search/search_20.gif failed or file doesn't exists..
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifySearchMapResultPageMapObject(MobileWebTest.java:720)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:211)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace475720665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace475720665'><pre>java.lang.RuntimeException: Comparision between /testdata/search/act_search_0.gif and /testdata/search/search_0.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_1.gif and /testdata/search/search_1.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_2.gif and /testdata/search/search_2.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_3.gif and /testdata/search/search_3.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_4.gif and /testdata/search/search_4.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_5.gif and /testdata/search/search_5.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_6.gif and /testdata/search/search_6.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_7.gif and /testdata/search/search_7.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_8.gif and /testdata/search/search_8.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_9.gif and /testdata/search/search_9.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_10.gif and /testdata/search/search_10.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_11.gif and /testdata/search/search_11.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_12.gif and /testdata/search/search_12.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_13.gif and /testdata/search/search_13.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_14.gif and /testdata/search/search_14.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_15.gif and /testdata/search/search_15.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_16.gif and /testdata/search/search_16.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_17.gif and /testdata/search/search_17.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_18.gif and /testdata/search/search_18.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_19.gif and /testdata/search/search_19.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_20.gif and /testdata/search/search_20.gif failed or file doesn't exists..
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifySearchMapResultPageMapObject(MobileWebTest.java:720)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.authenticate1()'>authenticate1</td>
+<td>17</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.authenticate1(MobileWebTestAuthenticate.java:68)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace639264024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace639264024'><pre>java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.testng.Assert.fail(Assert.java:84)
+	at org.testng.Assert.failNotEquals(Assert.java:438)
+	at org.testng.Assert.assertTrue(Assert.java:32)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.authenticate1(MobileWebTestAuthenticate.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='3' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td width="30%"><b>Exception</b></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_SearchMapResultPageUIFromSearchResultGETMAPClick_UnAuthenticate()'>TC_SearchMapResultPageUIFromSearchResultGETMAPClick_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@2f7fc44f, [Ljava.lang.String;@6d3136e5</td>
+<td>18</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_SearchMapResultPageUIFromSearchResultItemClick_UnAuthenticate()'>TC_SearchMapResultPageUIFromSearchResultItemClick_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@3a0b2c64, [Ljava.lang.String;@338f7701</td>
+<td>30</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerfifyDirectionspagewithoutlocation_UnAuthenticate()'>TC_VerfifyDirectionspagewithoutlocation_UnAuthenticate</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyAlongtheRoutepageUI_UnAuthenticate()'>TC_VerifyAlongtheRoutepageUI_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@fcdfd19, [Ljava.lang.String;@1ca37c6a</td>
+<td>40</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyAlongtheRoutepagefunctionality_UnAuthenticate()'>TC_VerifyAlongtheRoutepagefunctionality_UnAuthenticate</td>
+<td>23</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyBusinessSearchfromAmbiguityPage_UnAuthenticate()'>TC_VerifyBusinessSearchfromAmbiguityPage_UnAuthenticate</td>
+<td>13</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyBusinessSearchfromGeodiffPage_UnAuthenticate()'>TC_VerifyBusinessSearchfromGeodiffPage_UnAuthenticate</td>
+<td>13</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionFormAmbiguityPage_UnAuthenticate()'>TC_VerifyDirectionFormAmbiguityPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@313d21d6, [Ljava.lang.String;@247881db</td>
+<td>33</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionFormGepDiffPage_UnAuthenticate()'>TC_VerifyDirectionFormGepDiffPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@63956391, [Ljava.lang.String;@64bbf7aa</td>
+<td>14</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionFormPageUIObject_Authenticate()'>TC_VerifyDirectionFormPageUIObject_Authenticate<br/><b>Parameters:</b> [Ljava.lang.String;@7080ed90, [Ljava.lang.String;@206cc2a4</td>
+<td>30</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionFormPageUIObject_UnAuthenticate()'>TC_VerifyDirectionFormPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@445ead9d, [Ljava.lang.String;@23d8417c</td>
+<td>30</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionFormRecentLocation_UnAuthenticate()'>TC_VerifyDirectionFormRecentLocation_UnAuthenticate</td>
+<td>13</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapClickRoadNarative_UnAuthenticate()'>TC_VerifyDirectionMapClickRoadNarative_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@4ab34646, [Ljava.lang.String;@3fcac3fa</td>
+<td>11</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapClickRoadshield_UnAuthenticate()'>TC_VerifyDirectionMapClickRoadshield_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@190872ce, [Ljava.lang.String;@79a93f38</td>
+<td>11</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapResultPageUIObject_UnAuthenticate()'>TC_VerifyDirectionMapResultPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@5675b3ee, [Ljava.lang.String;@4977fa9a</td>
+<td>11</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapWithAvoidHighways_UnAuthenticate()'>TC_VerifyDirectionMapWithAvoidHighways_UnAuthenticate</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapWithAvoidSeasonallyClosedRoads_UnAuthenticate()'>TC_VerifyDirectionMapWithAvoidSeasonallyClosedRoads_UnAuthenticate</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapWithAvoidTollRoad_UnAuthenticate()'>TC_VerifyDirectionMapWithAvoidTollRoad_UnAuthenticate</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapWithShortestDistance_UnAuthenticate()'>TC_VerifyDirectionMapWithShortestDistance_UnAuthenticate</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapWithShortestTime_UnAuthenticate()'>TC_VerifyDirectionMapWithShortestTime_UnAuthenticate</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapWithWalkingDirection_UnAuthenticate()'>TC_VerifyDirectionMapWithWalkingDirection_UnAuthenticate</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionSearchAmbiguityAndGeodiff_UnAuthenticate()'>TC_VerifyDirectionSearchAmbiguityAndGeodiff_UnAuthenticate</td>
+<td>13</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionTextResultPageUIObject_UnAuthenticate()'>TC_VerifyDirectionTextResultPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@63e5ba24, [Ljava.lang.String;@7f1fc4b8</td>
+<td>51</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionTextResultswith3routespageUI_UnAuthenticate()'>TC_VerifyDirectionTextResultswith3routespageUI_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@7eac4d3b, [Ljava.lang.String;@62029d75</td>
+<td>33</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionsBusinessSearchResultspageUI_UnAuthenticate()'>TC_VerifyDirectionsBusinessSearchResultspageUI_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@19af9e98, [Ljava.lang.String;@58d51a54</td>
+<td>67</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionsTraffic_Authenticate()'>TC_VerifyDirectionsTraffic_Authenticate</td>
+<td>31</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionspagewithstartlocation_UnAuthenticate()'>TC_VerifyDirectionspagewithstartlocation_UnAuthenticate</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapFormAmbiguityPage_UnAuthenticate()'>TC_VerifyMapFormAmbiguityPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@eb3ae5c, [Ljava.lang.String;@367c218e</td>
+<td>36</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapFormGeoDiffPage_UnAuthenticate()'>TC_VerifyMapFormGeoDiffPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@f7f0d94, [Ljava.lang.String;@5e54777e</td>
+<td>17</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapFormPageUIObject_UnAuthenticate()'>TC_VerifyMapFormPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@7b712193, [Ljava.lang.String;@40537935</td>
+<td>12</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapFormRecentLocation_UnAuthenticate()'>TC_VerifyMapFormRecentLocation_UnAuthenticate</td>
+<td>15</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageByThumbnailMap_UnAuthenticate()'>TC_VerifyMapMapResultPageByThumbnailMap_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@283aa791, [Ljava.lang.String;@22cf3539</td>
+<td>13</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageFindBusinessNearBy_UnAuthenticate()'>TC_VerifyMapMapResultPageFindBusinessNearBy_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@51af4309, [Ljava.lang.String;@495a2dc4</td>
+<td>57</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageFindXYZNearBy_UnAuthenticate()'>TC_VerifyMapMapResultPageFindXYZNearBy_UnAuthenticate</td>
+<td>18</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageGetDirectionFromHere_UnAuthenticate()'>TC_VerifyMapMapResultPageGetDirectionFromHere_UnAuthenticate</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageGetDirectionToHere_UnAuthenticate()'>TC_VerifyMapMapResultPageGetDirectionToHere_UnAuthenticate</td>
+<td>27</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageUIObject_UnAuthenticate()'>TC_VerifyMapMapResultPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@3f72c47b, [Ljava.lang.String;@7c187c8</td>
+<td>13</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapSearchformGeoDiffPage_UnAuthenticate()'>TC_VerifyMapSearchformGeoDiffPage_UnAuthenticate</td>
+<td>11</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapSearchfromAmbiguityPage_UnAuthenticate()'>TC_VerifyMapSearchfromAmbiguityPage_UnAuthenticate</td>
+<td>12</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapTextResultPageUIObject_UnAuthenticate()'>TC_VerifyMapTextResultPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@32b95f72, [Ljava.lang.String;@28294f62</td>
+<td>27</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapTraffic_Authenticate()'>TC_VerifyMapTraffic_Authenticate</td>
+<td>33</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMyPlaceFormPageUIObject_UnAuthenticate()'>TC_VerifyMyPlaceFormPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@301abf87, [Ljava.lang.String;@2c1450bd</td>
+<td>14</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyNearaLocationandsearchresultspageUIObject_UnAuthenticate()'>TC_VerifyNearaLocationandsearchresultspageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@69c0bee6, [Ljava.lang.String;@6d352447</td>
+<td>25</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyRecalculateRouteOptions_UnAuthenticate()'>TC_VerifyRecalculateRouteOptions_UnAuthenticate</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyRefineSearchResultPage_UnAuthenticate()'>TC_VerifyRefineSearchResultPage_UnAuthenticate</td>
+<td>18</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyRouteOptionsPopupPage_UnAuthenticate()'>TC_VerifyRouteOptionsPopupPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@3be0e954, [Ljava.lang.String;@2af6a882</td>
+<td>22</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySavedAndRecentFormPageUIObject_UnAuthenticate()'>TC_VerifySavedAndRecentFormPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@27b104d7, [Ljava.lang.String;@56b4d39c</td>
+<td>37</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormAmbiguityPage_UnAuthenticate()'>TC_VerifySearchFormAmbiguityPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@79b0d33c, [Ljava.lang.String;@47fc468e</td>
+<td>38</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormGeoDiffPage_UnAuthenticate()'>TC_VerifySearchFormGeoDiffPage_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@37c398e, [Ljava.lang.String;@50a69b6b</td>
+<td>18</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormPageUIObject_UnAuthenticate()'>TC_VerifySearchFormPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@6a25b72a, [Ljava.lang.String;@521c5cd7</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormRecentLocation_UnAuthenticate()'>TC_VerifySearchFormRecentLocation_UnAuthenticate</td>
+<td>17</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchMapResultPageUIObject_UnAuthenticate()'>TC_VerifySearchMapResultPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@4413515e, [Ljava.lang.String;@5043153c</td>
+<td>14</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchTextResultPageUIObject_UnAuthenticate()'>TC_VerifySearchTextResultPageUIObject_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@64273f4e, [Ljava.lang.String;@4cad4d40</td>
+<td>67</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchTraffic_Authenticate()'>TC_VerifySearchTraffic_Authenticate</td>
+<td>34</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchUsingSearchByCatagory_UnAuthenticate()'>TC_VerifySearchUsingSearchByCatagory_UnAuthenticate<br/><b>Parameters:</b> [Ljava.lang.String;@5aacc14, [Ljava.lang.String;@103c37f4</td>
+<td>38</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.unAuthenticate()'>unAuthenticate</td>
+<td>1</td>
+<td></td>
+</tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='3' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td width="30%"><b>Exception</b></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_Authenticate()'>TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_SearchMapResultPageUIFromSearchResultGETMAPClick_Authenticate()'>TC_SearchMapResultPageUIFromSearchResultGETMAPClick_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_SearchMapResultPageUIFromSearchResultItemClick_Authenticate()'>TC_SearchMapResultPageUIFromSearchResultItemClick_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerfifyDirectionspagewithoutlocation_Authenticate()'>TC_VerfifyDirectionspagewithoutlocation_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyAlongtheRoutepageUI_Authenticate()'>TC_VerifyAlongtheRoutepageUI_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyAlongtheRoutepagefunctionality_Authenticate()'>TC_VerifyAlongtheRoutepagefunctionality_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyBusinessSearchfromAmbiguityPage_Authenticate()'>TC_VerifyBusinessSearchfromAmbiguityPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyBusinessSearchfromGeodiffPage_Authenticate()'>TC_VerifyBusinessSearchfromGeodiffPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionFormAmbiguityPage_Authenticate()'>TC_VerifyDirectionFormAmbiguityPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionFormGepDiffPage_Authenticate()'>TC_VerifyDirectionFormGepDiffPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionFormRecentLocation_Authenticate()'>TC_VerifyDirectionFormRecentLocation_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapClickRoadNarative_Authenticate()'>TC_VerifyDirectionMapClickRoadNarative_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapClickRoadshield_Authenticate()'>TC_VerifyDirectionMapClickRoadshield_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapResultPageMapObject_Authenticate()'>TC_VerifyDirectionMapResultPageMapObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapResultPageUIObject_Authenticate()'>TC_VerifyDirectionMapResultPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapWithAvoidHighways_Authenticate()'>TC_VerifyDirectionMapWithAvoidHighways_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapWithAvoidSeasonallyClosedRoads_Authenticate()'>TC_VerifyDirectionMapWithAvoidSeasonallyClosedRoads_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapWithAvoidTollRoad_Authenticate()'>TC_VerifyDirectionMapWithAvoidTollRoad_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapWithShortestDistance_Authenticate()'>TC_VerifyDirectionMapWithShortestDistance_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapWithShortestTime_Authenticate()'>TC_VerifyDirectionMapWithShortestTime_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionMapWithWalkingDirection_Authenticate()'>TC_VerifyDirectionMapWithWalkingDirection_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionSearchAmbiguityAndGeodiff_Authenticate()'>TC_VerifyDirectionSearchAmbiguityAndGeodiff_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionTextResultPageUIObject_Authenticate()'>TC_VerifyDirectionTextResultPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionTextResultswith3routespageUI_Authenticate()'>TC_VerifyDirectionTextResultswith3routespageUI_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionsBusinessSearchResultspageUI_Authenticate()'>TC_VerifyDirectionsBusinessSearchResultspageUI_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionsTraffic_Authenticate()'>TC_VerifyDirectionsTraffic_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyDirectionspagewithstartlocation_Authenticate()'>TC_VerifyDirectionspagewithstartlocation_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapFormAmbiguityPage_Authenticate()'>TC_VerifyMapFormAmbiguityPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapFormGeoDiffPage_Authenticate()'>TC_VerifyMapFormGeoDiffPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapFormPageUIObject_Authenticate()'>TC_VerifyMapFormPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapFormRecentLocation_Authenticate()'>TC_VerifyMapFormRecentLocation_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapMapResultPageByThumbnailMap_Authenticate()'>TC_VerifyMapMapResultPageByThumbnailMap_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapMapResultPageFindBusinessNearBy_Authenticate()'>TC_VerifyMapMapResultPageFindBusinessNearBy_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapMapResultPageFindXYZNearBy_Authenticate()'>TC_VerifyMapMapResultPageFindXYZNearBy_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapMapResultPageGetDirectionFromHere_Authenticate()'>TC_VerifyMapMapResultPageGetDirectionFromHere_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapMapResultPageGetDirectionToHere_Authenticate()'>TC_VerifyMapMapResultPageGetDirectionToHere_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapMapResultPageMapObject_Authenticate()'>TC_VerifyMapMapResultPageMapObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapMapResultPageUIObject_Authenticate()'>TC_VerifyMapMapResultPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapSearchformGeoDiffPage_Authenticate()'>TC_VerifyMapSearchformGeoDiffPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapSearchfromAmbiguityPage_Authenticate()'>TC_VerifyMapSearchfromAmbiguityPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapTextResultPageUIObject_Authenticate()'>TC_VerifyMapTextResultPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMapTraffic_Authenticate()'>TC_VerifyMapTraffic_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyMyPlaceTextResultPageUIObject_Authenticate()'>TC_VerifyMyPlaceTextResultPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyNearaLocationpageUIObject_Authenticate()'>TC_VerifyNearaLocationpageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyRecalculateRouteOptions_Authenticate()'>TC_VerifyRecalculateRouteOptions_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyRefineSearchFormPage_Authenticate()'>TC_VerifyRefineSearchFormPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyRefineSearchResultPage_Authenticate()'>TC_VerifyRefineSearchResultPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifyRouteOptionsPopupPage_Authenticate()'>TC_VerifyRouteOptionsPopupPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySavedAndRecentFormPageUIObject_Authenticate()'>TC_VerifySavedAndRecentFormPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchFormAmbiguityPage_Authenticate()'>TC_VerifySearchFormAmbiguityPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchFormGeoDiffPage_Authenticate()'>TC_VerifySearchFormGeoDiffPage_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchFormPageUIObject_Authenticate()'>TC_VerifySearchFormPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchFormRecentLocation_Authenticate()'>TC_VerifySearchFormRecentLocation_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchFormSearchByCatagory_Authenticate()'>TC_VerifySearchFormSearchByCatagory_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchMapResultPageMapObject_Authenticate()'>TC_VerifySearchMapResultPageMapObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchTextResultPageUIObject_Authenticate()'>TC_VerifySearchTextResultPageUIObject_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchTraffic_Authenticate()'>TC_VerifySearchTraffic_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.TC_VerifySearchUsingSearchByCatagory_Authenticate()'>TC_VerifySearchUsingSearchByCatagory_Authenticate</td>
+<td>0</td>
+<td></td>
+</tr>
+</table><p>
+</body>
+</html>

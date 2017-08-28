@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate"
+           tests="60"
+           failures="1"
+           errors="0"
+           skipped="58"
+           time="48.380">
+  <properties />
+      <testcase name="authenticate1" time="17.406">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;true&gt; but was:&lt;false&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+  org.testng.Assert.fail(Assert.java:84)
+  org.testng.Assert.failNotEquals(Assert.java:438)
+  org.testng.Assert.assertTrue(Assert.java:32)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.authenticate1(MobileWebTestAuthenticate.java:68)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+  
+      <testcase name="TC_VerifyDirectionsBusinessSearchResultspageUI_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapWithShortestDistance_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerfifyDirectionspagewithoutlocation_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionFormAmbiguityPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyBusinessSearchfromAmbiguityPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapSearchformGeoDiffPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchTraffic_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapClickRoadshield_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyBusinessSearchfromGeodiffPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapTraffic_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormAmbiguityPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapSearchfromAmbiguityPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapMapResultPageMapObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapMapResultPageGetDirectionToHere_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormGeoDiffPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapWithAvoidSeasonallyClosedRoads_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyRefineSearchResultPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapMapResultPageByThumbnailMap_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapWithWalkingDirection_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionspagewithstartlocation_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyRouteOptionsPopupPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapMapResultPageGetDirectionFromHere_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySavedAndRecentFormPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormRecentLocation_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionTextResultswith3routespageUI_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionFormRecentLocation_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyAlongtheRoutepageUI_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_SearchMapResultPageUIFromSearchResultItemClick_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyRecalculateRouteOptions_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchTextResultPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyNearaLocationpageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormAmbiguityPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapMapResultPageFindBusinessNearBy_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormGeoDiffPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapClickRoadNarative_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionsTraffic_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapResultPageMapObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapWithAvoidHighways_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchUsingSearchByCatagory_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyRefineSearchFormPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMyPlaceTextResultPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionSearchAmbiguityAndGeodiff_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapMapResultPageFindXYZNearBy_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyAlongtheRoutepagefunctionality_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapWithAvoidTollRoad_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchMapResultPageMapObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapWithShortestTime_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormRecentLocation_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapTextResultPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapMapResultPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionTextResultPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormSearchByCatagory_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_SearchMapResultPageUIFromSearchResultGETMAPClick_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionFormGepDiffPage_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionMapResultPageUIObject_Authenticate" time="0.0">
+      <skipped />
+    </testcase>
+  
+      <testcase name="TC_VerifyDirectionFormPageUIObject_Authenticate" time="30.956" />
+  
+</testsuite>

@@ -1,0 +1,230 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="2" name="Failed suite [MobileSuite]" junit="false" annotations="JDK">
+  <test name="MobileWebCollectionTest(failed)" junit="false" annotations="JDK">
+    <groups>
+      <run>
+        <include name="groupMobileWebCollections"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+        <methods>
+          <include name="TC_testGetCollectionsForUser"/>
+          <include name="tearDownTestSuite"/>
+          <include name="TC_testGetCollection_invalidCollectionId"/>
+          <include name="TC_testUpdateItem"/>
+          <include name="TC_testUpdateCollection"/>
+          <include name="TC_testSaveNewCollection_withBadJSONObjectParam"/>
+          <include name="setupTest"/>
+          <include name="TC_testAddItem"/>
+          <include name="TC_testUpdateCollection_withInvalidCollectionId"/>
+          <include name="TC_testSaveExistingCollection"/>
+          <include name="TC_testSaveNewCollection"/>
+          <include name="TC_testGetCollection_validCollectionId"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="DotcomToMobileRedirectionTest(failed)" junit="false" annotations="JDK">
+    <groups>
+      <run>
+        <include name="groupDotcomtoMobileRedirection"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.aol.functest.mobileweb.test.DotcomToMobileRedirectionTest">
+        <methods>
+          <include name="tearDownTestSuite"/>
+          <include name="setupTest"/>
+          <include name="TC_testDotcomtoMobileRedirectiontListOfUserAgent"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="UnsupportedRedirectiontest(failed)" junit="false" annotations="JDK">
+    <groups>
+      <run>
+        <include name="groupDotcomtoMobileRedirection"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.aol.functest.mobileweb.test.UnsupportedRedirectiontest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="TC_UnsupportedRedirectiontest"/>
+          <include name="tearDownTestSuite"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="MobileWebSupportedDeviceSmokeTest(failed)" junit="false" annotations="JDK">
+    <groups>
+      <run>
+        <include name="groupDeviceRedirection"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.aol.functest.mobileweb.test.MobileWebRedirectionTest">
+        <methods>
+          <include name="tearDownTestSuite"/>
+          <include name="setupTest"/>
+          <include name="TC_testRedirectionAgainstListOfUserAgents"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="MobileWebSmokeTestStd(failed)" junit="false" annotations="JDK">
+    <groups>
+      <run>
+        <include name="DirectionsStd"/>
+        <include name="MapsStd"/>
+        <include name="SearchStd"/>
+        <include name="SavedandRecentStd"/>
+        <include name="MyPlacesStd"/>
+        <include name="AmbiguityStd"/>
+        <include name="GeodiffStd"/>
+        <include name="TrafficStd"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+        <methods>
+          <include name="TC_VerifySearchTraffic_Authenticate"/>
+          <include name="TC_VerifyCategorySearchFormPageUIObject_Authenticate"/>
+          <include name="TC_VerifyMapFormPageUIStd_Authenticate"/>
+          <include name="TC_VerifySearchFormGeoDiffPageStd_Authenticate"/>
+          <include name="TC_VerifyDirectionSearchAmbiguityAndGeodiffStd_Authenticate"/>
+          <include name="TC_VerifyFindBizNearbymapspage_Authenticate"/>
+          <include name="TC_VerifyRouteOptionsPageUIStd_Authenticate"/>
+          <include name="TC_VerifyChangeRouteOptionsFunctionality_Authenticate"/>
+          <include name="setup"/>
+          <include name="TC_VerifyRefineSearchFormPage_Authenticate"/>
+          <include name="TC_VerifySavedAndRecentFormPageUIObjectStd_Authenticate"/>
+          <include name="TC_VerifyBusinessSearchfromAmbiguityPageStd_Authenticate"/>
+          <include name="TC_VerifyDirectionsTraffic_Authenticate"/>
+          <include name="TC_VerifyFindBusinessNearbyFunctionalitymappage_Authenticate"/>
+          <include name="TC_VerifyDirectionFormPageStdUIObject_Authenticate"/>
+          <include name="TC_VerifyGetDirectionToHeremapspage_Authenticate"/>
+          <include name="TC_VerifyDirectionFormAmbiguityPageStd_Authenticate"/>
+          <include name="TC_VerifyDirectionFormPageRecentLocationStd_Authenticate"/>
+          <include name="TC_VerifySearchFormPageRecentLocationStd_Authenticate"/>
+          <include name="TC_VerifyMapResultPageMapObjectStd_Authenticate"/>
+          <include name="TC_VerifyMapResultPageUIStd_Authenticate"/>
+          <include name="TC_VerifySearchFormAmbiguityPageStd_Authenticate"/>
+          <include name="TC_VerifyMapFormGeoDiffPageStd_Authenticate"/>
+          <include name="basestate"/>
+          <include name="TC_VerifySearchResultsSearchByCategoryStd_Authenticate"/>
+          <include name="authenticate1"/>
+          <include name="TC_VerifyGetDirectionFromHeremapspage_Authenticate"/>
+          <include name="TC_NearALocationStdUI_Authenticate"/>
+          <include name="TC_VerifyMapSearchformGeoDiffPageStd_Authenticate"/>
+          <include name="TC_VerifyDirectionspageStdwithstartlocation_Authenticate"/>
+          <include name="TC_VerifySearchResultsSearchFormPageStd_Authenticate"/>
+          <include name="TC_VerifyRefineSearchResultPage_Authenticate"/>
+          <include name="TC_VerifyMapTraffic_Authenticate"/>
+          <include name="TC_VerifyMapFormAmbiguityPageStd_Authenticate"/>
+          <include name="cleanUp"/>
+          <include name="TC_VerifySearchFormPageStdUIObject_Authenticate"/>
+          <include name="TC_VerifyBusinessSearchfromGeodiffPageStd_Authenticate"/>
+          <include name="TC_VerifyViewTrafficFunctionality_Authenticate"/>
+          <include name="TC_VerifyDirectionResultPageUIStd_Authenticate"/>
+          <include name="TC_VerifyDirectionFormGeoDiffPageStd_Authenticate"/>
+          <include name="TC_VerifyDirResultPageMapObjectStd_Authenticate"/>
+          <include name="TC_VerifyMapSearchfromAmbiguityPageStd_Authenticate"/>
+          <include name="TC_VerifyFindBusinessNearbyFunctionality_Authenticate"/>
+          <include name="TC_VerifyMapFormpageRecentLocationStd_Authenticate"/>
+          <include name="TC_VerifyDirectionspagewithoutlocation_Authenticate"/>
+        </methods>
+      </class>
+      <class name="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+        <methods>
+          <include name="TC_VerifyRefineSearchFormPage_UnAuthenticate"/>
+          <include name="TC_VerifyFindBusinessNearbyFunctionality_UnAuthenticate"/>
+          <include name="TC_NearALocationStdUI_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionspagewithoutlocation_UnAuthenticate"/>
+          <include name="TC_VerifyRefineSearchResultPage_UnAuthenticate"/>
+          <include name="TC_VerifySearchFormPageRecentLocationStd_UnAuthenticate"/>
+          <include name="TC_VerifyBusinessSearchfromGeodiffPageStd_UnAuthenticate"/>
+          <include name="TC_VerifySearchFormPageStdUIObject_UnAuthenticate"/>
+          <include name="TC_VerifyMapResultPageMapObjectStd_UnAuthenticate"/>
+          <include name="TC_VerifyMapFormGeoDiffPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionFormPageRecentLocationStd_UNAuthenticate"/>
+          <include name="TC_VerifySearchResultsSearchFormPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionFormGeoDiffPageStd_UnAuthenticate"/>
+          <include name="cleanUp"/>
+          <include name="TC_VerifyCategorySearchFormPageUIObject_UnAuthenticate"/>
+          <include name="TC_VerifyMapFormAmbiguityPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyMapSearchformGeoDiffPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirResultPageMapObjectStd_UnAuthenticate"/>
+          <include name="TC_VerifyFindBizNearbymapspage_UnAuthenticate"/>
+          <include name="TC_VerifySearchFormAmbiguityPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionFormAmbiguityPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionsTraffic_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionSearchAmbiguityAndGeodiffStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionspageStdwithstartlocation_UnAuthenticate"/>
+          <include name="setup"/>
+          <include name="TC_VerifyGetDirectionFromHeremapspage_UnAuthenticate"/>
+          <include name="TC_VerifyRouteOptionsPageUIStd_UnAuthenticate"/>
+          <include name="TC_VerifyMapResultPageUIStd_UnAuthenticate"/>
+          <include name="TC_VerifyMapFormPageUIStd_UnAuthenticate"/>
+          <include name="TC_VerifyGetDirectionToHeremapspage_UnAuthenticate"/>
+          <include name="TC_VerifyMapTraffic_UnAuthenticate"/>
+          <include name="TC_VerifyMapFormpageRecentLocationStd_UnAuthenticate"/>
+          <include name="unAuthenticate"/>
+          <include name="TC_VerifySavedAndRecentFormPageUIObjectStd_UnAuthenticate"/>
+          <include name="basestate"/>
+          <include name="TC_VerifyViewTrafficFunctionality_UnAuthenticate"/>
+          <include name="TC_VerifyMapSearchfromAmbiguityPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionResultPageUIStd_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionFormPageStdUIObject_UnAuthenticate"/>
+          <include name="TC_VerifySearchFormGeoDiffPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyBusinessSearchfromAmbiguityPageStd_UnAuthenticate"/>
+          <include name="TC_VerifyFindBusinessNearbyFunctionalitymappage_UnAuthenticate"/>
+          <include name="TC_VerifyChangeRouteOptionsFunctionality_UnAuthenticate"/>
+          <include name="TC_VerifySearchTraffic_UnAuthenticate"/>
+          <include name="TC_VerifySearchUsingSearchByCategoryStd_UnAuthenticate"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="MobileWebSmokeTestAdv(failed)" junit="false" annotations="JDK">
+    <groups>
+      <run>
+        <include name="groupDirection"/>
+        <include name="groupMaps"/>
+        <include name="groupSearch"/>
+        <include name="groupSavedAndRecent"/>
+        <include name="groupMyPlaces"/>
+        <include name="groupAmbiguity"/>
+        <include name="groupGeodiff"/>
+        <include name="groupSAR"/>
+        <include name="groupTraffic"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+        <methods>
+          <include name="unAuthenticate"/>
+          <include name="TC_VerifyMapMapResultPageMapObject_UnAuthenticate"/>
+          <include name="cleanUp"/>
+          <include name="TC_VerifySearchMapResultPageMapObject_UnAuthenticate"/>
+          <include name="TC_VerifySearchFormSearchByCatagory_UnAuthenticate"/>
+          <include name="TC_VerifyDirectionMapResultPageMapObject_UnAuthenticate"/>
+          <include name="TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_UnAuthenticate"/>
+          <include name="TC_VerifyMyPlaceTextResultPageUIObject_UnAuthenticate"/>
+          <include name="basestate"/>
+          <include name="setup"/>
+          <include name="TC_VerifyRefineSearchFormPage_UnAuthenticate"/>
+        </methods>
+      </class>
+      <class name="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+        <methods>
+          <include name="basestate"/>
+          <include name="setup"/>
+          <include name="authenticate1"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

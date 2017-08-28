@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MobileWebSupportedDeviceSmokeTest" failures="1" tests="1" time="573.175" errors="0">
+  <properties/>
+  <testcase name="TC_testRedirectionAgainstListOfUserAgents" time="573.166" classname="com.aol.functest.mobileweb.test.MobileWebRedirectionTest">
+    <failure type="java.lang.AssertionError" message="
+failure on CSV line 759 :: autogen-759/htc_opal100_ver1 :: HTC_OPAL100_DO_NOT_MATCH :: http response code=302">
+      <![CDATA[java.lang.AssertionError: 
+failure on CSV line 759 :: autogen-759/htc_opal100_ver1 :: HTC_OPAL100_DO_NOT_MATCH :: http response code=302
+	at com.aol.functest.mobileweb.test.MobileWebRedirectionTest.TC_testRedirectionAgainstListOfUserAgents(MobileWebRedirectionTest.java:162)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

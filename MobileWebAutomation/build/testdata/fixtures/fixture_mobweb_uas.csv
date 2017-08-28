@@ -1,0 +1,976 @@
+id,wurfl-id,user-agent
+autogen-0,apple_iphone_ver3_sub7a341_eses,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; es-es) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+autogen-1,apple_generic,Mozilla/5.0 (iPhone;
+autogen-2,apple_iphone_ver1_sub4a93_en,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3"
+autogen-3,apple_iphone_ver3_1_0_sub52816,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7C144 Safari/528.16"
+autogen-4,apple_iphone_ver3_sub7a341_enus,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+autogen-5,apple_iphone_ver3_sub7a341_frfr,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; fr-fr) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+autogen-6,apple_iphone_ver3_sub7a341_itit,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; it-it) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+autogen-7,apple_iphone_ver3_sub7a341_ruru,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; ru-ru) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+autogen-8,apple_iphone_ver1_sub3a110a_enus,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en-us) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A110a Safari/419.3"
+autogen-9,apple_iphone_ver4_sub405,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7"
+autogen-10,apple_iphone_ver2_0_2_subua,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-11,apple_iphone_ver3_sub7a259g,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.11 (KHTML, like Gecko) Version/3.1.1 Mobile/7A259g Safari/525.20"
+autogen-12,apple_iphone_ver3_sub7a312g,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; sv-se) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A312g Safari/528.16"
+autogen-13,apple_iphone_ver3_sub1a542a,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A542a Safari/419.3 taptu"
+autogen-14,apple_iphone_emulator_ver2_1,"Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F90 Safari/525.20"
+autogen-15,apple_iphone_ver1_sub4a93_fifi,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; fi-fi) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3"
+autogen-16,apple_iphone_ver1_sub4a93_dede,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; de-de) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3"
+autogen-17,apple_iphone_ver1_sub31c28_nbno,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; nb-no) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C28 Safari/419.3"
+autogen-18,apple_iphone_ver2_2_1_it,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; it-it) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-19,apple_iphone_ver2_2_1_es,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; es-es) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-20,apple_iphone_ver2_0_2_fr,"Mozilla 5.0 (iPhone ; U ; CPU : iPhone OS 2_0_2 like Mac OS X;fr-fr)  AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5C1 Safari/525.20"
+autogen-21,apple_iphone_ver3_1_2_svse,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; sv-se) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16"
+autogen-22,apple_iphone_ver2_2_1_de,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; de-de) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-23,apple_iphone_ver3_1_2_enus,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16"
+autogen-24,apple_iphone_ver2_2_1_ru,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; ru-ru) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-25,apple_iphone_ver2_2_1_no,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; nb-no) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-26,apple_iphone_emulator_ver2_2_1_de,"Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 2_2_1 like Mac OS X; de-de) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-27,apple_iphone_ver1_sub3b48b_trtr,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; tr-tr) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-28,apple_iphone_ver1_sub3b48b_zhtw,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; zh-tw) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-29,apple_iphone_ver2_1_subcydia,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Cydia/1.0.2595-36"
+autogen-30,apple_iphone_ver1_sub3b48b_ptpt,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; pt-pt) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-31,apple_iphone_ver2_2_subenus,"mozilla/5.0 (iphone; u; cpu iphone os 2_2 like mac os x; en-us) applewebkit/525.18.1 (khtml, like gecko) version/3.1.1 mobile/5g77 safari/525.20"
+autogen-32,apple_iphone_ver1_sub3b48a_dede,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; de-de) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-33,apple_iphone_ver2_2_sub5g77,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Mobile/5G77"
+autogen-34,apple_iphone_ver1_sub3b48b_ruru,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-35,apple_iphone_ver1_sub3b48b_nlnl,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; nl-nl) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-36,apple_iphone_ver3_sub7a312g_enus,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A312g Safari/528.16"
+autogen-37,apple_iphone_ver2_2_subcydia,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Cydia/1.0.2595-37"
+autogen-38,apple_iphone_ver1_sub4a102_it,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; it-it) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3"
+autogen-39,apple_iphone_ver1_sub4a102_en,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3"
+autogen-40,apple_iphone_ver2_1_sub525181,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F136 Safari/525.20"
+autogen-41,apple_iphone_ver1_sub3a109a_fr,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; fr) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A109a Safari/419.3"
+autogen-42,apple_iphone_ver1_sub3a109a_es,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; es) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A109a Safari/419.3"
+autogen-43,apple_iphone_ver3_1_sub7c116a,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7C116a Safari/528.16"
+autogen-44,apple_iphone_ver1,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A538a Safari/419.3"
+autogen-45,apple_iphone_ver4,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Mobile/7D11"
+autogen-46,apple_iphone_ver3,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.11 (KHTML, like Gecko) Version/3.1.1 Mobile/7A238j Safari/525.20"
+autogen-47,apple_iphone_ver2,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A345 Safari/525.20"
+autogen-48,apple_iphone_ver3_1,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1 like Mac OS X; pt-pt) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7C144"
+autogen-49,apple_iphone_ver1_china,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; cs-cz) AppleWebKit/420.1 (KHTML, like Gecko)"
+autogen-50,apple_iphone_ver3_1_3_subenus,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_3 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7E18 Safari/528.16"
+autogen-51,apple_iphone_ver1_sub3b48a,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-52,apple_iphone_ver1_sub3b48b,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48a Safari/419.3"
+autogen-53,apple_iphone_ver1_os201,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5B108 Safari/525.20"
+autogen-54,apple_iphone_ver3_1_3_subeses,"Mozilla/5.0 (device; U; CPU iPhone OS 3_1_3 like Mac OS X; es-es) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7E18 Safari/528.16"
+autogen-55,apple_iphone_ver2_1,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F90 Safari/525.20"
+autogen-56,apple_iphone_ver2_2,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G76 Safari/525.20"
+autogen-57,apple_iphone_ver1_subua_mysterious,Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)
+autogen-58,apple_iphone_ver3_0_1,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A400 Safari/528.16"
+autogen-59,apple_iphone_ver2_sub5a347,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.20"
+autogen-60,apple_iphone_ver2_1_1,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_1_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A345 Safari/525.20"
+autogen-61,apple_iphone_ver3_sub7a341,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7A341"
+autogen-62,apple_iphone_ver1_sub3a109a_zhcn,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; zh-cn) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A109a Safari/419.3"
+autogen-63,apple_iphone_ver2_1_sub525181_de,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_1 like Mac OS X; de-de) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F136 Safari/525.20"
+autogen-64,apple_iphone_ver1_sub3a109a_svse,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; sv-se) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A109a Safari/419.3"
+autogen-65,apple_iphone_ver3_1_0,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-66,apple_iphone_ver3_1_1,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7C145 Safari/528.16"
+autogen-67,apple_iphone_ver3_1_2,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; nl-nl) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7D11"
+autogen-68,apple_iphone_ver3_1_3,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_3 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-69,apple_iphone_ver2_2_1,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-70,apple_iphone_ver2_1_sub525181_it,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_1 like Mac OS X; it-it) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F136 Safari/525.20"
+autogen-71,apple_iphone_ver2_0_2,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5C1 Safari/525.20"
+autogen-72,apple_iphone_ver1_sub3a109a_itit,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; it-it) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A109a Safari/419.3"
+autogen-73,apple_iphone_ver1_sub3a109a_dadk,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; da-dk) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A109a Safari/419.3"
+autogen-74,apple_iphone_ver1_sub3a109a_plpl,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; pl-pl) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A109a Safari/419.3"
+autogen-75,apple_iphone_ver2_sub5b108,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_1 like Mac OS X; de-de) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5B108 Safari/525.20"
+autogen-76,apple_iphone_emulator_ver2,"Mozilla/5.0 (iPhone Simulator; U; iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A308 Safari/525.20"
+autogen-77,apple_iphone_emulator_ver4,"Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-78,apple_iphone_emulator_ver1,Mozilla/5.0 (Aspen Simulator; U; Aspen 1_2 like Mac OS X; en-us) AppleWebKit/52
+autogen-79,apple_iphone_ver2_1_sub525181_subua,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Mobile/5F136"
+autogen-80,apple_iphone_ver2_2_subua,"mozilla/5.0 (iphone; u; cpu iphone os 2_2 like mac os x; en-us) applewebkit/525.18.1 (khtml, like gecko) mobile/5g77"
+autogen-81,apple_iphone_ver1_suba543,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3"
+autogen-82,apple_iphone_ver2_sub525181,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-83,apple_iphone_ver1_sub1c25,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C25 Safari/419.3"
+autogen-84,apple_iphone_ver1_sub1c28,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1C28 Safari/419.3"
+autogen-85,apple_iphone_ver3_1_3_subde,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_3 like Mac OS X; de-de) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7E18 Safari/528.16"
+autogen-86,apple_iphone_ver1_sub4a93,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; sv-se) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3"
+autogen-87,apple_iphone_ver1_somesdk_subenus,"mozilla/5.0 (iphone; u; cpu iphone os 2_0_2 like mac os x; en-us) applewebkit/525.18.1 (khtml, like gecko) version/3.1.1 mobile/5c1 safari/525.20"
+autogen-88,apple_iphone_emulator_ver2_sub52520_5f135,"Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F135 Safari/525.20"
+autogen-89,apple_iphone_ver2_sub52520_it,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_1 like Mac OS X; it-it) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5B108 Safari/525.20"
+autogen-90,apple_iphone_emulator_ver2_2_1,"Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 2_2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-91,apple_iphone_ver2_1_sub311,"mozilla/5.0 (iphone; u; cpu iphone os 2_1 like mac os x; en-us) applewebkit/525.18.1 (khtml, like gecko) version/3.1.1 mobile/5f136 safari/525.20"
+autogen-92,apple_iphone_ver1_somesdk,"Mozilla/5.0 (iPhone; U; iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A308 Safari/525.20"
+autogen-93,apple_iphone_emulator_ver2_sub52520,"Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A345 Safari/525.20"
+autogen-94,apple_iphone_ver2_2_1_svse,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2_1 like Mac OS X; sv-se) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-95,apple_iphone_ver2_2_sub525181,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20"
+autogen-96,apple_iphone_ver3_sub52816_de,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; de-de) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+autogen-97,apple_iphone_ver3_1_2_fr,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; fr-fr) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16"
+autogen-98,apple_iphone_ver3_1_2_de,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1_2 like Mac OS X; de-de) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16"
+autogen-99,apple_iphone_ver3_sub7a312g_ru,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; ru-ru) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A312g Safari/528.16"
+autogen-100,apple_sdk_aspen_emulator_ver1,"Mozilla/5.0 (Aspen Simulator; U; Aspen 1_2 like Mac OS X; en_us) AppleWebKit/525.7 (KHTML, like Gecko) Version/3.1 Mobile/5A147p Safari/5525.7"
+autogen-101,apple_iphone_ver3_sub7a312g_no,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; nb-no) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A312g Safari/528.16"
+autogen-102,apple_iphone_ver2_2_fi,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; fi-fi) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20"
+autogen-103,apple_iphone_ver2_2_es,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; es-es) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20"
+autogen-104,apple_iphone_ver2_2_de,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_2 like Mac OS X; de-de) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20"
+autogen-105,apple_iphone_ver1_nbno,"Mozilla/5.0 (iPhone; U; CPU like Mac OS X; nb-no) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3"
+autogen-106,apple_ipod_touch_ver1_subenus_sub5f137,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Mobile/5F137"
+autogen-107,apple_ipod_touch_ver3_1_1,"Mozilla/5.0 (iPod; U; CPU iPhone OS 3_1_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7C145 Safari/528.16"
+autogen-108,apple_ipod_touch_ver3_1_2,"Mozilla/5.0 (iPod; U; CPU iPhone OS 3_1_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-109,apple_ipod_touch_ver3_1_3,"Mozilla/5.0 (iPod; U; CPU iPhone OS 3_1_3 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7E16 Safari/528.16"
+autogen-110,apple_ipod_touch_ver2_2_1,"Mozilla/5.0 (iPod touch; U; CPU iPhone OS 2_2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Mobile/5H11"
+autogen-111,apple_ipod_touch_ver2_2_sub5g77a,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77a Safari/525.20"
+autogen-112,apple_ipod_touch_ver3_subua,"Mozilla/5.0 (iPod touch; U; CPU iPhone OS 3_0 like Mac OS X; en_us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-113,apple_ipod_touch_ver3_1_1_subua,"Mozilla/5.0 (iPod touch; U; CPU iPhone OS 3_1_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-114,apple_ipod_touch_ver1_sub4193,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/(null) Safari/419.3"
+autogen-115,apple_ipod_ver1,DO_NOT_MATCH_TEMP_IPOD_TOUCH_ENTRY
+autogen-116,apple_ipod_touch_ver1_os211_es,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1_1 like Mac OS X; es-es) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F138 Safari/525.20"
+autogen-117,apple_ipod_touch_ver2_2_subenus,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20"
+autogen-118,apple_ipod_touch_ver1_sub3b48b_fr,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; fr) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-119,apple_ipod_touch_ver2_2_1_sub5h11a,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11a Safari/525.20"
+autogen-120,apple_ipod_touch_ver1_sub3b48b_es,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; es) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-121,apple_ipod_touch_ver2_2_subdede,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2 like Mac OS X; de-de) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20"
+autogen-122,apple_ipod_touch_ver1_sub3a110a_nbno,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; nb-no) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A110a Safari/419.3"
+autogen-123,apple_ipod_touch_ver1_sub4b1_fr,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; fr) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4B1 Safari/419.3"
+autogen-124,apple_ipod_touch_ver2_2_subenus_5g77a,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2 like Mac OS X; sv-se) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77a Safari/525.20"
+autogen-125,apple_ipod_touch_ver2,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A345 Safari/525.20"
+autogen-126,apple_ipod_touch_ver1,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A100a Safari/419.3"
+autogen-127,apple_ipod_touch_ver4,"Mozilla/5.0 (iPod; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko)"
+autogen-128,apple_ipod_touch_ver3,"Mozilla/5.0 (iPod; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/3.1.1 Mobile/7A259g Safari/525.20"
+autogen-129,apple_itouch_ver1,"Mozilla/5.0 (itouch; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A538a Safari/419.3"
+autogen-130,apple_ipod_touch_ver2_sub5c1,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_0_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5C1 Safari/525.20"
+autogen-131,apple_ipod_touch_ver1_os211,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F138 Safari/525.20"
+autogen-132,apple_ipod_touch_ver1_os201,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_0_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5B108 Safari/525.20"
+autogen-133,apple_ipod_touch_ver3_1,"Mozilla/5.0 (iPod; U; CPU iPhone OS 3_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7C106c"
+autogen-134,apple_ipod_touch_ver2_1,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F90 Safari/525.20"
+autogen-135,apple_ipod_touch_ver2_2,"Mozilla/5.0 (iPod touch; U; CPU iPhone OS 2_2 like Mac OS X; en-us) AppleWebKit/528.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5G77 Safari/525.20"
+autogen-136,apple_ipod_touch_ver1_sub4a93_plpl,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; pl-pl) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3"
+autogen-137,apple_ipod_touch_ver1_sub4a93_ptpt,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; pt-pt) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3"
+autogen-138,apple_ipod_touch_ver1_it,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; it-it) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11a Safari/525.20"
+autogen-139,apple_ipod_touch_ver3_1_3_subua,"Mozilla/5.0 (iPod touch; U; CPU iPhone OS 3_1_3 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7E16 Safari/528.16"
+autogen-140,apple_ipod_touch_ver3_enus,"Mozilla/5.0 (iPod; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+autogen-141,apple_ipod_touch_ver1_no_u,"Mozilla/5.0 (iPod; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A110a Safari/419.3"
+autogen-142,apple_ipod_touch_ver2_1_subenus_sub5f138,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Mobile/5F138"
+autogen-143,apple_ipod_touch_ver1_es,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; es) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3"
+autogen-144,apple_ipod_touch_ver1_fr,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; fr-fr) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11a Safari/525.20"
+autogen-145,apple_ipod_touch_ver2_sub525181,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-146,apple_ipod_touch_ver1_de,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; de-de) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A110a Safari/419.3"
+autogen-147,apple_ipod_touch_ver2_2_1_subenus,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-148,apple_ipod_touch_ver2_2_1_sub5h11,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Mobile/5H11"
+autogen-149,apple_ipod_touch_ver2_2_1_subengb,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; en-gb) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11 Safari/525.20"
+autogen-150,apple_ipod_touch_ver3_1_subua,Mozilla/5.0 (iPod touch; U; CPU iPhone OS 3_1 like Mac OS X; en_us)
+autogen-151,apple_ipod_touch_ver3_1_2_sub7d11,"Mozilla/5.0 (iPod; U; CPU iPhone OS 3_1_2 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7D11 Safari/528.16"
+autogen-152,apple_ipod_touch_ver1_sub3b48b_jajp,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; ja-jp) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-153,apple_ipod_touch_ver2_1_engb,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; en-gb) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-154,apple_ipod_touch_ver1_sub3b48b_itit,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; it-it) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-155,apple_ipod_touch_ver1_sub3b48b_zhtw,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; zh-tw) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-156,apple_ipod_touch_ver3_1_2_subua,"Mozilla/5.0 (iPod touch; U; CPU iPhone OS 3_1_2 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-157,apple_ipod_touch_ver1_sub3b48b_ruru,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-158,apple_ipod_touch_ver1_sub3b48b_nlnl,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; nl-nl) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-159,apple_ipod_touch_ver2_2_1_es,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; es-es) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11a Safari/525.20"
+autogen-160,apple_ipod_touch_ver2_1_subenus,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F137 Safari/525.20"
+autogen-161,apple_ipod_touch_ver1_sub3b48b_svse,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; sv-se) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-162,apple_ipod_touch_ver1_sub3b48b_fifi,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; fi-fi) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-163,apple_ipod_touch_ver1_sub4b1,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4B1 Safari/419.3"
+autogen-164,apple_ipod_touch_ver1_sub3b48b_zhcn,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; zh-cn) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-165,apple_ipod_touch_ver1_sub3b48b_kokr,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; ko-kr) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-166,apple_ipod_touch_ver1_sub3b48b_dadk,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; da-dk) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3"
+autogen-167,apple_ipod_touch_ver1_sub4a102,"Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3"
+autogen-168,apple_ipod_touch_ver2_1_frfr,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; fr-fr) AppleWebKit/525.18.1 (KHTML, like Gecko) Mobile/5F137"
+autogen-169,apple_ipod_touch_ver4_subua,"Mozilla/5.0 (iPod touch; U; CPU iPhone OS 4_0 like Mac OS X; HW iPod2,1; en_us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-170,apple_ipod_touch_ver2_sub5a347,"Mozilla/5.0 (iPod; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.20"
+autogen-171,generic_android,"Mozilla/5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522+ (KHTML, like Gecko) Safari/419.3"
+autogen-172,generic_android_ver2_subsdk,"Mozilla/5.0 (Linux; U; Android 2.0; en-us; sdk Build/ECLAIR) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-173,android_sdk_sub525,"Mozilla/5.0 (Linux; U; Android 1.1; en-us; generic) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-174,generic_android_ver2_1_subsdk,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; sdk Build/ERD79) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-175,generic_android_ver2_1_subgoogle_sdk,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; google_sdk Build/ERD79) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-176,generic_android_ver2_subgoogle_sdk,"Mozilla/5.0 (Linux; U; Android 2.0; en-us; google_sdk Build/ECLAIR) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-177,generic_android_nover,Mozilla/5.0 (Linux; U; Android
+autogen-178,generic_android_1_6_win,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; google_sdk Build/DRC76) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-180,generic_android_2,"Mozilla/5.0 (Linux; U; Android 2.0; en-us; google_sdk Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-181,generic_android_2_0_1,"Mozilla/5.0 (Linux; U; Android 2.0.1; en-us; google_sdk Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-182,nexus_one_2_2_frg22d_1,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; Droid Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+autogen-183,tmobile_droidx_vzw_22_1,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; DROIDX Build/VZW) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 480X854 motorola DROIDX"
+autogen-184,generic_android_ver2,Mozilla/5.0 (Linux; U; Android 2.0;
+autogen-185,generic_android_ver2_subeclair,Mozilla/5.0 (Linux; U; Android Eclair;
+autogen-186,android_nexus_one_2_2_1_en_gb_questi_1,"Mozilla/5.0 (Linux; U; Android 2.2.1; en-gb; Nexus One Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+autogen-188,generic_android_ver1_5,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; generic) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-189,generic_android_ver2_1,Mozilla/5.0 (Linux; U; Android 2.1;
+autogen-190,nexus_one_2_2_frf91_1,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+autogen-191,htc_android_g1_ver1_sub16,"Mozilla/5.0 (Linux; U; Android 1.6; zh-cn; T-Mobile G1 Build/DRC83) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-192,htc_android_g1_ver1_subua,"Mozilla/5.0 (Linux; U; Android 1.5; de-; T-Mobile G1 Build/CRB43) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-193,htc_android_g1_ver1_cupcake,"Mozilla/5.0 (Linux; U; Android 1.5; en-us T-Mobile G1 Build/CRB43) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20"
+autogen-194,era_g1_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; pl-pl; Era G1 Build/CRC1) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2 (AdMob-ANDROID-20090728)"
+autogen-195,htc_dream_ver1_subuauk_enau,"Mozilla/5.0 (Linux; U; Android 1.1; en-au; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-196,htc_dream_ver1_subuauk_de,"Mozilla/5.0 (Linux; U; Android 1.1; de-; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-197,era_g1_ver1_subandroid16,"Mozilla/5.0 (Linux; U; Android 1.6; pl-pl; Era G1 Build/DRC92) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-198,tmobile_g1_ver1_5_subcrc37,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; T-Mobile G1 Build/CRC37) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-199,htc_dream_ver1_subuaus3,"Mozilla/5.0 (Linux; U; Android 1.0; en-us; HTC_Dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-200,tmobile_g1_ver1_6_dmd64,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; T-Mobile G1 Build/DMD64) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-201,tmobile_g1_ver1_6_subuk,"Mozilla/5.0 (Linux; U; Android 1.6; en-gb; T-Mobile G1 Build/DRC92) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-202,tmobile_g1_ver1_6,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; T-Mobile G1 Build/DRC83) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-203,tmobile_g1_ver1_5,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-204,tmobile_g1_ver1_5_subcrc1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile G1 Build/CRC1) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-205,tmobile_g1_ver1_5_subua,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; T-Mobile G1 Build/CRB17) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-206,htc_android_g1_ver1_subdeat,"Mozilla/5.0 (Linux; U; Android 1.5; de-at; T-Mobile G1 Build/CRB43) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-207,htc_dream_ver1_subuauk,"Mozilla/5.0 (Linux; U; Android 1.1; en-gb; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-208,htc_dream_ver1_subuaus,"Mozilla/5.0 (Linux; U; Android 1.0; en-us; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-209,tmobile_g1_ver1_subuk2,"Mozilla/5.0 (Linux; U; Android 1.6; en-gb; T-Mobile G1 Build/DRC83) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-210,htc_dream_ver1_subuadk,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; Android Dev Phone 1 Build/CRB43) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-211,tmobile_g1_ver1_subuk,"Mozilla/5.0 (Linux; U; Android 1.0; en-gb; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-212,tmobile_g1_ver1_subus,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile G1 Build/CRB43) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-213,tmobile_g1_ver1,"Mozilla/5.0 (Linux; U; Android 1.1; en-us; T-Mobile G1 Build/PLAT-RC33) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-214,era_g2_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; pl-pl; ERA G2 Touch Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-215,tmobile_g2_ver1_6_subandroid16,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; sapphire) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-216,tmobile_g2_ver1_subdede,"Mozilla/5.0 (Linux; U; Android 1.5; de-de; T-Mobile_G2_ Touch Build/CUPCAKE) AppleWebKit/ 528.5+ (KHTML, like Gecko) Version/3.1. 2 Mobile Safari/525.20. 1"
+autogen-217,tmobile_g2_ver1_subua,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; T-Mobile_G2_Touch Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-218,tmobile_g2_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; T-Mobile G2 Touch Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-219,tmobile_mytouch_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile myTouch 3G Build/CRB57) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-220,tmobile_mytouch_ver1_6_dmd64_1,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; T-Mobile myTouch 3G Build/DMD64) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-221,tmobile_mytouch_ver1_6,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; T-Mobile myTouch 3G Build/DRC92) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-222,htc_dream_ver1_subuasg2,"Mozilla/5.0 (Linux; U; Android 1.1; en-sg; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-223,htc_dream_ver1_sub_epe54b,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; HTC Dream Build/EPE54B) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-224,htc_dream_ver1,"Mozilla/5.0 (Linux; U; Android HTC_Dream-1.13.0.1; en-us; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-225,htc_dream_ver1_subenca_submoz,"Mozilla/5.0 (Linux; U; Android 1.5; en-ca; HTC Dream Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-226,htc_dream_ver1_subfrfr,"Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; htc_dream Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2 (AdMob-ANDROID-20090728)"
+autogen-227,htc_dream_ver1_subandroid15,"HTC_Dream Mozilla/5.0 (Linux; U; Android 1.5; en-ca; Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-228,htc_dream_ver1_subandroid16,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-229,htc_dream_ver1_subandroid11,"Mozilla/5.0 (Linux; U; Android 1.1; en-us; dream) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-230,htc_magic_ver1_subenno,"Mozilla/5.0 (Linux; U; Android 1.5; en-no; HTC Magic Build/2.17.401.2) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-231,htc_magic_ver1_cupcake_subru,"Mozilla/5.0 (Linux; U; Android 1.5; ru-ru; HTC Magic Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-232,htc_magic_ver1_cupcake_subua,"Mozilla/5.0 (Linux; U; Android 1.5; en-sg; HTC Magic Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-233,htc_magic_ver1_subfr16,"Mozilla/5.0 (Linux; U; Android 1.6; fr-fr; HTC Magic Build/DRC92) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-234,htc_magic_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; sapphire; HTC_Magic) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-235,htc_magic_ver1_subes,"Mozilla/5.0 (Linux; U; Android 1.5; es-es; HTC Magic Build/CRB17) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-236,htc_magic_ver1_subfr,"Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; HTC Magic Build/CRC1) AppleWebKit/528.5+ (KHTML, like G ecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-237,htc_magic_ver1_cupcake,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; HTC Magic Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-238,htc_magic_ver1_cupcake_it,"Mozilla/5.0 (Linux; U; Android 1.5; it-; HTC Magic Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-239,htc_magic_ver1_cupcake_ie,"Mozilla/5.0 (Linux; U; Android 1.5; en-ie; HTC Magic Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-240,htc_magic_ver1_cupcake_se,"Mozilla/5.0 (Linux; U; Android 1.5; sv-se; HTC Magic Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko)"
+autogen-241,htc_magic_ver1_subdrc92,"Mozilla/5.0 (Linux; U; Android 1.6; en-gb; HTC Magic Build/DRC92) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-242,htc_magic_ver1_es,"Mozilla/5.0 (Linux; U; Android 1.5; es-es; HTC Magic Build/CRB43) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-243,htc_magic_ver1_gb,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; HTC Magic Build/CRA57B) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-244,htc_magic_ver1_de,"Mozilla/5.0 (Linux; U; Android 1.5; de-de; HTC Magic Build/CRB17) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-245,htc_magic_ver1_subandroid16,"Mozilla/5.0 (Linux; U; Android 1.6; en-gb; HTC Magic Build/DRC92) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-246,htc_magic_ver1_subandroid15,HTC Magic
+autogen-247,htc_magic_ver1_subes_android16,"Mozilla/5.0 (Linux; U; Android 1.6; es-es; HTC Magic Build/DRC92) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-248,htc_magic_ver1_subandroid15_ca,"HTC_Magic Mozilla/5.0 (Linux; U; Android 1.5; en-ca; Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-249,htc_hero_ver1_cupcake_subense,"Mozilla/5.0 (Linux; U; Android 1.5; en-se; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-250,htc_hero_ver1_cupcake_subenno,"Mozilla/5.0 (Linux; U; Android 1.5; en-no; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-251,htc_hero_ver1_cupcake_subengb,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-252,htc_hero_ver1_cupcake_subenza,"Mozilla/5.0 (Linux; U; Android 1.5; en-za; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-253,htc_hero_ver1_cupcake_svse,"Mozilla/5.0 (Linux; U; Android 1.5; sv-se; Galaxy Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-254,htc_hero_ver1_cupcake_subua,"Mozilla/5.0 (Linux; U; Android 1.5; en-ca; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-255,htc_hero_ver1_subandroid21,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; Hero Build/ERE27) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-256,htc_hero_ver1_cupcake_subnl,"Mozilla/5.0 (Linux; U; Android 1.5; nl-nl; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-257,htc_hero_ver1_subsprint2,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; HERO200 Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2 (AdMob-ANDROID-20090728)"
+autogen-258,htc_hero_ver1_subcellularsouth,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 CSOUTH-6200"
+autogen-259,htc_hero_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; hero) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-260,htc_hero_ver1_subsprint,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; heroc) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-261,htc_hero_ver1_cupcake,"Mozilla/5.0 (Linux; U; Android 1.5; de-de; HTC Hero Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-262,htc_a6277_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; A6277 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-263,htc_click_ver1,"Mozilla/5.0 (Linux; U; Android Donut; en-us; HTC Click Build/Donut) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-264,dopod_a3288_ver1,"Mozilla/5.0 (Linux; U; Android 1.6; zh-cn; dopod A3288 Build/DRC79) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-265,mot_mb300_ver1_subua,"MOT-MB300/Blur_Version.0.0.1.motus.AmericaMovil.en.BR Mozilla/5.0 (Linux; U; Android 1.5; es-es; MB300 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-266,droid_ver_201_FOO_THIS_HAS_TYPOS,"Mozilla/5.0 (Linux; U; Android  2.0.1; en-us; Droid Build/ESD56) AppleWebKit/530.17 (KHTML, like Gecko)  Version/4.0 Mobile Safari/530.17"
+autogen-267,droid_ver_201,"Mozilla/5.0 (Linux; U; Android 2.0.1; en-us; Droid Build/ESD56) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-268,verizon_droid_ver1_subua,"Mozilla/5.0 (Linux; U; Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-269,verizon_droid_ver1_sub21,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; Droid Build/ESE81) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-270,verizon_droid_ver1_sub22,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; Droid Build/FRF84B) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-271,verizon_droid_ver1_sub,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; Droid Build/ESE81) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-272,verizon_droid_ver1,"Mozilla/5.0 (Linux; U; Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-273,htc_eris_ver1_sub525201,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; Eris Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-274,htc_eris_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; Eris Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-275,htc_eris_ver1_sub21,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; Eris Build/ERD79) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-276,htc_desire_ver1,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-gb; HTC Desire Build/ERE27) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-277,htc_desire_ver1_no,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-no; Desire_A8181 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-278,htc_desire_ver1_se,"Mozilla/5.0 (Linux; U; Android 2.1-update1; sv-se; Desire_A8181 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-279,htc_desire_ver1_subvoda,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-gb; HTC Desire 1.15.161.4 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-280,htc_desire_ver1_subfr,"Mozilla/5.0 (Linux; U; Android 2.1-update1; fr-fr; Desire_A8181 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-281,htc_desire_ver1_sub21,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-ie; Desire_A8181 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-282,htc_desire_ver1_nb_no,"Mozilla/5.0 (Linux; U; Android 2.1-update1; nb-no; Desire_A8181 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-283,htc_desire_ver1_211_questi_1,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; HTC Desire Build/ERE27) AppleWebKit/525.10 +(KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-284,htc_eris_ver1_subdesire_sub21,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; desirec) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-285,htc_eris_ver1_subdesire,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; desirec) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-286,htc_eris_ver1_subadr6200,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; ADR6200 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-287,htc_eris_ver1_subadr6200_sub21,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; ADR6200 Build/ERD79) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-288,google_nexusone_ver1_subit,"Mozilla/5.0 (Linux; U; Android 2.1-update1; it-it; Nexus One Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-289,google_nexusone_ver1_subfr,"Mozilla/5.0 (Linux; U; Android 2.1-update1; fr-fr; Nexus One Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-290,google_nexusone_ver1_sub22,"Mozilla/5.0 (Linux; U; Android 2.2; en-gb; Nexus One Build/FRF50) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+autogen-291,htc_passion_ver1_subnexusone,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; Nexus One Build/ERD78) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-292,google_nexusone_ver1_sub1,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-gb; Nexus One Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-293,google_nexusone_ver1,"Mozilla/5.0 (Linux; U; Android 2.1; en-gb; Nexus One Build/ERD79) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-294,google_nexusone_ver1_sub21us,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; Nexus One Build/EPE54B) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-295,apple_ipad_ver1_subos,"Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B367"
+autogen-296,apple_ipad_ver1,"Mozilla/5.0 (iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7D11"
+autogen-297,apple_ipad_ver1_subos5312110,"Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10"
+autogen-298,apple_ipad_ver1_subiprod,"Mozilla/5.0 (iProd; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko)"
+autogen-299,apple_ipad_ver1_sub5312110,"Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10"
+autogen-300,apple_ipad_ver1_sub503253121104047B3605312110,"Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B360 Safari/531.21.10"
+autogen-301,apple_ipad_ver1_subsimulator,"Mozilla/5.0 (iPad Simulator; U; CPU iPhone OS 3_2 like Mac OS X; HW i386; en_us) AppleWebKit/525.18.1 (KHTML, like Gecko)"
+autogen-302,nintendo_wii_browser_subua9302071,Opera/9.30 (Nintendo Wii; U; ; 2071; Wii Shop Channel/1.0; en)
+autogen-303,nintendo_wii_browser_subua9303642,Opera/9.30 (Nintendo Wii; U; ; 3642; en)
+autogen-304,nintendo_wii_browser,Opera/9.00 (Nintendo Wii
+autogen-305,nintendo_wii_browser_subua910,Opera/9.10 (Nintendo Wii; U; ; 1621; en)
+autogen-306,nintendo_wii_browser_subua_de,Opera/9.30 (Nintendo Wii; U; ; 2047-7; de)
+autogen-307,nintendo_wii_browser_subua93020477,Opera/9.30 (Nintendo Wii; U; ; 2047-7;en)
+autogen-308,nintendo_wii_browser_subua,Opera/9.30 (Nintendo Wii; U; ; 2047-7; en)
+autogen-309,palm_pre_ver1_4_1,"Mozilla/5.0 (webOS/1.4.1.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.0"
+autogen-310,palm_pre_ver1_3_5,"Mozilla/5.0 (webOS/1.3.5; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0"
+autogen-311,palm_pre_ver1,"Mozilla/5.0 (webOS/1.0; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0"
+autogen-312,palm_pre_ver1_2_subemulator,"Mozilla/5.0 (webOS/1.2; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Desktop/1.0"
+autogen-313,palm_pixi_plus_1_4_0_5322,"Mozilla/5.0 (webOS/1.4.0; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.0"
+autogen-314,palm_pre_ver1_3,"Mozilla/5.0 (webOS/1.3.1; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0"
+autogen-315,palm_pre_ver1_2,"Mozilla/5.0 (webOS/1.2; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0"
+autogen-316,palm_pre_ver1_1,"Mozilla/5.0 (webOS/1.1; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0"
+autogen-317,palm_pixi_ver1,"Mozilla/5.0 (webOS/1.3.1; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pixi/1.0"
+autogen-318,palm_webos_1_3,"Mozilla/5.0 (webOS/1.3; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Desktop/1.0"
+autogen-319,samsung_behold_ii_ver1_subua,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; Behold2 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-320,samsung_behold_ii_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; Behold II Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-321,samsung_sph_m900_ver1_subcupcake528,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; SPH-M900 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-322,samsung_sph_m900_ver1_sub21,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; SPH-M900 Build/ECLAIR) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-323,samsung_sph_m900_ver1_subcupcake,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; SPH-M900 Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-324,samsung_sph_m900_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; SPH-M900) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-325,palm_pre_plus_1_3_4_FOO_THIS_HAS_TYPOS,"Mozilla/5.0  (webOS/1.3.4; U; en-US)  AppleWebkit/525.27.1 (KHTML, like Gecko)  Version/1.0 Safari/525.27.1  Pre/1.1"
+autogen-326,palm_pre_plus_ver1,"Mozilla/5.0 (webOS/1.3.5.1; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.1"
+autogen-327,palm_pre_plus_1_3_4,"Mozilla/5.0 (webOS/1.3.4; U; en-US) AppleWebkit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.1"
+autogen-328,palm_pre_plus_ver1_sub1411,"Mozilla/5.0 (webOS/1.4.1.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.1"
+autogen-329,palm_pre_ver1_albacore,"Mozilla/5.0 (webOS/Albacore; U; fr-FR) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.1"
+autogen-330,palm_pre_145_1,Palm Pre 1.0 webOS 1.4.5/na :: Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2
+autogen-331,palm_pixi_ver1_sub145_questi_4,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.0"
+autogen-332,palm_pixi_ver1_sub145_questi_1,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1"
+autogen-333,palm_pixi_ver1_sub145_questi_3,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.1"
+autogen-334,palm_pixi_ver1_sub145_questi_2,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.0"
+autogen-335,palm_pixi_plus_1_4_0_FOO_THIS_HAS_TYPOS,"Mozilla/5.0  (webOS/1.4.0; U;  en-US)AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0  Safari/532.2  Pixi/1.1"
+autogen-336,palm_pixi_plus_1_4_0,"Mozilla/5.0 (webOS/1.4.0; U; en-US) AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1"
+autogen-337,palm_pixi_plus_ver1,"Mozilla/5.0 (webOS/1.3.5.1; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pixi/1.1"
+autogen-338,palm_pixi_plus_ver1_sub1411,"Mozilla/5.0 (webOS/1.4.1.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1"
+autogen-339,mot_mb200_ver1_subua,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB200 Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-340,mot_mb200_ver1_subdemo,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB200-demo Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-341,mot_mb200_ver1,"MOT-MB200/Blur_Version.0.10.2.MB200.T-Mobile.en.US Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB200 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-342,mot_mb200_ver1_subua2,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB200 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-343,mb300_blur_android_1_5_att_1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB300 Build/Blur_Version.0.12.1151.MB300.ATT.en.US Flex/P012) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-344,moto_blur_mb300_blur_att_en_us_2,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB300 Build/Blur_Version0.12.1151.MB300.ATT.en.US Flex/PO12) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-345,moto_blur_mb300_blur_att_en_us_1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB300 Build/Blur_Version0.12.1151.MB300.ATT.en.US Flex/P012) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-346,moto_blur_mb300_blur_att_en_gb_1,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; MB300 Build/Blur_Version0.12.1151.MB300.ATT.en.US Flex/P012) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-347,moto_blur_mb300_blur_att_en_gb_2,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; MB300 Build/Blur_Version0.12.1151.MB300.ATT.en.US Flex/PO12) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-348,mot_mb300_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; MB300 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-349,google_ion_ver1,"Mozilla/5.0 (Linux; U; Android 1.6; zh-cn; Google Ion Build/DRC83) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-350,docomo_ht03a_ver1,"Mozilla/5.0 (Linux; U; Android 1.6; ja-jp; Docomo HT-03A Build/DRD08) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-351,blackberry_9800_mqmw2,"BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0 Mobile Safari/534.1+"
+autogen-352,blackberry_9800_mqmw,"Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0 Mobile Safari/534.1+"
+autogen-353,blackberry_9800_mqmw_root,BlackBerry; U; BlackBerry 9800;
+autogen-354,htc_incredible_adr6300_ver2,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; ADR6300 Build/ERE27) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-355,htc_incredible_adr6300_ver1,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; ADR6300 Build/ERE27) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-356,htc_incredible_ver1,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; inc) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-357,htc_incredible_ver1_adr6300_ver2,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; ADR6300 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-358,tmobile_opal_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile Opal Build/CRB2) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-359,htc_espresso_ver1,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; HTC Espresso Build/ERD35B) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-360,tmobile_espresso_ver1_subnobuild,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; espresso) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-361,tmobile_espresso_ver1,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; T-Mobile_Espresso Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-362,samsung_gt_i7500_ver1_subandroid16,"Mozilla/5.0 (Linux; U; Android 1.6; en-gb; Galaxy Build/Donut) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-363,samsung_gt_i7500_ver1_subengb,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; Galaxy Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-364,samsung_gt_i7500_ver1_subenus,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; GT-I7500) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-365,samsung_gt_i7500_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; GT-I7500) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-366,samsung_gt_i7500_ver1_subcupcake,"Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; Galaxy Build/CUPCAKE) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-367,samsung_gt_i7500_ver1_subcupcake_sub528itit,"Mozilla/5.0 (Linux; U; Android 1.5; it-it; Galaxy Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-368,samsung_gt_i7500_ver1_subcupcake_sub528eses,"Mozilla/5.0 (Linux; U; Android 1.5; es-es; Galaxy Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+autogen-369,samsung_sght959_ver1,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; SGH-T959 Build/ECLAIR) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-370,samsung_sght959_ver1_sub53017,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; SGH-T959 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+autogen-371,blackberry9700_ver1,BlackBerry9700/5.0.0.207 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/175
+autogen-372,blackberry9700_ver1_sub500743,BlackBerry9700/5.0.0.743 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/115
+autogen-373,blackberry9700_ver1_sub500321,BlackBerry9700/5.0.0.321 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/212
+autogen-374,blackberry9700_ver1_sub500261,BlackBerry9700/5.0.0.261 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/122
+autogen-375,blackberry9630_ver1,Blackberry9630/4.7.1.40 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/126
+autogen-376,blackberry9630_ver1_sub500643,BlackBerry9630/5.0.0.643 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105
+autogen-377,blackberry9630_ver1_subua,BlackBerry9630/4.7.1.40 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-378,blackberry_9630_sub47131,BlackBerry9630fts/4.7.1.31 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+autogen-379,verizon_blackberry9630_ver1,rim9630v1
+autogen-380,blackberry8900_ver1_sub461,BlackBerry8900/4.6.1
+autogen-381,blackberry8900_ver1_sub461101,BlackBerry8900/4.6.1.101 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/125
+autogen-382,blackberry8900_ver1_sub461109,BlackBerry8900/4.6.1.109 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-383,blackberry8900_ver1_sub461152,BlackBerry8900/4.6.1.152 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+autogen-384,blackberry8900_ver1_sub500411,BlackBerry8900/5.0.0.411 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/302
+autogen-385,blackberry8900_ver1,BlackBerry8900/4.6.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+autogen-386,blackberry8900_ver1_sub461_lcase,Blackberry8900/4.6.1
+autogen-387,blackberry8900_ver1_sub46194,BlackBerry8900/4.6.1.94 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107
+autogen-388,blackberry8900_ver1_sub46195,BlackBerry8900/4.6.1.95 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/115
+autogen-389,blackberry8900_ver1_sub46175,BlackBerry8900/4.6.1.75 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-390,blackberry8900_ver1_sub46176,BlackBerry8900/4.6.1.76 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/123
+autogen-391,blackberry8900_ver1_sub46166,BlackBerry8900/4.6.1.66 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/175
+autogen-392,blackberry8900_ver1_sub46145,BlackBerry8900/4.6.1.45 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-393,blackberry8220_ver1_sub460155_125,BlackBerry8220/4.6.0.155 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/125
+autogen-394,blackberry8220_ver1,BlackBerry8220/4.6.0.106 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/179
+autogen-395,blackberry8220_ver1_sub460155,BlackBerry8220/4.6.0.155 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-396,blackberry8220_ver1_sub460151,BlackBerry8220/4.6.0.151 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+autogen-397,blackberry8220_ver1_sub460165,BlackBerry8220/4.6.0.165 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-398,blackberry8220_ver1_sub460195,BlackBerry8220/4.6.0.195 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-399,nokia_n95_ver1_sub300015,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/30.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-400,nokia_n95_ver1_sub310017,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/31.0.017; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-401,nokia_n95_ver1_funnyua,NOKIAN95
+autogen-402,nokia_n95_ver1_sub310014,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/31.0.014; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-403,nokia_n95_ver1_subua,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/21.0.016; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-404,nokia_n95_ver1_sub130003,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/13.0.003 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-405,nokia_n95_ver1_sub100014,"Mozilla/5.0 (Symbianos/9.2; U; Series60/3.1 NokiaN95/10.0.014; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-406,nokia_n95_ver1_sub100018,Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/10.0.018; Profile/MIDP-2.0 Configuration/CLDC-1.1 )
+autogen-407,nokia_n95_ver1_sub100010,Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/10.0.010)
+autogen-408,nokia_n95_ver1_sub_reorder350002,"Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95/35.0.002; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-409,nokia_n95_ver1_sub_mozilla_c200015_no_semicolon,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/20.0.015 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-410,nokia_n95_ver1_sub_reorder310017,"Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95/31.0.017; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-411,nokia_n95_ver1_sub_reorder300015,"Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95/30.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-412,nokia_n95_ver1_sub310017nosemi,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/31.0.017 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-413,nokia_n95_ver1_sub300015nosemi,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/30.0.015 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-414,nokia_n95_ver1_sub3,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95-3/10.2.006; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-415,nokia_n95_ver1_sub_mozilla_c200015,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/20.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-416,nokia_n95_ver1_sub_mozilla_b,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/11.0.026; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-417,nokia_n95_ver1_sub_mozilla_c,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/12.0.013; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-418,nokia_n95_ver1_sub200273_jap,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/20.0.273 Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413 Nokia/X02NK"
+autogen-419,nokia_n95_ver1_sub100018_full,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/10.0.018; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-420,nokia_n95_ver1,NokiaN95
+autogen-421,nokia_n95_ver1_sub3_sub210016,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/21.0.016 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-422,nokia_n95_ver1_sub3_sub112009,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95-3/11.2.009; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-423,nokia_n95_ver1_sub_mozilla,Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95
+autogen-424,nokia_n95_ver1_sub3_sub202011,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95-3/20.2.011 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-425,nokia_n95_ver1_funnyua2,Nokia-N95
+autogen-426,nokia_n95_ver1_sub200015,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/20.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-427,nokia_n95_ver1_sub200016,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/20.0.016 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-428,nokia_n95_ver1_sub_8gb_fl3sub30,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/30.0.018; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-429,nokia_n95_ver1_sub_8gb_fl3sub20,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/20.0.016; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-430,nokia_n95_ver1_sub202011,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95-3/20.2.011; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-431,nokia_n95_ver1_sub150012,"Mozilla/5.0  (Symbian0S/9.2 U; Series60/3.1 NokiaN95_8GB/15.0.012 Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko/413)"
+autogen-432,nokia_n95_ver1_sub_8gb_c200016,"Mozilla/5.0 (SymbianOS/9.2; Series60/3.1 NokiaN95_8GB/20.0.016; Profile/MIDP-2.0 Configuration/CLDC-1.1 U; ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-433,nokia_n95_ver1_sub_mozilla_d,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/10.0.021; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-434,nokia_n95_8gb_ver1,"Mozilla/5.0 (SymbianOS/9.2 U; Series60/3.1 NokiaN95_8GB/10.0.007; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-435,nokia_n95_ver1_sub_8gb_300018,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/30.0.018 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-436,nokia_n95_ver1_sub_8gb_400002,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/40.0.002; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-437,nokia_n95_ver1_sub_8gb_vf3g,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/11.0.026; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-438,nokia_n95_ver1_sub_8gb_312008,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB-3/31.2.008 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-439,nokia_n95_ver1_sub_8gb_310015,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/31.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-440,nokia_n95_ver1_sub_8gb_fl3_sub312011,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB-3/1.2.011 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-441,nokia_n95_ver1_sub_8gb_fl3,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB/15.0.015; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-442,nokia_n95_ver1_sub_8gb_fl3_subusa,"Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95_8GB-3/20.2.005 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
+autogen-443,blackberry9530_ver1_sub470103,BlackBerry9530/4.7.0.103 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-444,blackberry9530_ver1subverizon,rim9530v1
+autogen-445,blackberry9530_ver1,BlackBerry9530/4.6.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-446,blackberry8130_ver1,BlackBerry8130/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/109
+autogen-447,blackberry8130_ver1_suballtel,blackberry8130
+autogen-448,blackberry8130_ver1_subua,BlackBerry8130m/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/179
+autogen-449,verizon_blackberry8130_ver1,rim8130v2
+autogen-450,blackberry8350i_ver1,BlackBerry8350i/4.6.1.83 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103
+autogen-451,blackberry8320_ver1_sub45081,BlackBerry8320/4.5.0.81 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+autogen-452,samsung_sch_a870_ver1,SCH-A870 UP.Browser/6.2.3.2 (GUI) MMP/2.0
+autogen-453,samsung_sch_a870_ver1_subverizon,sama870
+autogen-454,samsung_sgh_t939_ver1,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; SGH-T939) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+autogen-455,samsung_sph_m540_ver1_subparrot,SPH-M540-parrot/1.0 AU-MIC/2.0 (GUI) MMP/2.0
+autogen-456,samsung_sph_m540_ver1,SPH-M540/1.0 AU-MIC/2.0 (GUI) MMP/2.0
+autogen-457,samsung_sph_m540_ver1_subua,Samsung-SPHM540BST Polaris/6.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-458,samsung_sph_m540_ver1_subpolaris,Samsung-SPHM540 Polaris/6.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-459,samsung_sght919_ver1,SAMSUNG-SGH-T919/T919UVHI2 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1
+autogen-460,samsung_t919_ver1,SAMSUNG-SGH-T919/T919UVHL3 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
+autogen-461,samsung_sgh_i607_ver1_subfg1,SAMSUNG-SGH-I607/I607FG1 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)
+autogen-462,samsung_sgh_i607_ver1_subfg1_msie60,SAMSUNG-SGH-I607/I607FG1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Smartphone; 320x240)
+autogen-463,samsung_sgh_i607_ver1,SAMSUNG-SGH-I607/I607
+autogen-464,samsung_sch_i910_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x400) Opera VZW:SCH-i910
+autogen-465,samsung_sch_i910_ver1_subie711,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) VZW:SCH-i910 PPC 240x400
+autogen-466,verizon_samsung_sch_i910_ver1,sami910v1
+autogen-467,samsung_a707_ver1_subshpvppr5,SAMSUNG-SGH-A707/1.0 SHP/VPP/R5 NetFront/3.3 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1
+autogen-468,samsung_a707_ver1,SAMSUNG-SGH-A707
+autogen-469,lge_vx8350_ver1_subverizon,vx8350v1
+autogen-470,lge_vx8350_ver1,LGE-VX8350/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0
+autogen-471,verizon_lg_vx5400_ver,VX5400v1
+autogen-472,lg_vx5400_ver1,LGE-VX5400/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0
+autogen-473,verizon_lge_vx8550_ver1,VX8550v1
+autogen-474,lge_vx8550_ver1,LGE-VX8550/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0
+autogen-475,lg_cu500_ver1,LG-CU500
+autogen-476,lg_cu500_ver1_sub20,LG-CU500 Obigo/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-477,verizon_lge_vx8700_ver1,VX8700v1
+autogen-478,verizon_lge_vx9900_ver1,VX9900v1
+autogen-479,verizon_lge_vx9900_ver2,VX9900v2
+autogen-480,lge_vx9900_ver1,LGE-VX9900/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0
+autogen-481,lg_cx10000_ver1,Mozilla/4.1 (compatible; Teleca/Q05A/GS-CX10000)
+autogen-482,lg_cg225_ver1_sub,LG-CG225 UP.Browser/6.2.3 (GUI) MMP/1.0
+autogen-483,lg_cg225_ver1,LG-CG225
+autogen-484,mot_k1m_ver1_opwv6234,MOT-K1m/1.0 UP.Browser/6.2.3.4.c.1.116 (GUI) MMP/2.0
+autogen-485,mot_k1m_ver1_subparrot,MOT-K1m-parrot/1.0 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+autogen-486,mot_k1m_ver1_bell,Motorola-K1m UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+autogen-487,mot_e815_ver1,MOT-E815
+autogen-488,mot_8720_ver1,MOT-8720_
+autogen-489,mot_e815_ver1_subverizon,motoe815
+autogen-490,mot_e815_ver1_sub0062,MOT-E815_/00.62 UP.Browser/6.2.3.4.c.1.104 (GUI) MMP/2.0
+autogen-491,mot_8720_ver1_sub6234c1104,MOT-8720_/00.62 UP.Browser/6.2.3.4.c.1.104 (GUI) MMP/2.0
+autogen-492,mot_8720_ver1_sub0062,MOT-8720_/00.62 UP.Browser/6.2.3.4.c.1.102 (GUI) MMP/2.0
+autogen-493,mot_i880_ver1,MOT-A-6E/00.04 UP.Browser/7.0.2.2.c.1.108 (GUI) MMP/2.0
+autogen-494,mot_i880_ver1_sub0000,MOT-A-6E/00.00 UP.Browser/7.0.2.2.c.1.108 (GUI) MMP/2.0
+autogen-495,mot_w385_ver1_subua,MOT-W385/1.0 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+autogen-496,mot_w385_ver1_sub00,Motorola-w385 Obigo/Q04C1 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-497,mot_w385_ver1_subjfjko,MOT-JFJK0/00.62 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+autogen-498,mot_jfjkn_ver1,MOT-JFJKN/00.62 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+autogen-499,mot_w385_ver1_subparrot,MOT-W385-parrot/1.0 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+autogen-500,verizon_mot_w385_ver1,motow385
+autogen-501,mot_w385_ver1,MOT-W385m/00.62 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+autogen-502,mot_v3m_ver1_sub6234c1112,MOT-GATW_/00.62 UP.Browser/6.2.3.4.c.1.112 (GUI) MMP/2.0
+autogen-503,mot_v3m_ver1,MOT-GATW
+autogen-504,mot_v3_ver1_metropcs,MOT-NCR_0/00.62 UP.Browser/6.2.3.4.c.1.115 (GUI) MMP/2.0
+autogen-505,mot_v3mobigo_ver1,Motorola-V3m Obigo/Q04C1 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-506,mot_v3m_razr_ff_novarra_8,Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20 Novarra-Vision/8.0
+autogen-507,mot_v3c_ver1,MOT-V3c/1.2 UP.Browser/6.2.3.4.c.1.109 (GUI) MMP/2.0
+autogen-508,mot_v3c_ver1_subverizon,motov3
+autogen-509,mot_v325_verizon_ver1,MOT-MLNBT/00.62 UP.Browser/6.2.3.4.e.1.100 (GUI) MMP/2.0
+autogen-510,mot_v325_ver1,MOT-V325
+autogen-511,mot_v325_ver1_sub6234e1100,MOT-R9-1_/00.62 UP.Browser/6.2.3.4.e.1.100 (GUI) MMP/2.0
+autogen-512,mot_v325_ver1_subverizon,motov325
+autogen-513,motorola_i465_ver1,MOT-A-A4/00.00 UP.Browser/7.0.2.2.c.1.120 (GUI) MMP/2.0
+autogen-514,nokia_6102_ver1,Nokia6102
+autogen-515,nokia_6102_ver1_sub0338,Nokia6102/2.0 (03.38) Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-516,nokia_6102i_ver1,Nokia6102i
+autogen-517,palm_treo755p_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D060; Blazer/4.5) 16;320x320
+autogen-518,blackberry8830_ver1_sub1_subua,BlackBerry8830m/4.5.0.135 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+autogen-519,blackberry8830_ver1,BlackBerry8830/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-520,blackberry8830_ver2,BlackBerry8830/4.2.2 Profile/MIDP-2.0 Configuration/CLOC-1.1 VendorID/105
+autogen-521,blackberry8830_ver1_sub1,BlackBerry8830/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/-1
+autogen-522,blackberry8830_ver1_suballtel,blackberry8830
+autogen-523,blackberry8830_ver1_sub126,BlackBerry8830/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/126
+autogen-524,blackberry8830_ver1_sub189,BlackBerry8830/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/189
+autogen-525,blackberry8830_ver1_sub422,BlackBerry8830/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+autogen-526,blackberry8830_ver1_sub450138,BlackBerry8830/4.5.0.138 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-527,blackberry8700_sub421102,BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+autogen-528,blackberry8700_sub302410154,Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; PPC; 240x320) BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/154
+autogen-529,blackberry8700_sub302410119,Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; PPC; 240x320) BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/119
+autogen-530,blackberry8700_ver1_120,BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-531,blackberry8700_ver1,BlackBerry8700/4.1.0
+autogen-532,blackberry8700_ver1_sub410,BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/142
+autogen-533,blackberry8700_sub421,BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/183
+autogen-534,blackberry8703e_ver1,BlackBerry8703e
+autogen-535,blackberry8703e_ver1_sub410,BlackBerry8703e/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-536,blackberry8703e_ver1_sub421,BlackBerry8703e/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/109
+autogen-537,blackberry8703e_ver1_alltel,blackberry8703e
+autogen-538,blackberry8530_ver1,BlackBerry8530/5.0.0.337 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105
+autogen-539,verizon_blackberry8530_ver1,rim8530
+autogen-540,blackberry8520_ver1_subvodafone,BlackBerry8520/4.6.1.272 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-541,blackberry8520_ver1_sub461272,BlackBerry8520/4.6.1.272 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/121
+autogen-542,blackberry8520_ver1,BlackBerry8520/4.6.1.259 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+autogen-543,blackberry8310_ver1_rogers_ie,Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; PPC; 240x320) BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107
+autogen-544,blackberry8310_ver1_sub132,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/132
+autogen-545,blackberry8310_ver1_sub120,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-546,blackberry8310_ver1_sub102,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+autogen-547,blackberry8310_ver1_sub214,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/214
+autogen-548,blackberry8310_ver1_rogers,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107
+autogen-549,blackberry8320_ver1_sub45081,BlackBerry8320/4.5.0.81 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+autogen-550,blackberry8330_ver1_subm,BlackBerry8330m/4.5.0.131 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+autogen-551,blackberry8330_ver1,BlackBerry8330/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-552,blackberry8330_ver1_suballtel,blackberry8330
+autogen-553,blackberry8330_ver1_105,BlackBerry8330/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-554,blackberry8330m_ver1,BlackBerry8330m/4.5.0.169 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/189
+autogen-555,blackberry8330_ver1_sub45077,Blackberry8330/4.5.0.77 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-556,blackberry8330_ver1_subverizon,rim8330v1
+autogen-557,blackberry8330_ver1_sub45077_179,BlackBerry8330/4.5.0.77 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/179
+autogen-558,blackberry8330_ver1_sub45077_105,BlackBerry8330/4.5.0.77 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+autogen-559,blackberry8100_ver1_sub420_vendor214,BlackBerry8100/4.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/214
+autogen-560,blackberry8100_ver1_sub420_vendor100,BlackBerry8100/4.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+autogen-561,blackberry8100_ver1_sub421_vendor100,BlackBerry8100/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+autogen-562,blackberry8100_ver1_sub421_vendor102,BlackBerry8100/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+autogen-563,blackberry8100_ver1_sub421_vendor123,BlackBerry8100/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/123
+autogen-564,blackberry8100_ver1_sub102,BlackBerry8100/4.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+autogen-565,blackberry8100_ver1_sub134,BlackBerry8100/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/134
+autogen-566,blackberry8100_ver1_sub421,BlackBerry8100/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107
+autogen-567,blackberry8100_ver1_sub420,BlackBerry8100/4.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/125
+autogen-568,htc_6850_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) USCCHTC6850
+autogen-569,htc_s621_ver1_subua,HTC-S621
+autogen-570,htc_s621_ver1,HTC_S621 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)
+autogen-571,htc_s621_ver1_submoz,HTCS621-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)
+autogen-572,tmobile_dash_ver1_subie612,Mozilla/4.0 (compatible;MSIE 6.0; Windows CE; IEMobile 6.12) T-Mobile Dash
+autogen-573,tmobile_dash_ver1_subie612_subua,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) T-Mobile Dash
+autogen-574,tmobile_dash_ver1,T-Mobile Dash Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240)
+autogen-575,tmobile_dash_3g_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) T-Mobile_Maple
+autogen-576,tmobile_mda_pro_ver1_sub12,Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.2 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+autogen-577,tmobile_mda_pro_ver1_sub13,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 480x640; MDA Pro/1.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-578,tmobile_mda_pro_ver1_sub11,Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+autogen-579,tmobile_mda_pro_ver1,Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+autogen-580,lg_cu920_ver1_subv10p,LG-CU920/V1.0p Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-581,lg_cu920_ver1_subv10s,LG-CU920/V1.0s Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-582,lg_cu920_ver1,LG-CU920/V0.9 Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-583,lg_cu720_ver1,LG-CU720/V0.9 Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-584,lg_260_ver1,LGE-LG260 POLARIS-LG260/2.0(GUI) MMP/2.0
+autogen-585,lg_260_ver1_subua,LG-LG260 POLARIS-LG260/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-586,lg_lx260_ver1,LG-LX260 POLARIS-LX260/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-587,lg_lx260_ver2,LGE-LG26B P0I_flRIS-LG268/2.8(GUI) MMP/2.8
+autogen-588,lg_lx260_ver1_subembider,LG-LX260 EMBIDER-LX260/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-589,lg_vx9600_ver1,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X480 LGE VX9600
+autogen-590,lg_vx9600_ver1_subverizon,vx9600v1
+autogen-591,lge_vx9800_ver1_subverizon,VX9800v1
+autogen-592,lge_vx9800_ver1,LGE-VX9800
+autogen-593,lg_vx9200_ver1_subverizon,VX9200v1
+autogen-594,lg_vx9200_ver1,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 320X240 LGE VX9200
+autogen-595,lg_vx9200_ver1_FOO_THIS_HAS_TYPOS,Mozilla/5.0  (compatible; Teleca Q7; Brew 3.1.5; U; en) 320X240 LGE  VX9200
+autogen-596,lg_ux840_ver1,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X400 LGE UX840
+autogen-597,lg_lx600_ver1,LG-LX600 Polaris/6.0 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-598,verizon_lg_vx9100_ver1,VX9100v1
+autogen-599,lg_vx9100_ver1,LGE-VX9100/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0
+autogen-600,mot_q9c_ver1_vzw_subie711_subua,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) 320x240; VZW; Motorola-Q9c; Windows Mobile 6.0 Standard
+autogen-601,mot_q9c_ver1_alltel_subua,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Alltel:MotoQ9c
+autogen-602,mot_q9c_ver1_subpls,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) PLS:MotoQ9c
+autogen-603,mot_q9c_ver1_sprint,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) Sprint:MotoQ9c
+autogen-604,mot_q9c_ver1_vzw,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) 320x240; VZW; Motorola-Q9c; Windows Mobile 6.0 Standard
+autogen-605,mot_q9c_ver1_alltel,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.7) Alltel:MotoQ9c
+autogen-606,mot_q9c_ver1_vzw_subie711,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) 320x240; VZW; Motorola-Q9c; Windows Mobile 6.1 Standard
+autogen-607,mot_q9c_ver1_sprint_subie711,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Sprint:MotoQ9c
+autogen-608,mot_v3mobigo_ver1,Motorola-V3m Obigo/Q04C1 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-609,mot_v3m_razr_ff_novarra_8,Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20 Novarra-Vision/8.0
+autogen-610,mot_v3m_ver1_sub6234c1112,MOT-GATW_/00.62 UP.Browser/6.2.3.4.c.1.112 (GUI) MMP/2.0
+autogen-611,mot_v3m_ver1,MOT-GATW
+autogen-612,mot_v3_ver1_metropcs,MOT-NCR_0/00.62 UP.Browser/6.2.3.4.c.1.115 (GUI) MMP/2.0
+autogen-613,nokia_7610_ver1,Nokia7610
+autogen-614,nokia_7610_ver2,Nokia7610/2.0
+autogen-615,nokia_7610_ver1_sub706420,Nokia7610/2.0 (7.0642.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+autogen-616,nokia_7610_ver1_sub605220,Nokia7610/2.0 (6.0522.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+autogen-617,nokia_7610_ver1_sub404214,Nokia7610/2.0 (4.0421.4) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+autogen-618,nokia_7610_ver1_sub304170,Nokia7610 (3.0417.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+autogen-619,nokia_7610_ver1_sub304250,Nokia7610/2.0 (3.0425.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+autogen-620,nokia_7610_ver1_sub080509,Nokia7610/080509 LMP/SH Release Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-621,nokia_7610_ver1_sub20304170ch,Nokia7610/2.0 (3.0417.0ch) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+autogen-622,nokia_7610_supernova_ver1,Nokia7610Supernova/2.0 (04.70) Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-623,nokia_7610_supernova_ver1_sub0520,Nokia7610Supernova/2.0 (05.20) Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-624,nokia_7610_supernova_ver1_sub0572,Nokia7610Supernova/2.0 (05.72) Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-625,nokia_7610_supernova_ver1_sub0482,Nokia7610Supernova/2.0 (04.82) Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-626,samsung_sch_i910_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x400) Opera VZW:SCH-i910
+autogen-627,samsung_sch_i910_ver1_subie711,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) VZW:SCH-i910 PPC 240x400
+autogen-628,verizon_samsung_sch_i910_ver1,sami910v1
+autogen-629,samsung_r430_ver1,SCH-R430 UP.Browser/6.2.3.8 (GUI) MMP/2.0
+autogen-630,verizon_samsung_sch_u450_ver1,samu450
+autogen-631,samsung_sch_u450_ver1_subua,sam-u450 UP.Browser/6.2.3.8 (GUI) MMP/2.0
+autogen-632,samsung_sch_u450_ver1,SCH-U450/1.0 NetFront/3.0.22.2.20 (GUI) MMP/2.0
+autogen-633,samsung_sgh_a867_ver1,SAMSUNG-SGH-A867/A867UCHJ3 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1
+autogen-634,samsung_sgh_t929_ver1,SAMSUNG-SGH-T929/T929UVLA2 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
+autogen-635,samsung_sph_m540_ver1_subparrot,SPH-M540-parrot/1.0 AU-MIC/2.0 (GUI) MMP/2.0
+autogen-636,samsung_sph_m540_ver1,SPH-M540/1.0 AU-MIC/2.0 (GUI) MMP/2.0
+autogen-637,samsung_sph_m800_ver1,TELECA-/2.0 (BREW 3.1.5; U; EN-US; SAMSUNG; SPH-M800; Teleca/Q05A/INT) MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-638,samsung_sph_m800_ver1_telusmobility,SPH-M800/1.0 AU-MIC/2.0 (GUI) MMP/2.0
+autogen-639,samsung_sph_m800_ver1_subua,Mozilla/4.1 (U; BREW 3.1.5; en-US; Teleca/Q05A/INT)
+autogen-640,samsung_sph_m800_ver1_subbellmobility,Samsung-SPHM800 AU-OBIGO/Q05A-3.13 MMP/2.0
+autogen-641,samsung_sph_m800_ver1_subbellmobility2,Mozilla/4.1 (U; BREW 3.1.5; en-US; Teleca/Q05A/INT/SAM-M800)
+autogen-642,utstar_xv6175_ver1_sub2,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240; VZW; UTStar-XV6175.1; Windows Mobile 6.5 Standard;
+autogen-643,utstar_xv6175_ver1_sub1,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; XV6175.1)
+autogen-644,utstar_xv6175_ver1_sub1_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows NT 5.1; XV6175.1)
+autogen-645,utstar_xv6175_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240; VZW; UTStar-XV6175; Window Mobile 6.1 Standard;
+autogen-646,utstar_xv6175_ver1_sub2_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240;  VZW; UTStar-XV6175.1; Windows Mobile 6.5 Standard;
+autogen-647,nokia_n97_ver1_subn1001,"Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 NokiaN97-1/1001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525"
+autogen-648,nokia_n97_ver3_sub102012,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-3/10.2.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344"
+autogen-649,nokia_n97_ver1_sub200019,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124"
+autogen-650,nokia_n97_ver1_sub200009,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.009; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17475"
+autogen-651,nokia_n97_ver1_sub200007,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.007; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17475"
+autogen-652,nokia_n97_ver1_sub200004,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.004; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.16988"
+autogen-653,nokia_n97_ver1_sub200011,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.011; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17972"
+autogen-654,nokia_n97_ver1_sub201021,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97/20.1.021; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124"
+autogen-655,nokia_n97_ver1_sub110021,N97-1/11.0.021; Series60/5.0 Profile MIDP2.1 Configuration/CLDC-1.1
+autogen-656,nokia_n97_ver1_sub110020,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/11.0.020; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344"
+autogen-657,nokia_n97_ver1_sub120026,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/12.0.026; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.13841"
+autogen-658,nokia_n97_ver1_sub120024,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/12.0.024; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344"
+autogen-659,nokia_n97_ver1_sub100012,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344"
+autogen-660,nokia_n97_ver1_sub100001,"Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 NokiaN97-1/10.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525"
+autogen-661,nokia_n97_ver1_sub3_200019,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-3/20.2.019; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124"
+autogen-662,nokia_n97_ver1_sub1110021,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/11.0.021; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344"
+autogen-663,nokia_n97_ver4_sub100010,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.010; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17475"
+autogen-664,nokia_n97_ver4_sub100012,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17972"
+autogen-665,nokia_n97_ver4_sub100013,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.013; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17972"
+autogen-666,nokia_n97_ver4_sub100007,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.007; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17475"
+autogen-667,nokia_n97_ver4_sub100008,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.008; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17475"
+autogen-668,nokia_n97_ver4_sub100006,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.006; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.17125"
+autogen-669,nokia_n97_ver4_sub100004,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.004; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.16988"
+autogen-670,nokia_n97_ver4_sub100001,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-4/10.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.14650"
+autogen-671,nokia_n97_ver1,"Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 NokiaN97/10.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525"
+autogen-672,blackberry8700_sub421102,BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+autogen-673,blackberry8700_sub302410154,Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; PPC; 240x320) BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/154
+autogen-674,blackberry8700_sub302410119,Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; PPC; 240x320) BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/119
+autogen-675,blackberry8700_ver1_120,BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-676,blackberry8700_ver1,BlackBerry8700/4.1.0
+autogen-677,blackberry8700_ver1_sub410,BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/142
+autogen-678,blackberry8700_sub421,BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/183
+autogen-679,blackberry8700c_ver1,BlackBerry8700c
+autogen-680,blackberry8700r_ver1,BlackBerry8700r
+autogen-681,blackberry8700f_ver1,BlackBerry8700f
+autogen-682,blackberry8700v_ver1,BlackBerry8700v
+autogen-683,blackberry8703_ver1,BlackBerry8703
+autogen-684,blackberry8707_ver1,BlackBerry8707
+autogen-685,blackberry8707_ver1_sub421,BlackBerry8707/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/116
+autogen-686,blackberry8707_ver1_sub422,BlackBerry8707/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-687,blackberry8707_ver1_sub150,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) BlackBerry8707/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/150
+autogen-688,blackberry8707_sub4102011153,BlackBerry8707/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/153
+autogen-689,blackberry8707_sub4102011128,BlackBerry8707/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/128
+autogen-690,blackberry8707v_ver1,BlackBerry8707v
+autogen-691,blackberry8700g_ver1,BlackBerry8700g
+autogen-692,blackberry9000_ver1_sub460162_142,BlackBerry9000/4.6.0.162 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/142
+autogen-693,blackberry9000_ver1_sub460162_123,BlackBerry9000/4.6.0.162 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/123
+autogen-694,blackberry9000_ver1_sub460162_302,BlackBerry9000/4.6.0.162 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/302
+autogen-695,blackberry9000_ver1_sub460126,BlackBerry9000/4.6.0.126 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/222
+autogen-696,blackberry9000_ver1_sub500348,BlackBerry9000/5.0.0.348 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/179
+autogen-697,blackberry9000_ver1_sub460185,BlackBerry9000/4.6.0.185 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/115
+autogen-698,blackberry9000_ver1_sub460162,BlackBerry9000/4.6.0.162 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-699,blackberry9000_ver1_sub460166,BlackBerry9000/4.6.0.166 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-700,blackberry9000_ver1_sub460165,BlackBerry9000/4.6.0.65 Profile/MIDP-2.0 (compatible; ips-agent) Configuration/CLDC-1.1 VendorID/102
+autogen-701,blackberry9000_ver1_sub460221,BlackBerry9000/4.6.0.221 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/125
+autogen-702,blackberry9000_ver1_sub460216,BlackBerry9000/4.6.0.216 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/123
+autogen-703,blackberry9000_ver1,BlackBerry9000
+autogen-704,lg_vx9200_ver1_subverizon,VX9200v1
+autogen-705,lg_vx9200_ver1,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 320X240 LGE VX9200
+autogen-706,lg_vx9200_ver1_FOO_THIS_HAS_TYPOS,Mozilla/5.0  (compatible; Teleca Q7; Brew 3.1.5; U; en) 320X240 LGE  VX9200
+autogen-707,lg_vx9700_ver1,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X400 LGE VX9700
+autogen-708,lg_vx9700_ver1_subverizon,vx9700v1
+autogen-709,blackberry8120_ver1,BlackBerry8120/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-710,blackberry8120_ver1_sub45052,BlackBerry8120/4.5.0.52 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/142
+autogen-711,blackberry9550_ver1_713,BlackBerry9550/5.0.0.713 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105
+autogen-712,blackberry9550_ver1,BlackBerry9550/5.0.0.320 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105
+autogen-713,verizon_blackberry9550_ver1,rim9550
+autogen-714,blackberry9500_ver1_sub47051,BlackBerry9500/4.7.0.51 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-715,blackberry9500_ver1_sub47056,BlackBerry9500/4.7.0.56 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-716,blackberry9500_ver1_sub47041,BlackBerry9500/4.7.0.41 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/-1
+autogen-717,blackberry9500_ver1_sub47046,BlackBerry9500/4.7.0.46 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/133
+autogen-718,blackberry9500_ver1_sub47078,BlackBerry9500/4.7.0.78 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/139
+autogen-719,blackberry9500_ver1_sub47061,BlackBerry9500/4.7.0.61 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-720,blackberry9500_ver1_sub47065,BlackBerry9500/4.7.0.65 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/139
+autogen-721,blackberry9500_ver1_sub47087,BlackBerry9500/4.7.0.87 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/139
+autogen-722,blackberry9500_ver1_sub470141,BlackBerry9500/4.7.0.141 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/120
+autogen-723,blackberry9500_ver1,BlackBerry9500/4.7.0.34 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-724,blackberry8230f_ver1,BlackBerry8230f/4.6.1.236 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/294
+autogen-725,blackberry8230_ver1,BlackBerry8230/4.6.1.100 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/1
+autogen-726,lg_gr500_ver1_subobigo71,LG-GR500FD/V10a Teleca/Q7.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-727,lg_gr500_ver1,LG-GR500/V10f Teleca/Q7.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
+autogen-728,samsung_sch_i770_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) VZW:SCH-i770 PPC 320x320
+autogen-729,mot_qa30_ver1,MOT-QA30/00.72 UP.Browser/7.2.7.5.546 (GUI) MMP/2.0
+autogen-730,mot_qa30_ver1_subua,Motorola-QA30 UP.Browser/7.2.7.5.540 (GUI) MMP/2.0
+autogen-731,mot_qa30_ver1_subraspb,MOT-RASPB/00.72 UP.Browser/7.2.7.5.598 (GUI) MMP/2.0
+autogen-732,samsung_sgh_t749_ver1,SAMSUNG-SGH-T749/T749UVIF3 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
+autogen-733,htc_touch_pro_ver1_alltel,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Opera/9.5) Alltel HTC Touch Pro
+autogen-734,htc_touch_pro_ver1,HTC_Touch_Pro_T7272 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+autogen-735,htc_touch_pro_ver1_suballtel,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Alltel HTC Touch Pro
+autogen-736,htc_6850sp_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Sprint PPC6850SP
+autogen-737,ms_mobile_browser_ver1_submsie401240320,Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)
+autogen-738,paml_centro_ver2_1,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D062; Blazer/4.5) Palm 690p 16;320x320
+autogen-739,palm_centro_ver2,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D062; Blazer/4.5) 16;320x320
+autogen-740,palm_centro_ver1_subgsm,PalmCentro/v0001/RC1 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320
+autogen-741,palm_centro_ver2_sub1,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D062; Blazer/4.5) PalmCentro; 16;320x320
+autogen-742,palm_centro_gsm_ver1_1,PalmCentro/v0001 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320
+autogen-743,palm_treo_850_ver1_submoz40,Palm850/v0100 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+autogen-744,palm_treo_850_ver1,Treo850/v0100 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+autogen-745,palm_treo_850e_ver1_subua,Treo850e/v0100 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)
+autogen-746,palm_treo_850e_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) Alltel_Treo850e
+autogen-747,palm_treo_850e_ver1_subsprint,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) Sprint Treo850e
+autogen-748,samsung_sgh_a767_ver1,SAMSUNG-SGH-A767/1.0 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1
+autogen-749,lg_ux840_ver1,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X400 LGE UX840
+autogen-750,palm_treo700p_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D052; Blazer/4.5) 16;320x320
+autogen-751,palm_treo700p_ver1_mpr_FOO_THIS_HAS_TYPOS,MPR/1.0 (PalmOS  v. 5.4.9)
+autogen-752,palm_treo700p_ver1_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D052; Blazer/4.5)  16;320x320
+autogen-753,palm_treo700p_ver1_mpr,MPR/1.0 (PalmOS v. 5.4.9)
+autogen-754,palm_treo_700vx_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) Treo700wx
+autogen-755,lg_vx9600_ver1,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X480 LGE VX9600
+autogen-756,lg_vx9600_ver1_subverizon,vx9600v1
+autogen-757,htc_touch_viva_t2223_ver1_subopera950,HTC_Touch_Viva_T2223 Opera/9.50 (Windows NT 5.1; U; en)
+autogen-758,htc_touch_viva_t2223_ver1,HTC_Touch_Viva_T2223 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+autogen-759,htc_opal100_ver1,HTC_OPAL100_DO_NOT_MATCH
+autogen-760,htc_touch_p3450_ver1_opver231161611,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC P3450; OpVer 23.116.1.611
+autogen-761,htc_touch_p3450_ver1_subvodafone_subua,Vodafone/1.0/HTC_Elf/1.15.162.1
+autogen-762,htc_touch_p3450_ver1_opver231141611,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC P3450; OpVer 23.114.1.611
+autogen-763,htc_touch_p3450_ver1_subua,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC P3450
+autogen-764,htc_touch_p3450_ver1_sub231022741,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC P3450; OpVer 23.102.2.741
+autogen-765,htc_touch_p3450_ver1_extraua,HTC-P3450
+autogen-766,htc_touch_p3450_ver1_suborange_subua,HTC-P3450-orange/PPC; 240x320; OpVer 23.221.2.741 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)
+autogen-767,htc_touch_p3450_ver1_subie76,PPC; 240x320; HTC_P3450/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)
+autogen-768,htc_touch_p3450_ver1_subvodafone_subie76,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) Vodafone/1.0/HTC_Elf/2.20.164.2
+autogen-769,htc_touch_p3450_ver1_subie76_subwhite,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) PPC; 240x320; HTC P3450 White; OpVer 23.227.1.801
+autogen-770,htc_touch_p3450_ver1_subie711,PPC; 240x320; HTC_P3450/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+autogen-771,htc_touch_p3450_ver1_subvodafone,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_Elf
+autogen-772,htc_touch_p3450_ver1_subua_uscore,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC_P3450/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-773,htc_touch_p3450_ver1_suborange,HTC-P3450-orange/PPC; 240x320; OpVer 23.114.2.741 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)
+autogen-774,htc_touch_p3450_ver1_funnyua4,240x320; HTC P3450; OpVer 23.116.1.611
+autogen-775,htc_touch_p3450_ver1_funnyua5,HTC P3450/2.20.621.1 Mozilla/4.0 Profile/MIDP-2.0
+autogen-776,htc_touch_p3450_ver1_subie76_sub2322115751,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) PPC; 240x320; HTC P3450; OpVer 23.221.15.751
+autogen-777,htc_touch_p3450_ver1,PPC; 240x320; HTC_P3450/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)
+autogen-778,htc_touch_p3450_ver1_subie76_sub232211611,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) PPC; 240x320; HTC P3450; OpVer 23.221.1.611
+autogen-779,htc_touch_p3450_ver1_subie76_sub232272792,HTC-P3450-Ten/PPC; 240x320; OpVer 23.227.2.792 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)
+autogen-780,htc_touch_p3451_ver1,PPC; 240x320; HTC_P3451/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)
+autogen-781,lg_cu915_ver1,LG-CU915/V0.9 Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1
+autogen-782,lg_cu915_ver2,LG-CU915/ Vl.Oh Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.20.0
+autogen-783,palm_treo700p_ver1_subhsprd052,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/hspr-D052; Blazer/4.5) 16;320x320
+autogen-784,palm_treo700p_ver1_subhsprd052_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows 98; PalmSource/hspr-D052; Blazer/4.5)  16;320x320
+autogen-785,lg_260_ver1_subopwv62,LGE-LG260/1.0 UP.Browser/6.2.3.8 (GUI) MMP/2.0,
+autogen-786,samsung_sgh_i617_ver1_subua,SAMSUNG-SGH-I617,
+autogen-787,samsung_sgh_i617_ver1,SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12),
+autogen-788,samsung_sgh_i617_ver1_subie76,SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6),
+autogen-789,htc_touch_pro2_ver1,HTC_Touch_Pro2_T7373 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0),
+autogen-790,htc_touch_pro2_ver1_subopera97,HTC_Touch_Pro2_T7373 Opera/9.7 (Windows NT 5.1; U; es-ES),
+autogen-791,htc_touch_pro2_ver1_subopera95,HTC_Touch_Pro2_T7373 Opera/9.50 (Windows NT 5.1; U; en),
+autogen-792,htc_touch_pro_ver1_subopera950_subvodafone,Vodafone/1.0/ HTC_Touch_ Pro Opera/9.50 (Windows NT 5.1; U; de),
+autogen-793,htc_touch_pro_ver1_subopera950,HTC_Touch_Pro_T7272 Opera/9.50 (Windows NT 5.1; U; en),
+HTC Touch Pro,HTC Touch Pro,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11),
+HTC Touch Pro Sprint VDL,Touch Pro/T7272/TyTn III,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Opera/9.5) Alltel HTC Touch Pro,
+DA 1.318.262.9051,palm_treo700p_ver1,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D052; Blazer/4.5) 16;320x320,
+Palm Treo 700p UA1,palm_treo700p_ver1_subhsprd052,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/hspr-D052; Blazer/4.5) 16;320x320,
+Palm Treo 700p UA2,palm_treo700p_ver1_mpr,MPR/1.0 (PalmOS v. 5.4.9),
+BB-9800,blackberry_9800_mqmw,Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0 Mobile Safari/534.1+
+BB-9800,blackberry_9800_mqmw,Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.1.0 Mobile Safari/534.1+
+BB-9800,blackberry_9800_mqmw,Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.1 Mobile Safari/534.1+
+BB-9000,,BlackBerry9000/4.6.0.167 Profile/MIDP-2.0  Configuration/CLDC-1.1 VendorID/102 UP.Link.6.3.1.20.0,
+BB-9000,,BlackBerry9000/4.6.0304 Profile/MIDP-2.0  Configuration/CLDC-1.1 VendorID/102  UP.Link/6.3.1.20.06.3.1.20.0,
+BB-9000,,BlackBerry9000/4.6.0.167 Profile/MIDP-2.0  Configuration/CLDC-1.1 VendorID/102,
+BB-9000,,BlackBerry9000/4.6.0.304 Profile/MIDP-2.0  Configuration/CLDC-1.1 VendorID/102,
+BB-9000,,BlackBerry9000/4.6.0.297 Profile/MIDP-2.0  Configuration/CLDC-1.1 VendorID/102  UP.Link/6.3.1.20.06.3.1.20.0,
+BB-9000,,BlackBerry9000/4.6.0.266 Profile/MIDP-2.0  Configuration/CLDC-1.1 VendorID/120,
+BB-8700,,BlackBerry8700/4.5.0.182 Profile/MIDP-2.0  Configuration/CLDC-1.1 VendorID/102,
+BB-8700,,BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1  VendorID/100,
+Palm Treo 700p (extra spaces),palm_treo700p_ver1_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D052; Blazer/4.5)  16;320x320,
+Palm Treo 700p HSPR  (extra spaces),palm_treo700p_ver1_subhsprd052_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows 98; PalmSource/hspr-D052; Blazer/4.5)  16;320x320,
+Palm Treo 700p MPR (extra spaces),palm_treo700p_ver1_mpr_FOO_THIS_HAS_TYPOS,MPR/1.0 (PalmOS  v. 5.4.9),
+LG VX 9200 (extra spaces),lg_vx9200_ver1_FOO_THIS_HAS_TYPOS,Mozilla/5.0  (compatible; Teleca Q7; Brew 3.1.5; U; en) 320X240 LGE  VX9200,
+UT Starcom XV6175 1,utstar_xv6175_ver1_sub1,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; XV6175.1),
+UT Starcom XV6175 1 (extra spaces),utstar_xv6175_ver1_sub1_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows NT 5.1; XV6175.1),
+UT Starcom XV6175 2,utstar_xv6175_ver1_sub2,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240; VZW; UTStar-XV6175.1; Windows Mobile 6.5 Standard;,
+UT Starcom XV6175 2 (extra spaces),utstar_xv6175_ver1_sub2_FOO_THIS_HAS_TYPOS,Mozilla/4.0  (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240;  VZW; UTStar-XV6175.1; Windows Mobile 6.5 Standard;
+Beth's Droid Eris,na,"Mozilla/5.0 (Linux; U; Android 2.1; en-us; ADR6200 Build/ERD79) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+DroidX Android 2.2 533.1,na,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; DROIDX Build/VZW) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 480X854 motorola DROIDX"
+Moto Backflip MB300_1,na,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB300 Build/Blur_Version.0.12.1151.MB300.ATT.en.US Flex/PO12) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+Moto Backflip MB300_2,na,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB300 Build/Blur_Version.0.12.1151.MB300.ATT.en.US Flex/P012) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+Moto Backflip (blur version),na,"MOT-MB300/Blur_Version.0.0.1.MB300.ATT.en.US Mozilla/5.0 (Linux; U; Android 1.5; en-us; MB300 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+Moto Backflip (blur version) AmericaMovil,na,"MOT-MB300/Blur_Version.0.0.1.motus.AmericaMovil.en.BR Mozilla/5.0 (Linux; U; Android 1.5; es-es; MB300 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+HTC Google Nexus one 2.2,na,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+Moto Droid 2.0,na,"Mozilla/5.0 (Linux; U; Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+Moto Droid 2.0.1,na,"Mozilla/5.0 (Linux; U; Android 2.0.1; en-us; Droid Build/ESD56) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+Moto Droid 2.2,na,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; Droid Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+Palm Pixi webOS 1.4.5,na,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1"
+Palm Pre 1.0 webOS 1.4.5,na,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.0"
+Palm Pre 1.1 webOS 1.4.5,na,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.1"
+TMobile myTouch 1.5,na,"Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile myTouch 3G Build/CRB57) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+TMobile myTouch 1.6,na,"Mozilla/5.0 (Linux; U; Android 1.6; en-us; T-Mobile myTouch 3G Build/DMD64) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
+TMobile HTC Espresso,na,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; T-Mobile_Espresso Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+TMobile G2,na,"Mozilla/5.0 (Linux; U; Android 1.5; en-gb; T-Mobile G2 Touch Build/CUPCAKE) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+HTC S621,S621,HTC_S621 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12)
+LG UX-840 Tritan (US Cellular),LG UX840,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X400 LGE UX840
+LG VX 9200,VX-9200,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 320X240 LGE VX9200
+LG VX-9700/Dare,LG VX 9700,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X400 LGE VX9700
+?,LG VX 9600,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X480 LGE VX9600
+Palm Pixi Plus,Palm Pixi Plus,"Mozilla/5.0 (webOS/1.3.5.1; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pixi/1.1"
+Palm Pixi Plus 1.4 FOO,palm_pixi_plus_1_4_0_FOO_THIS_HAS_TYPOS,"Mozilla/5.0  (webOS/1.4.0; U;  en-US)AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0  Safari/532.2  Pixi/1.1"
+Palm Pixi Plus,1.4,"Mozilla/5.0 (webOS/1.4.0; U; en-US) AppleWebkit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1"
+Palm Pre Plus,Palm Pre Plus,"Mozilla/5.0 (webOS/1.3.5.1; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.1"
+Palm Pre Plus 1.3.4,palm_pre_plus_1_3_4,"Mozilla/5.0 (webOS/1.3.4; U; en-US) AppleWebkit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.1"
+Palm Pre Plus 1.3.4,palm_pre_plus_1_3_4_FOO_THIS_HAS_TYPOS,"Mozilla/5.0  (webOS/1.3.4; U; en-US)  AppleWebkit/525.27.1 (KHTML, like Gecko)  Version/1.0 Safari/525.27.1  Pre/1.1"
+UTStarcom XV6175,UTStarcom XV6175,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) 320x240; VZW; UTStar-XV6175; Window Mobile 6.1 Standard;
+SAMSUNG-SGH-A767,SAMSUNG-SGH-A767,SAMSUNG-SGH-A767/1.0 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1
+Palm Treo Pro,Treo 850e,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) Alltel_Treo850e
+Palm Treo Pro,Treo 850,Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) Alltel_Treo850e
+Palm Pre 1.3,palm_webos_1_3,"Mozilla/5.0 (webOS/1.3; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Desktop/1.0"
+Samsung T459,SGH-T459,SAMSUNG-SGH-T459/T459UVHI4 NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Motorola Razr V3m,mot_v3m_razr_ff_novarra_8,Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20 Novarra-Vision/8.0
+Droid 2.0.1,droid_ver_201_FOO_THIS_HAS_TYPOS,"Mozilla/5.0 (Linux; U; Android  2.0.1; en-us; Droid Build/ESD56) AppleWebKit/530.17 (KHTML, like Gecko)  Version/4.0 Mobile Safari/530.17"
+Droid 2.0.1,droid_ver_201,"Mozilla/5.0 (Linux; U; Android 2.0.1; en-us; Droid Build/ESD56) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+Motorola Droid,moto_droid,"Mozilla/5.0 (Linux; U; Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+iPhone4,,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A306 Safari/6531.22.7"
+Palm Pixi Plus 1.45,,"Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.0"
+Samsung Vibrant SGH-T959,Samsung Vibrant SGH-T959,"Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; SGH-T959 Build/ECLAIR) AppleWebKit/525.10+ (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2"
+KS_11_18_2010_droid2,,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; DROID2 Build/VZW) AppleWebKit/ 533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 480X854 motorola DROID2"
+Droid2,Droid2,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; DROID2 Build/VZW) AppleWebKit/ 533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 480X854 motorola DROID2"
+BB8130,BB8130,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) BlackBerry8130/4.3.0 Profile2.0 Configuration/CLDC-1.1 VendorID/104
+HTC EVO,HTC EVO,"Mozilla/5.0 (Linux; U; Android 2.2; en-us; PC36100 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+BB8130,BB8130,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) BlackBerry8130/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+LGVX 8350,LGVX 8350,Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.6. ft-7 Novarra-Vision/7.3
+,,BlackBerry8120/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+,,BlackBerry8130/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+,,BlackBerry8130/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106
+,,BlackBerry8130/4.5.0.77 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+,,BlackBerry8130/4.5.0.89 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106
+,,BlackBerry8130/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106
+,,BlackBerry8220/4.6.0.180 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+,,BlackBerry8300/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+,,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.0.0.0
+,,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.1.20.0
+,,BlackBerry8310/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.1.20.06.3.1.20.0
+,,BlackBerry8310/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+,,BlackBerry8310/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.1.20.0
+,,BlackBerry8310/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.0.0.0
+,,BlackBerry8320/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+,,BlackBerry8320/4.5.0.110 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+,,BlackBerry8330/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+,,BlackBerry8330/4.3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106
+,,BlackBerry8330/4.5.0.66 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/189
+,,BlackBerry8330/4.5.0.89 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106
+,,BlackBerry8330/4.5.0.127 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/106
+,,BlackBerry8330/4.5.0.131 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+,,BlackBerry8350i/4.6.1.204 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103
+,,BlackBerry8330m/4.5.0.138 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/189
+,,BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+,,BlackBerry8700/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+,,BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+,,BlackBerry8700/4.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+,,BlackBerry8703e/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+,,BlackBerry8900/4.6.1.231 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+,,BlackBerry8900/4.6.1.114 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+,,BlackBerry9000/4.6.0.162 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107
+,,BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+,,BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.1.20.06.3.1.20.0
+,,BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.1.20.0
+,,BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.0.0.0
+,,BlackBerry9530/4.7.0.75 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+,,BlackBerry9530/4.7.0.148 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/105
+,,SAMSUNG-SGH-A867/A867UCHJ3 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+,,SAMSUNG-SGH-A867/A867UCHJ3 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.1.20.0
+,,LG-CU720/V1.0l Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.20.0
+,,LG-CU920/V1.0s Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+,,LG-CU720/V1.0l Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+,,LG-CU720/V1.0l Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.20.06.3.1.20.0
+,,LG-CU920/V1.0p Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+,,LG-CU920/V1.0s Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.20.0
+,,LG-CU920/V1.0p Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.20.0
+,,LG-CU920/V1.0s Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.20.06.3.1.20.0
+,,LG-CU920/V1.0p Obigo/Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.20.06.3.1.20.0,
+,,LG-GR500/V10f Teleca/Q7.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 UP.Link/6.3.1.20.0,
+,,LG-GR500/V10f Teleca/Q7.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 UP.Link/6.3.1.20.06.3.1.20.0,
+,,LGE-VX9800/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0,
+,,MOT-QA30/00.72 UP.Browser/7.2.7.5.610 (GUI) MMP/2.0,
+,,Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile G1 Build/CRB43) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1
+,,"Mozilla/5.0 (Windows; U; Windows NT 6.0; ru-RU) AppleWebKit/528.16 (KHTML, like Gecko) Version/4.0 Safari",
+,,PalmCentro/v0001 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320 UP.Link/6.3.0.0.0,
+,,PalmCentro/v0001 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320 UP.Link/6.3.1.20.0,
+,,PalmCentro/v0001 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320 UP.Link/6.3.1.20.06.3.1.20.0,
+,,SAMSUNG-SGH-A767/A767UCHI4 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.0.0.0,
+,,SAMSUNG-SGH-A767/A767UCHI4 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.1.20.0,
+,,SAMSUNG-SGH-A767/A767UCHI4 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.1.20.06.3.1.20.0,
+,,SAMSUNG-SGH-I607/I607FG1 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 320x240) UP.Link/6.3.1.20.0,
+,,SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) UP.Link/6.3.0.0.0,
+,,SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) UP.Link/6.3.1.20.0,
+,,SAMSUNG-SGH-I617/1.0 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6) UP.Link/6.3.1.20.06.3.1.20.0
+,,SAMSUNG-SGH-I617/UCHJ1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) UP.Link/6.3.0.0.0
+,,SAMSUNG-SGH-I617/UCHJ1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) UP.Link/6.3.1.20.0
+,,SAMSUNG-SGH-I617/UCHJ1 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) UP.Link/6.3.1.20.06.3.1.20.0
+,,SAMSUNG-SGH-T459/T459UVIA1 NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1
+,,SAMSUNG-SGH-T919/T919UVHI5 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1
+,,SAMSUNG-SGH-T929/T929UVIA2 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
+LG VX-8350 ,LG VX-8350 ,Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.6. ft-7 Novarra-Vision/7.3
+LG VX-9100,LG VX-9100,LGE-VX9100/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0
+Nokia N97 1 (Device Atlas),Nokia N97 1 (Device Atlas),"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.005; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344"
+Nokia N97 2 (Device Atlas),Nokia N97 2 (Device Atlas),"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.009; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344"
+Nokia N97 3 (Device Atlas) ,Nokia N97 3 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344"
+Nokia N97 4 (Device Atlas) ,Nokia N97 4 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344 UP.Link/6.3.0.0.0"
+Nokia N97 5 (Device Atlas) ,Nokia N97 5 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344 UP.Link/6.3.1.15.0"
+Nokia N97 6 (Device Atlas) ,Nokia N97 6 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/11.0.021; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344"
+Nokia N97 7 (Device Atlas) ,Nokia N97 7 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/12.0.024; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344"
+Nokia N97 8 (Device Atlas) ,Nokia N97 8 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/12.0.026; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.13841"
+Nokia N97 9 (Device Atlas) ,Nokia N97 9 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/12.0.026; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.13841 UP.Link/6.3.1.15.0"
+Nokia N97 10 (Device Atlas) ,Nokia N97 10 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124"
+Nokia N97 11 (Device Atlas) ,Nokia N97 11 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.027; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124"
+Nokia N97 12 (Device Atlas) ,Nokia N97 12 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/21.0.045; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.4"
+Nokia N97 13 (Device Atlas) ,Nokia N97 13 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-3/11.2.021; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344"
+Nokia N97 14 (Device Atlas) ,Nokia N97 14 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-3/12.2.024; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG7.1.12344"
+Nokia N97 15 (Device Atlas) ,Nokia N97 15 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-3/20.2.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124"
+Nokia N97 16 (Device Atlas) ,Nokia N97 16 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-3/21.2.045; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.4"
+Nokia N97 17 (Device Atlas) ,Nokia N97 17 (Device Atlas) ,"Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 NokiaN97/10.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525"
+Nokia N97 18 (Device Atlas) ,Nokia N97 18 (Device Atlas) ,"N97i/10.0.001 (SymbianOS/9.4; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebkit/525 (KHTML, like Gecko) BrowserNG/7.1.12344"
+Nokia N97 19 (Device Atlas) ,Nokia N97 19 (Device Atlas) ,NokiaN97/
+Nokia N97 20 (Device Atlas) ,Nokia N97 20 (Device Atlas) ,"NokiaN97/10.1.021 (SymbianOS/9.4; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebkit/525 (KHTML, like Gecko) BrowserNG/7.1.14972"
+Nokia N97 21 (Device Atlas) ,Nokia N97 21 (Device Atlas) ,"NokiaN97/20.1.021 (SymbianOS/9.4; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebkit/525 (KHTML, like Gecko) BrowserNG/7.1.18124"
+Nokia N97 22 (Device Atlas) ,Nokia N97 22 (Device Atlas) ,"NokiaN97/SymbianOS/9.3 Series60/5.0 Release/12.1.024 Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebkit/413(KHLMT,like Gecko)Safari/413"
+Nokia N97 23 (Device Atlas) ,Nokia N97 23 (Device Atlas) ,"NokiaN97i/20.0.007(SymbianOS/9.4;Series60/5.0Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebkit/525 (KHTML, like Gecko) BrowserNG/7.1.17475 "
+LG VX-9700,LG VX-9700 ,Mozilla/5.0 (compatible; Teleca Q7; Brew 3.1.5; U; en) 240X400 LGE VX9700
+Nokia 7610 ,Nokia 7610 ,Nokia7610Supernova/2.0 (05.20) Profile/MIDP-2.1 Configuration/CLDC-1.1
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) Asus;Galaxy6 
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) HTC;WP7
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; Microsoft Corporation; CEPC)
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) LG;LG-E900
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; GW910)
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) SAMSUNG;SGH-i707
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; Taylor)
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; TOSHIBA; TSUNAGI)
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; SGH-i917)
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; GW910)
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7 T9292)
+,,Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; 7 Mozart)
+,,KWC-K325/1.1.00 UP.Browser/6.2.3.9.g.1.107 (GUI) MMP/2.0
+,,Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.246 Mobile Safari/534.1+

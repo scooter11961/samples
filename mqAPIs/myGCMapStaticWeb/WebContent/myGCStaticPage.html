@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<title>Map of my favorite Green Chilie restaurants</title>
+
+<head>
+
+  <script src="http://www.mapquestapi.com/sdk/js/v7.0.s/mqa.toolkit.js?key=Fmjtd%7Cluua29a2n9%2C8a%3Do5-h4an5"></script> 
+  <script type="text/javascript">
+	/*load the SDK*/
+
+
+      /*An example of using the MQA.EventUtil to hook into the window load event and execute defined function
+    passed in as the last parameter. You could alternatively create a plain function here and have it
+    executed whenever you like (e.g. <body onload="yourfunction">).*/
+
+    MQA.EventUtil.observe(window, 'load', function() {
+
+      /*Create an object for options*/
+      var options={
+        elt:document.getElementById('map'),       /*ID of element on the page where you want the map added*/
+        zoom:10,                                  /*initial zoom level of the map*/
+        latLng:{lat:39.743943, lng:-105.020089},  /*center of map in latitude/longitude */
+        mtype:'map',                              /*map type (map)*/
+        bestFitMargin:0,                          /*margin offset from the map viewport when applying a bestfit on shapes*/
+        zoomOnDoubleClick:true                    /*zoom in when double-clicking on map*/
+      };
+
+      /*Construct an instance of MQA.TileMap with the options object*/
+      window.map = new MQA.TileMap(options);
+    });
+
+  </script>
+
+</head>
+
+
+
+<body>
+
+<h1>Denver's Best Green Chilie Restaurants</h1>
+
+<script type="text/javascript">
+document.write("<p>" + Date() + "</p>");
+</script>
+
+<div id="map" style="width:800px; height:300px;"></div>
+
+
+</body>
+</html>

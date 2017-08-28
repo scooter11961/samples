@@ -1,0 +1,174 @@
+<html>
+<head>
+    <script src="http://www.mapquestapi.com/sdk/js/v7.0.s/mqa.toolkit.js?key=Fmjtd%7Cluub2qutn0%2Caw%3Do5-9u7n9u"></script>
+
+    <script type="text/javascript">
+
+        /*An example of using the MQA.EventUtil to hook into the window load event and execute defined function
+         passed in as the last parameter. You could alternatively create a plain function here and have it
+         executed whenever you like (e.g. <body onload="yourfunction">).*/
+
+        MQA.EventUtil.observe(window, 'load', function () {
+
+            /*Create an object for options*/
+            var options = {
+                elt:document.getElementById('map'), /*ID of element on the page where you want the map added*/
+                zoom:7, /*initial zoom level of map*/
+                latLng:{lat:43.66077, lng:-79.328699}, /*center of map in latitude/longitude*/
+                mtype:'map'                                /*map type (map)*/
+            };
+
+            var options2 = {
+                elt:document.getElementById('map2'), /*ID of element on the page where you want the map added*/
+                zoom:7, /*initial zoom level of map*/
+                latLng:{lat:39.7, lng:-105}, /*center of map in latitude/longitude*/
+                mtype:'map'                                /*map type (map)*/
+            };
+
+            var options3 = {
+                elt:document.getElementById('map3'), /*ID of element on the page where you want the map added*/
+                zoom:7, /*initial zoom level of map*/
+                latLng:{lat:40.01, lng:-105.27}, /*center of map in latitude/longitude*/
+                mtype:'map'                                /*map type (map)*/
+            };
+
+            /*Construct an instance of MQA.TileMap with the options object*/
+            window.map = new MQA.TileMap(options);
+
+            MQA.withModule('smallzoom', 'shapes', function () {
+                map.addControl(
+                        new MQA.SmallZoom(),
+                        new MQA.MapCornerPlacement(MQA.MapCorner.TOP_LEFT, new MQA.Size(5, 5))
+                );
+
+                /*Create a POI collection.*/
+                var pois = new MQA.ShapeCollection();
+
+                /*Set a custom name for the collections. This name can be used to retrieve the collection from
+                 the map using the MQA.TileMap.getShapeCollection(name) function or to remove the
+                 collection from the map using the MQA.TileMap.removeShapeCollection(name) function. */
+                pois.collectionName = 'custom_pois';
+
+                /*Build the POIs and add them to the POI collection.*/
+                var one = new MQA.Poi({lat:43.66077, lng:-79.328699});
+                pois.add(one);
+
+                var two = new MQA.Poi({lat:43.824349, lng:-79.299259});
+                pois.add(two);
+
+                var three = new MQA.Poi({lat:43.795478, lng:-79.419251});
+                pois.add(three);
+
+                var four = new MQA.Poi({lat:43.793681, lng:-79.418843});
+                pois.add(four);
+
+                var five = new MQA.Poi({lat:43.753629, lng:-79.488087});
+                pois.add(five);
+
+                /*Add both collections to the map.*/
+                map.addShapeCollection(pois);
+
+                /*Automatically zoom and center the map using bestFit.*/
+                map.bestFit();
+            });
+
+            /*Construct an 2nd instance of MQA.TileMap with the options object*/
+            window.map2 = new MQA.TileMap(options2);
+
+            MQA.withModule('smallzoom', 'shapes', function () {
+                map2.addControl(
+                        new MQA.SmallZoom(),
+                        new MQA.MapCornerPlacement(MQA.MapCorner.TOP_LEFT, new MQA.Size(5, 5))
+                );
+
+                /*Create a POI collection.*/
+                var pois2 = new MQA.ShapeCollection();
+                /*Build the POIs and add them to the POI collection.*/
+                var one = new MQA.Poi({lat:39.742637, lng:-104.988765});
+                pois2.add(one);
+
+                var two = new MQA.Poi({lat:39.745901, lng:-104.989436});
+                pois2.add(two);
+
+                var three = new MQA.Poi({lat:39.745369, lng:-104.992429});
+                pois2.add(three);
+
+                var four = new MQA.Poi({lat:39.745658, lng:-104.990321});
+                pois2.add(four);
+
+                var five = new MQA.Poi({lat:39.742894, lng:-104.987326});
+                pois2.add(five);
+
+                var six = new MQA.Poi({lat:39.74645, lng:-104.994956});
+                pois2.add(six);
+
+                var seven = new MQA.Poi({lat:39.741492, lng:-104.987564});
+                pois2.add(seven);
+
+                var eight = new MQA.Poi({lat:39.752028, lng:-104.998364});
+                pois2.add(eight);
+
+                var nine = new MQA.Poi({lat:39.749809, lng:-104.995669});
+                pois2.add(nine);
+
+                /*Add both collections to the map.*/
+                map2.addShapeCollection(pois2);
+
+                /*Automatically zoom and center the map using bestFit.*/
+                map2.bestFit();
+
+            });
+            /*Construct an 3rd instance of MQA.TileMap with the options object*/
+            window.map3 = new MQA.TileMap(options3);
+
+            MQA.withModule('smallzoom', 'shapes', function () {
+                map3.addControl(
+                        new MQA.SmallZoom(),
+                        new MQA.MapCornerPlacement(MQA.MapCorner.TOP_LEFT, new MQA.Size(5, 5))
+                );
+
+                /*Create a POI collection.*/
+                var pois3 = new MQA.ShapeCollection();
+                /*Build the POIs and add them to the POI collection.*/
+                var one = new MQA.Poi({lat:40.019759, lng:-105.272042});
+                pois3.add(one);
+
+                var two = new MQA.Poi({lat:40.008896, lng:-105.276162});
+                pois3.add(two);
+
+                var three = new MQA.Poi({lat:40.017429, lng:-105.261826});
+                pois3.add(three);
+
+                var four = new MQA.Poi({lat:40.015103, lng:-105.260748});
+                pois3.add(four);
+
+                var four = new MQA.Poi({lat:40.024649, lng:-105.280097});
+                pois3.add(four);
+
+                /*Add both collections to the map.*/
+                map3.addShapeCollection(pois3);
+
+                /*Automatically zoom and center the map using bestFit.*/
+                map3.bestFit();
+
+            });
+
+        });
+
+    </script>
+</head>
+
+<body>
+<h2>Lobelaws in North York Ontario</h2>
+
+<div id='map' style='width:450px; height:420px;'></div>
+<h2>Coffee in Downtown Denver</h2>
+
+<div id='map2' style='width:450px; height:420px;'></div>
+<h2>Cycles in Boulder</h2>
+
+<div id='map3' style='width:450px; height:420px;'></div>
+
+</body>
+</html>
+			

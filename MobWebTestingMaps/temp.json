@@ -1,0 +1,69 @@
+{"campaigns":[
+    {
+        "icon":{
+            "impressionTracker":["http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200274;BnId=1", "http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200281;BnId=1"],
+            "hdpi":"http://o.aolcdn.com/os/mapquest/Ads/Biz_Loc_Mob_Web/Geofencing/poi_tail_wendys-1.5x.png",
+            "clickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200274;BnId=1;link=http://www.aol.com"],
+            "mdpi":"http://o.aolcdn.com/os/mapquest/Ads/Biz_Loc_Mob_Web/Geofencing/poi_tail_wendys.png",
+            "xhdpi":"http://o.aolcdn.com/os/mapquest/Ads/Biz_Loc_Mob_Web/Geofencing/poi_tail_wendys-2x.png"
+        },
+        "applicationVersions":[],
+        "revealClickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200279;BnId=1;link=http://www.aol.com"],
+        "date":"2050-01-01T00:00:00Z",
+        "type":"AdvertisementPolicy",
+        "geometry":{
+            "features":[
+                {
+                    "geometry":{
+                        "type":"Polygon",
+                        "coordinates":[
+                            [
+                                [-170, 14],
+                                [-170, 66],
+                                [-49, 66],
+                                [-49, 14],
+                                [-170, 14]
+                            ]
+                        ]
+                    }
+                }
+            ],
+            "type":"FeatureCollection"
+        },
+        "detailsPageBrandingBanner":{
+            "hdpi":"http://o.aolcdn.com/os/mapquest/Ads/Biz_Loc_Mob_Web/Geofencing/poi_tail_wendys-1.5x.png",
+            "mdpi":"http://o.aolcdn.com/os/mapquest/Ads/Biz_Loc_Mob_Web/Geofencing/poi_tail_wendys.png",
+            "xhdpi":"http://o.aolcdn.com/os/mapquest/Ads/Biz_Loc_Mob_Web/Geofencing/poi_tail_wendys-2x.png"
+        },
+        "content":"http://mads.aol.com/mads/mediate.php?hw=web&appid=10000597&width=320&height=50&smartphone=t&format=html",
+        "id":"wendys",
+        "fence":{
+            "tolerance":{
+                "pointRadius":5
+            },
+            "geometry":{
+                "query":"http://search-controller-stage.access.mapquest.com/search/v2/map?query=sourceVendor:40004&profile=adcampaign&key={clientKey}&outFormat=json&radius={queryRadius}&center=({latitude},{longitude})",
+                "queryRadius":20,
+                "type":"RadiusSearch"
+            }
+        },
+        "poiTrackingFallbacks":{
+            "infoBubbleImpressionTracker":["http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200275;BnId=1", "http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200281;BnId=1"],
+            "detailsPageWebsiteLinkClickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200275;BnId=1;link=http://www.aol.com"],
+            "infoBubbleClickToDetailsTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200275;BnId=1;link=http://www.aol.com"],
+            "detailsPageGoHereButtonImpressionTracker":["http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200277;BnId=1", "http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200281;BnId=1"],
+            "detailsPageAddToRouteButtonClickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200277;BnId=1;link=http://www.aol.com"],
+            "detailsPageGoHereButtonClickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200278;BnId=1;link=http://www.aol.com"],
+            "infoBubbleGoButtonClickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200276;BnId=1;link=http://www.aol.com"],
+            "detailsPageAddToRouteButtonImpressionTracker":["http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200277;BnId=1", "http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200281;BnId=1"],
+            "detailsPagePhoneNumberClickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200281;BnId=1;link=http://www.aol.com"],
+            "detailsPageCustomButtonClickTracker":["http://at.atwola.com/adlink/3.0/5113.1/2196202/1/16/AdId=4200280;BnId=1;link=http://www.aol.com"]
+        },
+        "description":"Wendys Campaign 10050594",
+        "deviceVersions":[],
+        "applications":["(?i).*mobweb.*"],
+        "triggers":1,
+        "devices":[],
+        "revealImpressionTracker":["http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200282;BnId=1", "http://at.atwola.com/adserv/3.0/5113.1/2196202/1/16/AdId=4200281;BnId=1"]
+    }
+]}

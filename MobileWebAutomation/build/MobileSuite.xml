@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MobileSuite" verbose="2">
+	<test name="MobileWebSupportedDeviceSmokeTest">
+		<groups>
+			<run>
+				<include name="groupDeviceRedirection" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.aol.functest.mobileweb.test.MobileWebRedirectionTest" />
+		</classes>
+	</test>
+	<test name="DotcomToMobileRedirectionTest">
+		<groups>
+			<run>
+				<include name="groupDotcomtoMobileRedirection"/>
+			</run>
+			<classes>
+				<class name="com.aol.functest.mobileweb.test.DotcomToMobileRedirectionTest" />
+			</classes>
+		</groups>
+	</test>
+	<test name="UnsupportedRedirectiontest">
+		<groups>
+			<run>
+				<include name="groupDotcomtoMobileRedirection"/>
+			</run>
+			<classes>
+				<class name="com.aol.functest.mobileweb.test.UnsupportedRedirectiontest" />
+			</classes>
+		</groups>
+	</test>
+	<test name="MobileWebSmokeTestAdv">
+		<groups>
+			<run>
+				<include name="groupDirection" />
+				<include name="groupMaps" />
+				<include name="groupSearch" />
+				<include name="groupSavedAndRecent"/>
+				<include name="groupMyPlaces" />
+				<include name="groupAmbiguity" />
+				<include name="groupGeodiff" />
+				<include name="groupSAR" />
+				<include name="groupTraffic"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate" />
+			<class name="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate" />
+		</classes>
+	</test>
+	<test name = "MobileWebSmokeTestStd" >
+	    <groups>
+	        <run>
+	              <include name="DirectionsStd"/>
+	           	  <include name="MapsStd"/>
+	              <include name="SearchStd"/>
+	              <include name="SavedandRecentStd"/>
+	              <include name="MyPlacesStd"/>
+	              <include name="AmbiguityStd"/>
+	              <include name="GeodiffStd"/>
+	              <include name="TrafficStd"/>     
+            </run>      
+	    </groups>
+		<classes>
+			<class name="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate" />
+			<class name="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate" />
+		</classes>
+	</test>
+	<test name="MobileWebCollectionTest">
+		<groups>
+			<run>
+				<include name="groupMobileWebCollections" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.aol.functest.mobileweb.test.MobileWebCollectionTest" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+</suite>

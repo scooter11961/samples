@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MobileWebSmokeTestStd" failures="0" tests="84" time="14.643" errors="0">
+  <properties/>
+  <testcase name="@BeforeMethod basestate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <failure type="java.lang.AssertionError" message="expected:&lt;true&gt; but was:&lt;false&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at com.aol.functest.mobileweb.std.common.MobileWeb.mobileWebBaseState(MobileWeb.java:122)
+	at com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate.basestate(MobileWebTestStdAuthenticate.java:49)
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@BeforeMethod basestate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <failure type="java.lang.AssertionError" message="expected:&lt;true&gt; but was:&lt;false&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at com.aol.functest.mobileweb.std.common.MobileWeb.mobileWebBaseState(MobileWeb.java:122)
+	at com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate.basestate(MobileWebTestStdUnAuthenticate.java:47)
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterClass cleanUp" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <failure type="java.lang.AssertionError" message="expected:&lt;true&gt; but was:&lt;false&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at com.aol.functest.mobileweb.std.common.MobileWeb.mobileWebBaseState(MobileWeb.java:122)
+	at com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate.cleanUp(MobileWebTestStdUnAuthenticate.java:37)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterClass cleanUp" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <failure type="java.lang.AssertionError" message="expected:&lt;true&gt; but was:&lt;false&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at com.aol.functest.mobileweb.std.common.MobileWeb.mobileWebBaseState(MobileWeb.java:122)
+	at com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate.cleanUp(MobileWebTestStdAuthenticate.java:38)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="authenticate1" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchTraffic_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormGeoDiffPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormPageUIStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyChangeRouteOptionsFunctionality_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRefineSearchFormPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyBusinessSearchfromAmbiguityPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormAmbiguityPageStd_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormPageRecentLocationStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapResultPageUIStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapResultPageMapObjectStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormGeoDiffPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchResultsSearchByCategoryStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapSearchformGeoDiffPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchResultsSearchFormPageStd_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="unAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyFindBusinessNearbyFunctionality_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_NearALocationStdUI_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionspagewithoutlocation_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormPageRecentLocationStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyBusinessSearchfromGeodiffPageStd_UnAuthenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormGeoDiffPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchResultsSearchFormPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormAmbiguityPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyCategorySearchFormPageUIObject_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionspageStdwithstartlocation_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyGetDirectionFromHeremapspage_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormpageRecentLocationStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionResultPageUIStd_UnAuthenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapTraffic_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyBusinessSearchfromGeodiffPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormGeoDiffPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyViewTrafficFunctionality_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionResultPageUIStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyFindBusinessNearbyFunctionalitymappage_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyChangeRouteOptionsFunctionality_UnAuthenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormGeoDiffPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapSearchfromAmbiguityPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchTraffic_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormpageRecentLocationStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionspagewithoutlocation_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRefineSearchFormPage_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyCategorySearchFormPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionSearchAmbiguityAndGeodiffStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRefineSearchResultPage_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyFindBizNearbymapspage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRouteOptionsPageUIStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormPageStdUIObject_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySavedAndRecentFormPageUIObjectStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapResultPageMapObjectStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionsTraffic_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormPageRecentLocationStd_UNAuthenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyFindBusinessNearbyFunctionalitymappage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormGeoDiffPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapSearchformGeoDiffPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyGetDirectionToHeremapspage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormPageStdUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyFindBizNearbymapspage_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirResultPageMapObjectStd_UnAuthenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormAmbiguityPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormPageRecentLocationStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormAmbiguityPageStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormAmbiguityPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionSearchAmbiguityAndGeodiffStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionsTraffic_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_NearALocationStdUI_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyGetDirectionFromHeremapspage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionspageStdwithstartlocation_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRouteOptionsPageUIStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapResultPageUIStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyGetDirectionToHeremapspage_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormPageUIStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapTraffic_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRefineSearchResultPage_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySavedAndRecentFormPageUIObjectStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapSearchfromAmbiguityPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyViewTrafficFunctionality_UnAuthenticate" time="0.0040" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormAmbiguityPageStd_Authenticate" time="0.0020" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormPageStdUIObject_UnAuthenticate" time="0.0030" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormPageStdUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyBusinessSearchfromAmbiguityPageStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirResultPageMapObjectStd_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchUsingSearchByCategoryStd_UnAuthenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyFindBusinessNearbyFunctionality_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.std.test.MobileWebTestStdAuthenticate">
+    <skipped/>
+  </testcase>
+</testsuite>

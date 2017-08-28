@@ -1,0 +1,8 @@
+PER_PROFILE 	= @PER_PROFILE@
+hostname   		= @hostname@
+portnumber 		= @portnumber@
+explorer 		= @explorer-adv@
+url        		= @url@
+url.dotcom 		= @url.dotcom@
+url.dotcom.redirect	= @url.dotcom.redirect@
+url.infogin.redirect = @url.infogin.redirect@

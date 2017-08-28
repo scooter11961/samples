@@ -1,0 +1,219 @@
+THelloWorldCocoa
+v7
+r0
+t293753207.605685
+cCheck dependencies
+cProcessInfoPlistFile /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Info.plist HelloWorldCocoa-Info.plist
+cCopyStringsFile /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/scotthatch07/src/HelloWorldCocoa/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch.gch HelloWorldCocoa_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/main.o /Users/scotthatch07/src/HelloWorldCocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloWorldCocoaAppDelegate.o /Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloView.o /Users/scotthatch07/src/HelloWorldCocoa/HelloView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/scotthatch07/src/HelloWorldCocoa/English.lproj/InfoPlist.strings
+c000000004BD20D66000000000000002D
+t1272057190
+s45
+
+N/Users/scotthatch07/src/HelloWorldCocoa/English.lproj/MainMenu.xib
+c000000004BD217FE000000000002C2DD
+t1272059902
+s180957
+
+N/Users/scotthatch07/src/HelloWorldCocoa/HelloView.h
+c000000004BD213D600000000000000D4
+t1272058838
+s212
+i<Cocoa/Cocoa.h>
+
+N/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m
+c000000004BD219D7000000000000030D
+t1272060375
+s781
+i"HelloView.h"
+
+N/Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.h
+c000000004BD20D660000000000000153
+t1272057190
+s339
+i<Cocoa/Cocoa.h>
+
+N/Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.m
+c000000004BD20D660000000000000190
+t1272057190
+s400
+i"HelloWorldCocoaAppDelegate.h"
+
+N/Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoa_Prefix.pch
+c000000004BD20D6600000000000000A1
+t1272057190
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app
+t2
+s0
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Info.plist
+t1272060401
+s910
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/MacOS/HelloWorldCocoa
+t2
+s0
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/PkgInfo
+t1272060401
+s8
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1272060401
+s92
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Resources/English.lproj/MainMenu.nib
+t1272060401
+s34764
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloView.o
+t2
+s0
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloWorldCocoa.LinkFileList
+c000000004BD219F10000000000000192
+t1272060401
+s402
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloWorldCocoaAppDelegate.o
+t1272060407
+s21304
+
+N/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/main.o
+t1272060407
+s4992
+
+N/Users/scotthatch07/src/HelloWorldCocoa/main.m
+c000000004BD20D660000000000000105
+t1272057190
+s261
+i<Cocoa/Cocoa.h>
+
+N/var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch.gch
+t1272060407
+s54265616
+
+NHelloWorldCocoa-Info.plist
+c000000004BD20D6600000000000003EA
+t1272057190
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293753201#293753201#0(0"0(0#1#0"28710924367954016#0"0#
+
+CCompileC build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloView.o /Users/scotthatch07/src/HelloWorldCocoa/HelloView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s293753207.492527
+e293753207.605592
+r0
+xCompileC
+xbuild/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloView.o
+x/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m: In function '-[HelloView drawRect:]':
+o/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:25: error: expected ',' or ';' before 'NSMutableDictionary'
+o/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:27: error: 'font_attributes' undeclared (first use in this function)
+o/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:27: error: (Each undeclared identifier is reported only once
+o/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:27: error: for each function it appears in.)
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+lSLF07#2@59"Compile /Users/scotthatch07/src/HelloWorldCocoa/HelloView.m293753207#293753207#0(689"/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m: In function '-[HelloView drawRect:]':/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:25: error: expected ',' or ';' before 'NSMutableDictionary'/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:27: error: 'font_attributes' undeclared (first use in this function)/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:27: error: (Each undeclared identifier is reported only once/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m:27: error: for each function it appears in.){standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_02(4@48"Expected ',' or ';' before 'NSMutableDictionary'293753207#91#112#0(6@51"/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m293753175#25#0#25#0#19"expected * before *0(4@57"'font_attributes' undeclared (first use in this function)293753207#203#121#0(6@51"/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m293753175#27#0#27#0#43"'*' undeclared (first use in this function)0(0#0#51"/Users/scotthatch07/src/HelloWorldCocoa/HelloView.m4300911832#1631"    cd /Users/scotthatch07/src/HelloWorldCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-generated-files.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-own-target-headers.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-all-target-headers.hmap -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-project-headers.hmap -F/Users/scotthatch07/src/HelloWorldCocoa/build/Debug -I/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/include -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources/x86_64 -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources -include /var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch -c /Users/scotthatch07/src/HelloWorldCocoa/HelloView.m -o /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloView.o1#
+
+CCompileC build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloWorldCocoaAppDelegate.o /Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s293753207.202551
+e293753207.493609
+r1
+xCompileC
+xbuild/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloWorldCocoaAppDelegate.o
+x/Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.m293753207#293753207#0(0"0(0#0#68"/Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.m4300911832#1665"    cd /Users/scotthatch07/src/HelloWorldCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-generated-files.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-own-target-headers.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-all-target-headers.hmap -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-project-headers.hmap -F/Users/scotthatch07/src/HelloWorldCocoa/build/Debug -I/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/include -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources/x86_64 -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources -include /var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch -c /Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoaAppDelegate.m -o /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/HelloWorldCocoaAppDelegate.o0#
+
+CCompileC build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/main.o /Users/scotthatch07/src/HelloWorldCocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s293753207.201408
+e293753207.492432
+r1
+xCompileC
+xbuild/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/main.o
+x/Users/scotthatch07/src/HelloWorldCocoa/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/scotthatch07/src/HelloWorldCocoa/main.m293753207#293753207#0(0"0(0#0#46"/Users/scotthatch07/src/HelloWorldCocoa/main.m4300911832#1621"    cd /Users/scotthatch07/src/HelloWorldCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-generated-files.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-own-target-headers.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-all-target-headers.hmap -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-project-headers.hmap -F/Users/scotthatch07/src/HelloWorldCocoa/build/Debug -I/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/include -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources/x86_64 -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources -include /var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch -c /Users/scotthatch07/src/HelloWorldCocoa/main.m -o /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/scotthatch07/src/HelloWorldCocoa/English.lproj/MainMenu.xib
+s293753201.612150
+e293753201.961852
+r1
+xCompileXIB
+x/Users/scotthatch07/src/HelloWorldCocoa/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib293753201#293753201#0(0"0(0#0#66"/Users/scotthatch07/src/HelloWorldCocoa/English.lproj/MainMenu.xib4300911832#338"    cd /Users/scotthatch07/src/HelloWorldCocoa    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Resources/English.lproj/MainMenu.nib /Users/scotthatch07/src/HelloWorldCocoa/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s293753201.606804
+e293753201.955748
+r1
+xCopyStringsFile
+x/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings293753201#293753201#0(0"0(0#0#71"/Users/scotthatch07/src/HelloWorldCocoa/English.lproj/InfoPlist.strings4300911832#375"    cd /Users/scotthatch07/src/HelloWorldCocoa    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Resources/English.lproj0#
+
+CLd /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/MacOS/HelloWorldCocoa normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Info.plist HelloWorldCocoa-Info.plist
+s293753201.556230
+e293753201.606698
+r1
+xProcessInfoPlistFile
+x/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Info.plist
+xHelloWorldCocoa-Info.plist
+lSLF07#2@34"Process HelloWorldCocoa-Info.plist293753201#293753201#0(0"0(0#0#66"/Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoa-Info.plist28992425118793828#337"    cd /Users/scotthatch07/src/HelloWorldCocoa    builtin-infoPlistUtility HelloWorldCocoa-Info.plist -genpkginfo /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch.gch HelloWorldCocoa_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s293753201.962181
+e293753207.201258
+r1
+xProcessPCH
+x/var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch.gch
+xHelloWorldCocoa_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile HelloWorldCocoa_Prefix.pch293753201#293753207#0(0"0(0#0#66"/Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoa_Prefix.pch4300911832#1518"    cd /Users/scotthatch07/src/HelloWorldCocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-generated-files.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-own-target-headers.hmap -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-all-target-headers.hmap -iquote /Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/HelloWorldCocoa-project-headers.hmap -F/Users/scotthatch07/src/HelloWorldCocoa/build/Debug -I/Users/scotthatch07/src/HelloWorldCocoa/build/Debug/include -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources/x86_64 -I/Users/scotthatch07/src/HelloWorldCocoa/build/HelloWorldCocoa.build/Debug/HelloWorldCocoa.build/DerivedSources -c /Users/scotthatch07/src/HelloWorldCocoa/HelloWorldCocoa_Prefix.pch -o /var/folders/+q/+qGOVwnQH8SgMSO3YytM2U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/HelloWorldCocoa_Prefix-djownkspgermtsaxrjjrzzmuzbye/HelloWorldCocoa_Prefix.pch.gch0#
+
+CTouch /Users/scotthatch07/src/HelloWorldCocoa/build/Debug/HelloWorldCocoa.app
+r0
+

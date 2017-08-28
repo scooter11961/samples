@@ -1,0 +1,18 @@
+#exceptions to NOT trigger an error
+
+#list of errors here...
+error /[Ee]rror:/
+error /ERROR:/
+error /[Ff]ailed:/
+error /could not connect to server/
+
+# list of warnings here...
+warning /[Ww]arn/
+
+#list of info here...
+#info /INFO/
+start /./././.*/
+start /----.*/
+start /[Ww]ebpage test*/
+start /http/
+

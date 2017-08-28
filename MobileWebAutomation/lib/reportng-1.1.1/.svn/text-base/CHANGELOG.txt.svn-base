@@ -1,0 +1,23 @@
+Changes in version 1.1.1
+------------------------
+
+* Fix for NullPointerException when method thread ID is null (ISSUE#47).
+
+* Fix for IllegalStateException generating chronology when @AfterXXX methods
+  are being used.
+
+* Disabled generation of chronology due to inaccuracies in output.  Probably
+  due to TestNG issues #85 and #86.
+
+
+Changes in version 1.1
+----------------------
+
+* Template refactoring and fixing of Velocity warnings/errors.
+
+* i18n
+
+* Added chronology page for listing tests in order of execution.
+
+* Don't use System ClassLoader for loading templates.  Fixes problem using
+  ReportNG with Gradle (see http://jira.codehaus.org/browse/GRADLE-836).

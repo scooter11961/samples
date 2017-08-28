@@ -1,0 +1,51 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Apple Inc.",1327938970742
+java.version,sysinfo,,,"1.6.0_29",1327938970742
+java.vm.info,sysinfo,,,"mixed mode",1327938970742
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1327938970742
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1327938970742
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1327938970742
+java.vm.specification.version,sysinfo,,,"1.0",1327938970742
+java.vm.vendor,sysinfo,,,"Apple Inc.",1327938970742
+java.vm.version,sysinfo,,,"20.4-b02-402",1327938970742
+started,bundle,org.eclipse.wst.dtd.core,1.1.501.v201107252021,"org.eclipse.wst.dtd.core",1327938970849
+started,bundle,org.eclipse.jst.jsp.core,1.2.401.v201108302147,"org.eclipse.jst.jsp.core",1327938970955
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.502.v201104071820,"org.eclipse.wst.wsdl.validation",1327938971015
+started,bundle,org.eclipse.wst.xsd.core,1.1.600.v201104070312,"org.eclipse.wst.xsd.core",1327938971018
+started,bundle,org.eclipse.wst.xsl.core,1.1.100.v201102270516,"org.eclipse.wst.xsl.core",1327938971024
+started,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1327938971028
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1327938972471
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.100.v201101252155,"org.eclipse.jst.ws.jaxws.dom.integration",1327938972707
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1327938972711
+started,bundle,org.eclipse.jst.servlet.ui,1.1.501.v201108220630,"org.eclipse.jst.servlet.ui",1327938972773
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1327938976541
+started,bundle,org.eclipse.wst.server.core,1.1.303.v20110816_1717,"org.eclipse.wst.server.core",1327938979749
+started,bundle,org.eclipse.wst.server.ui,1.1.306.v20110823_1704,"org.eclipse.wst.server.ui",1327938979768
+started,bundle,org.eclipse.wst.server.preview.adapter,1.1.0.v20090311b,"org.eclipse.wst.server.preview.adapter",1327938979817
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327938980027
+started,bundle,org.eclipse.wst.server.http.core,1.0.200.v20090429,"org.eclipse.wst.server.http.core",1327938980137
+started,bundle,org.eclipse.jst.server.core,1.2.202.v20110419,"org.eclipse.jst.server.core",1327938980145
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939097441
+executed,command,org.eclipse.wst.server.ui,1.1.306.v20110823_1704,"org.eclipse.wst.server.launchShortcut.run",1327939097560
+opened,view,org.eclipse.wst.server.ui,1.1.306.v20110823_1704,"org.eclipse.wst.server.ui.ServersView",1327939097609
+error,log,,,"Could not find JRE executable",1327939097637
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939097699
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939122211
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939125628
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20110802_r371,"org.eclipse.jdt.debug",1327939130914
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1327939130960
+started,bundle,org.eclipse.jdt.launching.macosx,3.2.100.v20110509,"org.eclipse.jdt.launching.macosx",1327939130987
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939141119
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.window.preferences",1327939141144
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939147987
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939454508
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939462853
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939467249
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1327939467273
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1327939470029
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1327939470067
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1327939470105
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1327939470105
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939472150
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1327939481731
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1327939481753

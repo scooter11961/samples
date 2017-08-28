@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DotcomToMobileRedirectionTest" failures="1" tests="1" time="642.351" errors="0">
+  <properties/>
+  <testcase name="TC_testDotcomtoMobileRedirectiontListOfUserAgent" time="642.35" classname="com.aol.functest.mobileweb.test.DotcomToMobileRedirectionTest">
+    <failure type="java.lang.AssertionError" message="There was an IOException when trying to open site at http://wap-stage.mapquest.com">
+      <![CDATA[java.lang.AssertionError: There was an IOException when trying to open site at http://wap-stage.mapquest.com
+	at com.aol.functest.mobileweb.test.AbstractRedirectionTest.executeTestFor30XRedirection(AbstractRedirectionTest.java:115)
+	at com.aol.functest.mobileweb.test.DotcomToMobileRedirectionTest.TC_testDotcomtoMobileRedirectiontListOfUserAgent(DotcomToMobileRedirectionTest.java:110)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

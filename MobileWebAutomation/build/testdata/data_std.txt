@@ -1,0 +1,2 @@
+Data.Map_Std_UI              = http://tileprint.web.mapquest.com/tileprint.php?rand=787&guidcmd=getimgguid&key=mjtd|lu6t2hu725%2Cr5%3Do5-la7x5&guid=PF-LURL%3A6D717072696E742D6C6D30342E7765627379732E616F6C2E636F6D-53B7-1275886860-091-56075;
+Data.Dir_Map_Std	     	 = http://tileprint.web.mapquest.com/tileprint.php?rand=657&guidcmd=getimgguid&key=mjtd|lu6t2hu725%2Cr5%3Do5-la7x5&guid=PF-LURL%3A6D717072696E742D6C6D30322E7765627379732E616F6C2E636F6D-7F38-1275886906-518-565C7;

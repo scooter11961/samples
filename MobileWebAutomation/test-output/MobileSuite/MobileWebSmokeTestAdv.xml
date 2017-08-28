@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MobileWebSmokeTestAdv" failures="8" tests="122" time="1754.414" errors="0">
+  <properties/>
+  <testcase name="unAuthenticate" time="1.03" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchFormAmbiguityPage_UnAuthenticate" time="38.022" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionsTraffic_Authenticate" time="31.3" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMyPlaceFormPageUIObject_UnAuthenticate" time="14.166" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionMapWithShortestTime_UnAuthenticate" time="10.277" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerfifyDirectionspagewithoutlocation_UnAuthenticate" time="3.066" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapMapResultPageGetDirectionFromHere_UnAuthenticate" time="16.472" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionMapClickRoadNarative_UnAuthenticate" time="11.291" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionSearchAmbiguityAndGeodiff_UnAuthenticate" time="13.448" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchFormPageUIObject_UnAuthenticate" time="16.326" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapTextResultPageUIObject_UnAuthenticate" time="27.613" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_SearchMapResultPageUIFromSearchResultGETMAPClick_UnAuthenticate" time="18.218" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyRecalculateRouteOptions_UnAuthenticate" time="16.548" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_UnAuthenticate" time="11.296" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+    <failure type="java.lang.RuntimeException" message="Verifying&quot;Total Travel Estimate:34 mins / 25.55 mi&quot;Verifying&quot;Total Travel Estimate:38 mins / 21.62 mi&quot;">
+      <![CDATA[java.lang.RuntimeException: Verifying"Total Travel Estimate:34 mins / 25.55 mi"Verifying"Total Travel Estimate:38 mins / 21.62 mi"
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick(MobileWebTest.java:802)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_UnAuthenticate(MobileWebTestUnAuthenticate.java:235)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifyMapFormPageUIObject_UnAuthenticate" time="12.259" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapSearchfromAmbiguityPage_UnAuthenticate" time="12.326" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchFormRecentLocation_UnAuthenticate" time="17.58" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchUsingSearchByCatagory_UnAuthenticate" time="38.963" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapMapResultPageFindBusinessNearBy_UnAuthenticate" time="57.134" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionMapClickRoadshield_UnAuthenticate" time="11.347" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyBusinessSearchfromAmbiguityPage_UnAuthenticate" time="13.3" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapMapResultPageByThumbnailMap_UnAuthenticate" time="13.492" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyAlongtheRoutepagefunctionality_UnAuthenticate" time="23.553" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchMapResultPageUIObject_UnAuthenticate" time="14.408" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchMapResultPageMapObject_UnAuthenticate" time="15.578" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+    <failure type="java.lang.RuntimeException" message="Comparision between /testdata/search/act_search_0.gif and /testdata/search/search_0.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_1.gif and /testdata/search/search_1.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_2.gif and /testdata/search/search_2.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_3.gif and /testdata/search/search_3.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_4.gif and /testdata/search/search_4.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_5.gif and /testdata/search/search_5.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_6.gif and /testdata/search/search_6.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_7.gif and /testdata/search/search_7.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_8.gif and /testdata/search/search_8.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_9.gif and /testdata/search/search_9.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_10.gif and /testdata/search/search_10.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_11.gif and /testdata/search/search_11.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_12.gif and /testdata/search/search_12.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_13.gif and /testdata/search/search_13.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_14.gif and /testdata/search/search_14.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_15.gif and /testdata/search/search_15.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_16.gif and /testdata/search/search_16.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_17.gif and /testdata/search/search_17.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_18.gif and /testdata/search/search_18.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_19.gif and /testdata/search/search_19.gif failed or file doesn&apos;t exists..Comparision between /testdata/search/act_search_20.gif and /testdata/search/search_20.gif failed or file doesn&apos;t exists..">
+      <![CDATA[java.lang.RuntimeException: Comparision between /testdata/search/act_search_0.gif and /testdata/search/search_0.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_1.gif and /testdata/search/search_1.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_2.gif and /testdata/search/search_2.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_3.gif and /testdata/search/search_3.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_4.gif and /testdata/search/search_4.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_5.gif and /testdata/search/search_5.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_6.gif and /testdata/search/search_6.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_7.gif and /testdata/search/search_7.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_8.gif and /testdata/search/search_8.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_9.gif and /testdata/search/search_9.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_10.gif and /testdata/search/search_10.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_11.gif and /testdata/search/search_11.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_12.gif and /testdata/search/search_12.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_13.gif and /testdata/search/search_13.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_14.gif and /testdata/search/search_14.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_15.gif and /testdata/search/search_15.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_16.gif and /testdata/search/search_16.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_17.gif and /testdata/search/search_17.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_18.gif and /testdata/search/search_18.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_19.gif and /testdata/search/search_19.gif failed or file doesn't exists..Comparision between /testdata/search/act_search_20.gif and /testdata/search/search_20.gif failed or file doesn't exists..
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifySearchMapResultPageMapObject(MobileWebTest.java:720)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:211)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithAvoidSeasonallyClosedRoads_UnAuthenticate" time="10.362" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyRouteOptionsPopupPage_UnAuthenticate" time="22.549" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapMapResultPageUIObject_UnAuthenticate" time="13.329" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionTextResultswith3routespageUI_UnAuthenticate" time="33.8" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionFormRecentLocation_UnAuthenticate" time="13.04" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionsBusinessSearchResultspageUI_UnAuthenticate" time="67.752" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchFormSearchByCatagory_UnAuthenticate" time="44.744" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+    <failure type="java.lang.RuntimeException" message="Verifying&quot;Argonant Groceries 0.05 miles away 
+ 233 E Colfax Ave 
+ (303) 861-3799&quot;">
+      <![CDATA[java.lang.RuntimeException: Verifying"Argonant Groceries 0.05 miles away 
+ 233 E Colfax Ave 
+ (303) 861-3799"
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifySearchFormSearchByCatagory(MobileWebTest.java:743)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifySearchFormSearchByCatagory_UnAuthenticate(MobileWebTestUnAuthenticate.java:217)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithWalkingDirection_UnAuthenticate" time="10.246" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapMapResultPageGetDirectionToHere_UnAuthenticate" time="27.045" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapSearchformGeoDiffPage_UnAuthenticate" time="11.754" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyBusinessSearchfromGeodiffPage_UnAuthenticate" time="13.016" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyNearaLocationandsearchresultspageUIObject_UnAuthenticate" time="25.718" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionFormPageUIObject_UnAuthenticate" time="30.652" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyAlongtheRoutepageUI_UnAuthenticate" time="40.961" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionMapResultPageUIObject_UnAuthenticate" time="11.293" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchTraffic_Authenticate" time="34.427" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_SearchMapResultPageUIFromSearchResultItemClick_UnAuthenticate" time="30.854" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="authenticate1" time="17.406" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <failure type="java.lang.AssertionError" message="expected:&lt;true&gt; but was:&lt;false&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate.authenticate1(MobileWebTestAuthenticate.java:68)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithAvoidSeasonallyClosedRoads_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageGetDirectionToHere_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionTextResultPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithShortestTime_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormPageUIObject_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchUsingSearchByCatagory_Authenticate" time="0.0050" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithAvoidTollRoad_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapClickRoadNarative_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithShortestDistance_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionspagewithstartlocation_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRouteOptionsPopupPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithWalkingDirection_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapResultPageMapObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapClickRoadshield_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormGepDiffPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormGeoDiffPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageMapObject_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchTraffic_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapTextResultPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionSearchAmbiguityAndGeodiff_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormRecentLocation_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerfifyDirectionspagewithoutlocation_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMyPlaceTextResultPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySavedAndRecentFormPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormAmbiguityPage_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchTextResultPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageByThumbnailMap_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapTraffic_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithAvoidHighways_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyNearaLocationpageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageFindXYZNearBy_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageFindBusinessNearBy_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_SearchMapResultPageUIFromSearchResultGETDirectionClick_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_SearchMapResultPageUIFromSearchResultItemClick_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapResultPageUIObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyAlongtheRoutepagefunctionality_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageGetDirectionFromHere_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionTextResultswith3routespageUI_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyBusinessSearchfromAmbiguityPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionsTraffic_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormAmbiguityPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRefineSearchResultPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_SearchMapResultPageUIFromSearchResultGETMAPClick_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormAmbiguityPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchFormRecentLocation_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionsBusinessSearchResultspageUI_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormRecentLocation_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRefineSearchFormPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapSearchformGeoDiffPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapSearchfromAmbiguityPage_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifySearchMapResultPageMapObject_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyBusinessSearchfromGeodiffPage_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRecalculateRouteOptions_Authenticate" time="0.0" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyMapFormGeoDiffPage_UnAuthenticate" time="17.44" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchTextResultPageUIObject_UnAuthenticate" time="67.822" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionTextResultPageUIObject_UnAuthenticate" time="51.379" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionspagewithstartlocation_UnAuthenticate" time="8.505" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionMapResultPageMapObject_UnAuthenticate" time="14.744" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+    <failure type="java.lang.RuntimeException" message="Comparision between /testdata/dir/act_dir_0.gif and /testdata/dir/dir_0.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_1.gif and /testdata/dir/dir_1.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_2.gif and /testdata/dir/dir_2.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_3.gif and /testdata/dir/dir_3.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_4.gif and /testdata/dir/dir_4.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_5.gif and /testdata/dir/dir_5.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_6.gif and /testdata/dir/dir_6.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_7.gif and /testdata/dir/dir_7.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_8.gif and /testdata/dir/dir_8.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_9.gif and /testdata/dir/dir_9.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_10.gif and /testdata/dir/dir_10.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_11.gif and /testdata/dir/dir_11.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_12.gif and /testdata/dir/dir_12.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_13.gif and /testdata/dir/dir_13.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_14.gif and /testdata/dir/dir_14.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_15.gif and /testdata/dir/dir_15.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_16.gif and /testdata/dir/dir_16.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_17.gif and /testdata/dir/dir_17.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_18.gif and /testdata/dir/dir_18.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_19.gif and /testdata/dir/dir_19.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_20.gif and /testdata/dir/dir_20.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_21.gif and /testdata/dir/dir_21.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_22.gif and /testdata/dir/dir_22.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_23.gif and /testdata/dir/dir_23.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_24.gif and /testdata/dir/dir_24.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_25.gif and /testdata/dir/dir_25.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_26.gif and /testdata/dir/dir_26.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_27.gif and /testdata/dir/dir_27.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_28.gif and /testdata/dir/dir_28.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_29.gif and /testdata/dir/dir_29.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_30.gif and /testdata/dir/dir_30.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_31.gif and /testdata/dir/dir_31.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_32.gif and /testdata/dir/dir_32.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_33.gif and /testdata/dir/dir_33.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_34.gif and /testdata/dir/dir_34.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_35.gif and /testdata/dir/dir_35.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_36.gif and /testdata/dir/dir_36.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_37.gif and /testdata/dir/dir_37.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_38.gif and /testdata/dir/dir_38.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_39.gif and /testdata/dir/dir_39.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_40.gif and /testdata/dir/dir_40.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_41.gif and /testdata/dir/dir_41.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_42.gif and /testdata/dir/dir_42.gif failed or file doesn&apos;t exists....Comparision between /testdata/dir/act_dir_43.gif and /testdata/dir/dir_43.gif failed or file doesn&apos;t exists....">
+      <![CDATA[java.lang.RuntimeException: Comparision between /testdata/dir/act_dir_0.gif and /testdata/dir/dir_0.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_1.gif and /testdata/dir/dir_1.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_2.gif and /testdata/dir/dir_2.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_3.gif and /testdata/dir/dir_3.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_4.gif and /testdata/dir/dir_4.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_5.gif and /testdata/dir/dir_5.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_6.gif and /testdata/dir/dir_6.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_7.gif and /testdata/dir/dir_7.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_8.gif and /testdata/dir/dir_8.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_9.gif and /testdata/dir/dir_9.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_10.gif and /testdata/dir/dir_10.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_11.gif and /testdata/dir/dir_11.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_12.gif and /testdata/dir/dir_12.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_13.gif and /testdata/dir/dir_13.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_14.gif and /testdata/dir/dir_14.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_15.gif and /testdata/dir/dir_15.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_16.gif and /testdata/dir/dir_16.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_17.gif and /testdata/dir/dir_17.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_18.gif and /testdata/dir/dir_18.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_19.gif and /testdata/dir/dir_19.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_20.gif and /testdata/dir/dir_20.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_21.gif and /testdata/dir/dir_21.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_22.gif and /testdata/dir/dir_22.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_23.gif and /testdata/dir/dir_23.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_24.gif and /testdata/dir/dir_24.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_25.gif and /testdata/dir/dir_25.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_26.gif and /testdata/dir/dir_26.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_27.gif and /testdata/dir/dir_27.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_28.gif and /testdata/dir/dir_28.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_29.gif and /testdata/dir/dir_29.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_30.gif and /testdata/dir/dir_30.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_31.gif and /testdata/dir/dir_31.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_32.gif and /testdata/dir/dir_32.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_33.gif and /testdata/dir/dir_33.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_34.gif and /testdata/dir/dir_34.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_35.gif and /testdata/dir/dir_35.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_36.gif and /testdata/dir/dir_36.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_37.gif and /testdata/dir/dir_37.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_38.gif and /testdata/dir/dir_38.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_39.gif and /testdata/dir/dir_39.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_40.gif and /testdata/dir/dir_40.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_41.gif and /testdata/dir/dir_41.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_42.gif and /testdata/dir/dir_42.gif failed or file doesn't exists....Comparision between /testdata/dir/act_dir_43.gif and /testdata/dir/dir_43.gif failed or file doesn't exists....
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyDirectionMapResultPageMapObject(MobileWebTest.java:238)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyDirectionMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:85)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifyMapMapResultPageFindXYZNearBy_UnAuthenticate" time="18.442" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchFormGeoDiffPage_UnAuthenticate" time="18.535" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMyPlaceTextResultPageUIObject_UnAuthenticate" time="30.611" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+    <failure type="java.lang.RuntimeException" message="Verifying&quot;//div[@id=&apos;wrap_content_main&apos;]/div[@class=&apos;savedAndMyPlaceHeader contentTitle round_border&apos;]/button&quot; failedVerifying&quot;//div[@id=&apos;wrap_content_main&apos;]/div[@class=&apos;contentBody seeMore&apos;]/a[@href=&apos;/myplaces/savedMaps?backLink=&apos;]&quot; failedVerifying&quot;//div[@id=&apos;wrap_content_main&apos;]/div[@class=&apos;contentBody seeMore&apos;]/a[@href=&apos;/myplaces/locations?backLink=&apos;]&quot; failedVerifying&quot;//div[@id=&apos;wrap_content_main&apos;]/div[@class=&apos;contentBody seeMore&apos;]/a[@href=&apos;/myplaces/recentLocations?backLink=&apos;]&quot; failedVerifying&quot;link=Sign Out&quot; failedVerifying&quot;Hello test&quot; failedVerifying&quot;Sign Out&quot; failedVerifying&quot;My Saved Maps &amp; Routes&quot; failedVerifying&quot;See all My Saved Maps &amp; Routes&quot; failedVerifying&quot;My Locations&quot; failedVerifying&quot;See all My Locations&quot; failedVerifying&quot;My Recent Locations&quot; failedVerifying&quot;See all Recent Locations&quot; failed">
+      <![CDATA[java.lang.RuntimeException: Verifying"//div[@id='wrap_content_main']/div[@class='savedAndMyPlaceHeader contentTitle round_border']/button" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/savedMaps?backLink=']" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/locations?backLink=']" failedVerifying"//div[@id='wrap_content_main']/div[@class='contentBody seeMore']/a[@href='/myplaces/recentLocations?backLink=']" failedVerifying"link=Sign Out" failedVerifying"Hello test" failedVerifying"Sign Out" failedVerifying"My Saved Maps & Routes" failedVerifying"See all My Saved Maps & Routes" failedVerifying"My Locations" failedVerifying"See all My Locations" failedVerifying"My Recent Locations" failedVerifying"See all Recent Locations" failed
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyMyPlaceTextResultPageUIObject(MobileWebTest.java:926)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMyPlaceTextResultPageUIObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:265)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormGepDiffPage_UnAuthenticate" time="14.375" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionMapWithAvoidTollRoad_UnAuthenticate" time="10.333" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapFormAmbiguityPage_UnAuthenticate" time="36.928" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionMapWithAvoidHighways_UnAuthenticate" time="10.244" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchFormSearchByCatagory_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyRefineSearchResultPage_UnAuthenticate" time="18.62" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapFormRecentLocation_UnAuthenticate" time="15.753" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyRefineSearchFormPage_UnAuthenticate" time="41.957" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+    <failure type="java.lang.RuntimeException" message="Verifying&quot;25 Miles&quot; failed">
+      <![CDATA[java.lang.RuntimeException: Verifying"25 Miles" failed
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.validate(MobileWebTest.java:118)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyRefineSearchFormPage(MobileWebTest.java:848)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyRefineSearchFormPage_UnAuthenticate(MobileWebTestUnAuthenticate.java:247)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifySavedAndRecentFormPageUIObject_UnAuthenticate" time="37.855" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyMapMapResultPageMapObject_UnAuthenticate" time="14.586" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate">
+    <failure type="java.lang.RuntimeException" message="Comparision between /testdata/map/act_map_0.gif and /testdata/map/map_0.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_1.gif and /testdata/map/map_1.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_2.gif and /testdata/map/map_2.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_3.gif and /testdata/map/map_3.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_4.gif and /testdata/map/map_4.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_5.gif and /testdata/map/map_5.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_6.gif and /testdata/map/map_6.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_7.gif and /testdata/map/map_7.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_8.gif and /testdata/map/map_8.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_9.gif and /testdata/map/map_9.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_10.gif and /testdata/map/map_10.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_11.gif and /testdata/map/map_11.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_12.gif and /testdata/map/map_12.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_13.gif and /testdata/map/map_13.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_14.gif and /testdata/map/map_14.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_15.gif and /testdata/map/map_15.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_16.gif and /testdata/map/map_16.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_17.gif and /testdata/map/map_17.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_18.gif and /testdata/map/map_18.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_19.gif and /testdata/map/map_19.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_20.gif and /testdata/map/map_20.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_21.gif and /testdata/map/map_21.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_22.gif and /testdata/map/map_22.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_23.gif and /testdata/map/map_23.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_24.gif and /testdata/map/map_24.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_25.gif and /testdata/map/map_25.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_26.gif and /testdata/map/map_26.gif failed or file doesn&apos;t exists....Comparision between /testdata/map/act_map_27.gif and /testdata/map/map_27.gif failed or file doesn&apos;t exists....">
+      <![CDATA[java.lang.RuntimeException: Comparision between /testdata/map/act_map_0.gif and /testdata/map/map_0.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_1.gif and /testdata/map/map_1.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_2.gif and /testdata/map/map_2.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_3.gif and /testdata/map/map_3.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_4.gif and /testdata/map/map_4.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_5.gif and /testdata/map/map_5.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_6.gif and /testdata/map/map_6.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_7.gif and /testdata/map/map_7.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_8.gif and /testdata/map/map_8.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_9.gif and /testdata/map/map_9.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_10.gif and /testdata/map/map_10.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_11.gif and /testdata/map/map_11.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_12.gif and /testdata/map/map_12.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_13.gif and /testdata/map/map_13.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_14.gif and /testdata/map/map_14.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_15.gif and /testdata/map/map_15.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_16.gif and /testdata/map/map_16.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_17.gif and /testdata/map/map_17.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_18.gif and /testdata/map/map_18.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_19.gif and /testdata/map/map_19.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_20.gif and /testdata/map/map_20.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_21.gif and /testdata/map/map_21.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_22.gif and /testdata/map/map_22.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_23.gif and /testdata/map/map_23.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_24.gif and /testdata/map/map_24.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_25.gif and /testdata/map/map_25.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_26.gif and /testdata/map/map_26.gif failed or file doesn't exists....Comparision between /testdata/map/act_map_27.gif and /testdata/map/map_27.gif failed or file doesn't exists....
+	at com.aol.functest.common.assertsoft.assertEmpty(assertsoft.java:35)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTest.TC_VerifyMapMapResultPageMapObject(MobileWebTest.java:466)
+	at com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate.TC_VerifyMapMapResultPageMapObject_UnAuthenticate(MobileWebTestUnAuthenticate.java:157)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_VerifyMapTraffic_Authenticate" time="33.291" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyDirectionFormAmbiguityPage_UnAuthenticate" time="33.821" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifySearchFormGeoDiffPage_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionMapWithShortestDistance_UnAuthenticate" time="10.684" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestUnAuthenticate"/>
+  <testcase name="TC_VerifyAlongtheRoutepageUI_Authenticate" time="0.0010" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_VerifyDirectionFormPageUIObject_Authenticate" time="30.956" classname="com.aol.functest.mobileweb.adv.test.MobileWebTestAuthenticate"/>
+</testsuite>

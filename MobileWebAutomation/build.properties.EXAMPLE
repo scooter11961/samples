@@ -1,0 +1,4 @@
+# build properties
+deploy.config.filtersfile 	= [relative_path_to_filtersfile_used_by_build-config_task]
+local.RC.test.mode=adv		= [adv_or_std]
+Test_SuiteXML				= [name_of_test_suite_xml_definition_file]

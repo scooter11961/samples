@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate"
+           tests="44"
+           failures="2"
+           errors="0"
+           skipped="42"
+           time="0.012">
+  <properties />
+      <testcase name="cleanUp" time="0.000">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;true&gt; but was:&lt;false&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+  org.testng.Assert.fail(Assert.java:84)
+  org.testng.Assert.failNotEquals(Assert.java:438)
+  org.testng.Assert.assertTrue(Assert.java:32)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.aol.functest.mobileweb.std.common.MobileWeb.mobileWebBaseState(MobileWeb.java:122)
+  com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate.cleanUp(MobileWebTestStdUnAuthenticate.java:37)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:398)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:145)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:82)
+  org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:210)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:113)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="basestate" time="0.000">
+            <failure type="java.lang.AssertionError"
+                  message="expected:&lt;true&gt; but was:&lt;false&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+  org.testng.Assert.fail(Assert.java:84)
+  org.testng.Assert.failNotEquals(Assert.java:438)
+  org.testng.Assert.assertTrue(Assert.java:32)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.aol.functest.mobileweb.std.common.MobileWeb.mobileWebBaseState(MobileWeb.java:122)
+  com.aol.functest.mobileweb.std.test.MobileWebTestStdUnAuthenticate.basestate(MobileWebTestStdUnAuthenticate.java:47)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:398)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:145)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:427)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+  
+      <testcase name="TC_VerifyMapTraffic_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyRefineSearchResultPage_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchResultsSearchFormPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionsTraffic_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyViewTrafficFunctionality_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchTraffic_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapResultPageMapObjectStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapSearchfromAmbiguityPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionResultPageUIStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapSearchformGeoDiffPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormAmbiguityPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormPageStdUIObject_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="unAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyRefineSearchFormPage_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirResultPageMapObjectStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyFindBusinessNearbyFunctionalitymappage_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_NearALocationStdUI_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapResultPageUIStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormpageRecentLocationStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormGeoDiffPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionFormAmbiguityPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionspagewithoutlocation_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionSearchAmbiguityAndGeodiffStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyChangeRouteOptionsFunctionality_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionFormGeoDiffPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyGetDirectionFromHeremapspage_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionspageStdwithstartlocation_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionFormPageStdUIObject_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormGeoDiffPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyCategorySearchFormPageUIObject_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyDirectionFormPageRecentLocationStd_UNAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyFindBusinessNearbyFunctionality_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormPageUIStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchUsingSearchByCategoryStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyBusinessSearchfromAmbiguityPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyGetDirectionToHeremapspage_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyRouteOptionsPageUIStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyFindBizNearbymapspage_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySearchFormPageRecentLocationStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyBusinessSearchfromGeodiffPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifySavedAndRecentFormPageUIObjectStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+      <testcase name="TC_VerifyMapFormAmbiguityPageStd_UnAuthenticate" time="0.0">
+      <skipped />
+    </testcase>
+  
+  
+</testsuite>

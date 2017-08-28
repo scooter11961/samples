@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aol.functest.mobileweb.test.DotcomToMobileRedirectionTest"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="642.350">
+  <properties />
+      <testcase name="TC_testDotcomtoMobileRedirectiontListOfUserAgent" time="642.350">
+            <failure type="java.lang.AssertionError"
+                  message="There was an IOException when trying to open site at http://wap-stage.mapquest.com"
+              >
+<![CDATA[java.lang.AssertionError: There was an IOException when trying to open site at http://wap-stage.mapquest.com
+  org.testng.AssertJUnit.fail(AssertJUnit.java:55)
+  com.aol.functest.mobileweb.test.AbstractRedirectionTest.executeTestFor30XRedirection(AbstractRedirectionTest.java:115)
+  com.aol.functest.mobileweb.test.DotcomToMobileRedirectionTest.TC_testDotcomtoMobileRedirectiontListOfUserAgent(DotcomToMobileRedirectionTest.java:110)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+  org.testng.TestRunner.runWorkers(TestRunner.java:712)
+  org.testng.TestRunner.privateRun(TestRunner.java:582)
+  org.testng.TestRunner.run(TestRunner.java:477)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+  org.testng.SuiteRunner.run(SuiteRunner.java:198)
+  org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+  org.testng.TestNG.run(TestNG.java:708)
+  org.testng.TestNG.privateMain(TestNG.java:860)
+  org.testng.TestNG.main(TestNG.java:833)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

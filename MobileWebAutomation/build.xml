@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<project name="MQ Selenium" default="run" basedir=".">
+
+	<property file="build.properties" prefix="input" />
+
+	<property name="testsuite.xml.file" value="MobileWeb.xml" />
+	<property name="build.dir" value="build" />
+	<property name="lib.dir" value="lib" />
+	<property name="reportng.dir" value="lib/reportng-1.1.1" />
+	<property name="src.dir.proj" value="src" />
+	<property name="src.dir.proj.includes" value="src/com/aol/functest/**/*.java" />
+	<property name="src.dir.proj.testsuite" value="." />
+	<property name="src.dir.proj.testdata" value="${src.dir.proj}/data" />
+	<property name="dest.dir.testsuite" value="${build.dir}" />
+	<property name="dist.dir" value="dist" />
+	<property name="config.dir" value="config" />
+	<property name="testdata" value="testdata" />
+	<property name="output.dir" value="test-output" />
+	<property name="temp.dir" value="temp" />
+
+	<taskdef name="testng"
+			classname="com.beust.testng.TestNGAntTask"
+			classpath="${lib.dir}/testng-5.8-jdk15.jar"/>
+
+	<filterset id="deploy_filters">
+		<filtersfile file="${input.deploy.config.filtersfile}" />
+	</filterset>
+
+	<target name="all" description="compile, start server, and run test suite">
+		<parallel>
+			<antcall target="startserver" />
+			<antcall target="run" />
+		</parallel>
+	</target>
+
+	<target name="clean" description="clean build folder">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="compile" depends="clean" description="compile the source">
+		<!-- FIXME: there's a better example of ant-based javac in build-support/ant-scripts/-java-targets.xml -->
+		<mkdir dir="${build.dir}" />
+		<javac srcdir="${src.dir.proj}" 
+			destdir="${build.dir}"
+			includes="**/*.java"
+			excludes=".svn/**"
+            encoding="UTF-8"
+            debug="true">
+			<classpath>
+				<fileset dir="${lib.dir}">
+					<include name="*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<!-- separate task below since copying these files might be different (ant) use-cases? -->
+		<!-- copy data fixtures - this is poorly defined right now -->
+		<copy todir="${dest.dir.testsuite}/testdata">
+			<fileset dir="${testdata}">
+				<include name="**" />
+			</fileset>
+		</copy>
+		<!-- copy the mobileweb.xml test suite definition -->
+		<copy todir="${dest.dir.testsuite}">
+			<fileset dir="${src.dir.proj.testsuite}">
+				<include name="*.xml" />
+			</fileset>
+		</copy>
+		<!-- copy log4j - this is poorly defined right now -->
+		<copy todir="${dest.dir.testsuite}">
+			<fileset dir="${src.dir.proj.testsuite}">
+				<include name="log4j.properties" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="run" depends="compile" description="clean, compile, and run the test suite">
+		<java dir="." classname="org.testng.TestNG" fork="true" failonerror="false" maxmemory="128m">
+			<classpath>
+				<fileset dir="${lib.dir}">
+					<include name="*.jar" />
+					<include name="perceptualdiff*" />
+				</fileset>
+				<fileset dir="${reportng.dir}">
+					<include name="*.jar" />
+				</fileset>
+				<dirset dir="${build.dir}" /> 
+			</classpath>
+			<arg value="${dest.dir.testsuite}/${input.Test_SuiteXML}" />
+			<arg value="listener org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter" />
+		</java>
+	</target>
+
+	<!-- FIXME: not working -->
+	<target name="debug" depends="compile" description="clean, compile-debug, and debug the test-suite">
+		<sequential>
+	   		<property name="jpda.transport" value="dt_socket"/>
+	   		<property name="jpda.address" value="8888"/>
+	   		<property name="jpda.suspend" value="y"/>
+	   		<property name="jpda.settings" value="transport=${jpda.transport},address=${jpda.address},server=y,suspend=${jpda.suspend}"/>
+
+	   		<!-- Set our export property -->
+	   		<property name="debug.jvm.args" value="-Xdebug -Xrunjdwp:${jpda.settings}"/>
+
+			<java dir="." classname="org.testng.TestNG" fork="true" failonerror="false" maxmemory="128m">
+				<classpath>
+					<fileset dir="${lib.dir}">
+						<include name="*.jar" />
+					</fileset>
+					<dirset dir="${build.dir}" /> 
+				</classpath>
+				<arg value="${dest.dir.testsuite}/${input.Test_SuiteXML}" />
+				<arg value="${debug.jvm.args}" />
+			</java>
+		</sequential>
+	</target>
+
+	<target name="startserver" depends="checkSeleniumServerConfigFile" description="start the selenium server">
+		<property file="${config.dir}/mobileweb-${input.local.RC.test.mode}.properties" prefix="selenium.config" />
+		<fail unless="selenium.config.PER_PROFILE" message="no firefox profile template defined in mobileweb.properties!" />
+		<java dir="${lib.dir}" jar="${lib.dir}\selenium-server.jar" fork="true" failonerror="true" maxmemory="128m">
+			<classpath>
+				<fileset dir="${lib.dir}">
+					<include name="*.jar" />
+				</fileset>
+			</classpath>
+			<arg value="-firefoxProfileTemplate" />
+			<arg value="${selenium.config.PER_PROFILE}" />
+		</java>
+	</target>
+
+	<target name="checkSeleniumServerConfigFile">
+		<available file="${config.dir}/mobileweb-${input.local.RC.test.mode}.properties" property="isMWPropAvail" />
+		<fail unless="isMWPropAvail" message="${config.dir}/mobileweb-${input.local.RC.test.mode}.properties doesn't exist!" />
+	</target>
+
+	<target name="package" depends="compile" description="package the test suite for distribution">
+		<mkdir dir="${temp.dir}" />
+		<copydir src="${build.dir}" dest="${temp.dir}/${build.dir}" />
+		<copydir src="${lib.dir}" dest="${temp.dir}/${lib.dir}" />
+		<copydir src="${config.dir}" dest="${temp.dir}/${config.dir}" />
+		<copydir src="${testdata}" dest="${temp.dir}/${testdata}" />
+		<copyfile src="build.properties" dest="${temp.dir}/build.properties" />
+		<copyfile src="build.xml" dest="${temp.dir}/build.xml" />
+		<copyfile src="automation.sh" dest="${temp.dir}/automation.sh" />
+		<copyfile src="run.sh" dest="${temp.dir}/run.sh" />
+		<copyfile src="startServer.sh" dest="${temp.dir}/startServer.sh" />
+		<tar destfile="${temp.dir}/automation.tar" basedir="${temp.dir}" />
+		<mkdir dir="${dist.dir}" />
+		<gzip destfile="${dist.dir}/automation.tar.gz" src="${temp.dir}/automation.tar" />
+		<delete dir="${temp.dir}" />
+	</target>
+
+	<target name="build-config" description="build the mobileweb-adv.properties, mobileweb-std.properties, and project.properties files; use with:  -Dinput.deploy.config.filtersfile=[my-target-enviro.properties]">
+		<copy file="mobileweb-adv.properties.TEMPLATE" tofile="${config.dir}/mobileweb-adv.properties" filtering="true" overwrite="true">
+			<filterset refid="deploy_filters" />
+		</copy>
+		<copy file="mobileweb-std.properties.TEMPLATE" tofile="${config.dir}/mobileweb-std.properties" filtering="true" overwrite="true">
+			<filterset refid="deploy_filters" />
+		</copy>
+		<copy file="project.properties.TEMPLATE" tofile="${config.dir}/project.properties" filtering="true" overwrite="true">
+			<filterset refid="deploy_filters" />
+		</copy>
+	</target>
+
+	<target name="convert-ng-report" description="converts TestNG reports to JUnit reports via junitreport">
+		<mkdir dir="${output.dir}/junitreport" />
+		<junitreport todir="${output.dir}/junitreport">
+			<fileset dir="${output.dir}">
+				<include name="testng*.xml"/>
+			</fileset>
+			<report format="noframes" todir="${output.dir}/junitreport/html" />
+		</junitreport>
+	</target>
+
+</project>

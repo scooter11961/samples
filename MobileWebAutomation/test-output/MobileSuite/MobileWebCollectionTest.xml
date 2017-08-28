@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MobileWebCollectionTest" failures="10" tests="10" time="2.998" errors="0">
+  <properties/>
+  <testcase name="TC_testGetCollectionsForUser" time="0.405" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testGetCollectionsForUser(MobileWebCollectionTest.java:183)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testGetCollection_invalidCollectionId" time="0.286" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testGetCollection_invalidCollectionId(MobileWebCollectionTest.java:161)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testUpdateItem" time="0.288" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testUpdateItem(MobileWebCollectionTest.java:469)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testUpdateCollection" time="0.287" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testUpdateCollection(MobileWebCollectionTest.java:374)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testSaveNewCollection_withBadJSONObjectParam" time="0.287" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testSaveNewCollection_withBadJSONObjectParam(MobileWebCollectionTest.java:298)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testAddItem" time="0.288" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testAddItem(MobileWebCollectionTest.java:529)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testSaveNewCollection" time="0.293" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testSaveNewCollection(MobileWebCollectionTest.java:253)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testSaveExistingCollection" time="0.286" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testSaveExistingCollection(MobileWebCollectionTest.java:319)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testUpdateCollection_withInvalidCollectionId" time="0.287" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testUpdateCollection_withInvalidCollectionId(MobileWebCollectionTest.java:430)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC_testGetCollection_validCollectionId" time="0.286" classname="com.aol.functest.mobileweb.test.MobileWebCollectionTest">
+    <failure type="java.lang.AssertionError" message="expected:&lt;200&gt; but was:&lt;302&gt;">
+      <![CDATA[java.lang.AssertionError: expected:<200> but was:<302>
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.addTestCollection(MobileWebCollectionTest.java:671)
+	at com.aol.functest.mobileweb.test.MobileWebCollectionTest.TC_testGetCollection_validCollectionId(MobileWebCollectionTest.java:83)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
